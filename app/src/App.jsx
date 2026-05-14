@@ -1,9 +1,11 @@
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, useRef } from 'react'
 import { FLIGHTS } from './data/teams.js'
 import { loadState, saveState, defaultState, exportJson, importJson } from './lib/storage.js'
+import { pullState, subscribeState, pushState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
 import DrawSetup from './components/DrawSetup.jsx'
+import Gate, { isAdmin, adminPass, logout } from './components/Gate.jsx'
 
 const TABS = [
   { id: 'board', label: 'Board' },
@@ -12,12 +14,71 @@ const TABS = [
 ]
 
 export default function App() {
+  const [unlocked, setUnlocked] = useState(() => isAdmin())
+  if (!unlocked) return <Gate onUnlock={() => setUnlocked(true)} />
+  return <AdminApp />
+}
+
+function AdminApp() {
   const [state, setState] = useState(() => loadState())
   const [tab, setTab] = useState('board')
   const [activeFlight, setActiveFlight] = useState('1S')
   const [setupOpen, setSetupOpen] = useState(false)
+  const [syncStatus, setSyncStatus] = useState(supabaseConfigured ? 'idle' : 'offline')
+  const pushTimer = useRef(null)
+  const skipNextPush = useRef(false)
 
+  // Always save to localStorage as offline buffer.
   useEffect(() => { saveState(state) }, [state])
+
+  // Initial pull: if server has newer data than local, use it. Otherwise push
+  // local up (e.g. fresh seed) to seed the backend.
+  useEffect(() => {
+    if (!supabaseConfigured) return
+    let cancelled = false
+    pullState().then(res => {
+      if (cancelled) return
+      if (res?.state?.flights) {
+        skipNextPush.current = true
+        setState({ flights: res.state.flights })
+        setSyncStatus('live')
+      } else {
+        // backend empty; push current state up so /view has something to show
+        scheduleAdminPush(state)
+        setSyncStatus('live')
+      }
+    }).catch(() => setSyncStatus('error'))
+    const unsub = subscribeState(({ state: remote }) => {
+      if (remote?.flights) {
+        skipNextPush.current = true
+        setState({ flights: remote.flights })
+      }
+    })
+    return () => { cancelled = true; unsub() }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // Debounced push on every local change (skipping echo from a remote update).
+  useEffect(() => {
+    if (!supabaseConfigured) return
+    if (skipNextPush.current) { skipNextPush.current = false; return }
+    scheduleAdminPush(state)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state])
+
+  function scheduleAdminPush(nextState) {
+    if (pushTimer.current) clearTimeout(pushTimer.current)
+    pushTimer.current = setTimeout(async () => {
+      try {
+        setSyncStatus('pushing')
+        await pushState(nextState, adminPass())
+        setSyncStatus('live')
+      } catch (e) {
+        console.warn('push failed', e)
+        setSyncStatus('error')
+      }
+    }, 400)
+  }
 
   const updateFlight = (next) => {
     setState(s => ({ ...s, flights: s.flights.map(f => f.id === next.id ? next : f) }))
@@ -61,7 +122,10 @@ export default function App() {
         <div className="px-3 py-2 flex items-center justify-between">
           <div>
             <div className="text-sm font-bold tracking-tight">MHSAA D1 Girls Regional</div>
-            <div className="text-[10px] text-slate-400">9-team · 8 flights · live tracker</div>
+            <div className="text-[10px] text-slate-400 flex items-center gap-2">
+              <span>9-team · 8 flights</span>
+              <SyncBadge status={syncStatus} />
+            </div>
           </div>
           <div className="flex gap-1">
             {TABS.map(t => (
@@ -145,9 +209,22 @@ export default function App() {
         </label>
         <button onClick={resetResults} className="px-2 py-1 rounded bg-slate-800 border border-slate-700">Reset results</button>
         <button onClick={resetAll} className="px-2 py-1 rounded bg-red-900/40 border border-red-700/60 text-red-200">Reset all</button>
+        <button onClick={logout} className="ml-auto px-2 py-1 rounded bg-slate-800 border border-slate-700">Lock</button>
       </footer>
     </div>
   )
+}
+
+function SyncBadge({ status }) {
+  const map = {
+    idle:    { c: 'text-slate-400',  d: '•', t: 'idle' },
+    live:    { c: 'text-emerald-400', d: '●', t: 'live' },
+    pushing: { c: 'text-blue-400',   d: '↑', t: 'sync' },
+    error:   { c: 'text-red-400',    d: '!', t: 'sync err' },
+    offline: { c: 'text-amber-400',  d: '○', t: 'local only' },
+  }
+  const v = map[status] || map.idle
+  return <span className={v.c} title={status}>{v.d} {v.t}</span>
 }
 
 function FlightSummary({ flights, onJump }) {

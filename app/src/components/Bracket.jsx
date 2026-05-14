@@ -1,7 +1,7 @@
 import { describeMatches, setWinner } from '../lib/bracket.js'
 import { TEAM_BY_ID, HIGHLIGHT_TEAM } from '../data/teams.js'
 
-function MatchCard({ match, onPick }) {
+function MatchCard({ match, onPick, readonly }) {
   const sides = ['top', 'bot'].map(side => {
     const entry = side === 'top' ? match.topEntry : match.botEntry
     const team = entry?.teamId ? TEAM_BY_ID[entry.teamId] : null
@@ -16,13 +16,13 @@ function MatchCard({ match, onPick }) {
       {sides.map(s => (
         <button
           key={s.side}
-          disabled={s.empty || !match.ready}
-          onClick={() => onPick(match.id, match.winner === s.side ? null : s.side)}
+          disabled={s.empty || !match.ready || readonly}
+          onClick={() => !readonly && onPick(match.id, match.winner === s.side ? null : s.side)}
           className={[
             'w-full text-left px-2 py-2 flex items-center gap-2 border-t border-slate-800',
             s.winner ? 'bg-emerald-700/40' : '',
             s.loser ? 'opacity-40 line-through' : '',
-            !s.empty && match.ready ? 'active:bg-slate-700' : '',
+            !s.empty && match.ready && !readonly ? 'active:bg-slate-700' : '',
             s.empty ? 'text-slate-500 italic' : '',
           ].join(' ')}
         >
@@ -57,29 +57,29 @@ function byRound(matches) {
   return cols
 }
 
-export default function Bracket({ flight, onUpdate }) {
+export default function Bracket({ flight, onUpdate, readonly }) {
   const matches = describeMatches(flight)
   const cols = byRound(matches)
-  const pick = (id, side) => onUpdate(setWinner(flight, id, side))
+  const pick = (id, side) => onUpdate && onUpdate(setWinner(flight, id, side))
   return (
     <div className="flex gap-3 overflow-x-auto pb-3">
       {cols.P.length > 0 && (
         <div className="min-w-[180px] flex flex-col gap-3 justify-around">
           <div className="text-xs uppercase text-slate-400 font-semibold">Play-in</div>
-          {cols.P.map(m => <MatchCard key={m.id} match={m} onPick={pick} />)}
+          {cols.P.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
         </div>
       )}
       <div className="min-w-[180px] flex flex-col gap-3 justify-around">
         <div className="text-xs uppercase text-slate-400 font-semibold">Quarterfinals</div>
-        {cols.Q.map(m => <MatchCard key={m.id} match={m} onPick={pick} />)}
+        {cols.Q.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
       </div>
       <div className="min-w-[180px] flex flex-col gap-3 justify-around">
         <div className="text-xs uppercase text-slate-400 font-semibold">Semifinals</div>
-        {cols.S.map(m => <MatchCard key={m.id} match={m} onPick={pick} />)}
+        {cols.S.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
       </div>
       <div className="min-w-[180px] flex flex-col gap-3 justify-around">
         <div className="text-xs uppercase text-slate-400 font-semibold">Final</div>
-        {cols.F.map(m => <MatchCard key={m.id} match={m} onPick={pick} />)}
+        {cols.F.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
       </div>
     </div>
   )
