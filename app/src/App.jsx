@@ -1,5 +1,6 @@
 import { useEffect, useState, useMemo, useRef } from 'react'
 import { FLIGHTS } from './data/teams.js'
+import { FLIGHT_SIZE, MATCH_DEFS } from './lib/bracket.js'
 import { loadState, saveState, defaultState, exportJson, importJson } from './lib/storage.js'
 import { pullState, subscribeState, pushState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
@@ -122,9 +123,9 @@ function AdminApp() {
       <header className="sticky top-0 z-10 bg-slate-950/95 border-b border-slate-800 backdrop-blur">
         <div className="px-3 py-2 flex items-center justify-between">
           <div>
-            <div className="text-sm font-bold tracking-tight">MHSAA D1 Girls Regional</div>
+            <div className="text-sm font-bold tracking-tight">MHSAA D1 Girls State Finals</div>
             <div className="text-[10px] text-slate-400 flex items-center gap-2">
-              <span>9-team · 8 flights</span>
+              <span>32-draw · 8 flights</span>
               <SyncBadge status={syncStatus} />
             </div>
           </div>
@@ -163,7 +164,8 @@ function AdminApp() {
             <div className="font-semibold mb-1">No draws entered yet</div>
             <div className="text-amber-200/80 text-xs">
               Go to the <button onClick={() => setTab('setup')} className="underline">Draws</button> tab to enter
-              each flight's 9 entries (seeds + schools). The bracket and leaderboard update automatically once draws are in.
+              each flight's draw (up to {FLIGHT_SIZE} slots per flight; leave empty slots for byes). The bracket and
+              leaderboard update automatically.
             </div>
           </div>
         )}
@@ -230,6 +232,7 @@ function SyncBadge({ status }) {
 }
 
 function FlightSummary({ flights, onJump }) {
+  const totalMatches = MATCH_DEFS.length
   return (
     <div className="grid grid-cols-2 gap-2">
       {flights.map(f => {
@@ -243,7 +246,7 @@ function FlightSummary({ flights, onJump }) {
           >
             <div className="text-sm font-semibold">{f.id}</div>
             <div className="text-[11px] text-slate-400">
-              {filled}/9 entries · {decided}/8 matches
+              {filled} entries · {decided}/{totalMatches} picks
             </div>
           </button>
         )
@@ -268,13 +271,13 @@ function SetupTab({ state, setTab, updateFlight }) {
                 'px-2 py-1.5 rounded text-xs font-semibold',
                 pickedFlight === f.id ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300',
               ].join(' ')}
-            >{f.id} <span className="opacity-60">{filled}/9</span></button>
+            >{f.id} <span className="opacity-60">{filled}</span></button>
           )
         })}
       </div>
       {flight && <DrawSetup flight={flight} onUpdate={updateFlight} />}
       <div className="text-[11px] text-slate-400 pt-2">
-        When this flight's 9 entries are in, switch to the next using the chips above. When all 8 are filled, go to{' '}
+        Enter each flight's draw in bracket order. Empty slots become byes. When draws are in, go to{' '}
         <button onClick={() => setTab('flights')} className="underline">Flights</button> to tap winners as matches finish.
       </div>
     </div>

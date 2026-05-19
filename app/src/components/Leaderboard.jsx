@@ -28,7 +28,7 @@ export default function Leaderboard({ flights, compact = false }) {
             className={[
               'grid grid-cols-[28px_1fr_44px_44px_44px] gap-1 px-2 py-2 items-center border-t border-slate-800',
               r.displayRank <= 3 ? 'bg-emerald-900/30' : '',
-              r.points >= 18 && r.displayRank > 3 ? 'bg-cyan-900/30' : '',
+              '',
               r.eliminatedAll ? 'opacity-50' : '',
               isHi ? 'ring-1 ring-inset ring-blue-400/60' : '',
             ].join(' ')}
@@ -41,9 +41,8 @@ export default function Leaderboard({ flights, compact = false }) {
                 {!compact && (
                   <div className="text-[10px] text-slate-400 flex gap-1 flex-wrap mt-0.5">
                     <span>finish {r.bestRank === r.worstRank ? `#${r.bestRank}` : `#${r.bestRank}–#${r.worstRank}`}</span>
-                    {r.clinchedTop3 && <Badge color="#10b981">Top 3 ✓</Badge>}
-                    {!r.clinchedTop3 && r.clinched18 && <Badge color="#06b6d4">18+ ✓</Badge>}
-                    {r.eliminatedTop3 && !r.clinched18 && !r.eliminated18 && <Badge color="#f59e0b">Need 18</Badge>}
+                    {r.clinchedFirst && <Badge color="#fde047">Champ ✓</Badge>}
+                    {!r.clinchedFirst && r.clinchedTop3 && <Badge color="#10b981">Top 3 ✓</Badge>}
                     {r.eliminatedAll && <Badge color="#ef4444">Out</Badge>}
                   </div>
                 )}
@@ -56,7 +55,7 @@ export default function Leaderboard({ flights, compact = false }) {
         )
       })}
       <div className="px-2 py-1.5 text-[10px] text-slate-500 bg-slate-900/60 border-t border-slate-800">
-        Green = top 3 (auto-qualify). Cyan = 18+ pts (qualifies). Bounds assume independent flights.
+        Green = top 3. Pts = match wins + earned bye credit. Bounds assume independent flights.
       </div>
     </div>
   )

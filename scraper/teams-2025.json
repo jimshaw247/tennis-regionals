@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ann_arbor_huron",
+    "name": "Ann Arbor Huron",
+    "short": "AAH",
+    "color": "#ef4444"
+  },
+  {
+    "id": "ann_arbor_pioneer",
+    "name": "Ann Arbor Pioneer",
+    "short": "AAP",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "bloomfield_hills",
+    "name": "Bloomfield Hills",
+    "short": "BH",
+    "color": "#10b981"
+  },
+  {
+    "id": "clarkston",
+    "name": "Clarkston",
+    "short": "C",
+    "color": "#f59e0b"
+  },
+  {
+    "id": "grand_blanc",
+    "name": "Grand Blanc",
+    "short": "GB",
+    "color": "#a855f7"
+  },
+  {
+    "id": "holland_west_ottawa",
+    "name": "Holland West Ottawa",
+    "short": "HWO",
+    "color": "#06b6d4"
+  },
+  {
+    "id": "howell",
+    "name": "Howell",
+    "short": "H",
+    "color": "#ec4899"
+  },
+  {
+    "id": "kalamazoo_central",
+    "name": "Kalamazoo Central",
+    "short": "KC",
+    "color": "#84cc16"
+  },
+  {
+    "id": "northville",
+    "name": "Northville",
+    "short": "N",
+    "color": "#f97316"
+  },
+  {
+    "id": "novi",
+    "name": "Novi",
+    "short": "N",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "okemos",
+    "name": "Okemos",
+    "short": "O",
+    "color": "#14b8a6"
+  },
+  {
+    "id": "portage_central",
+    "name": "Portage Central",
+    "short": "PC",
+    "color": "#eab308"
+  },
+  {
+    "id": "rochester",
+    "name": "Rochester",
+    "short": "R",
+    "color": "#d946ef"
+  },
+  {
+    "id": "rochester_adams",
+    "name": "Rochester Adams",
+    "short": "RA",
+    "color": "#22c55e"
+  },
+  {
+    "id": "rochester_hills_stoney_creek",
+    "name": "Rochester Hills Stoney Creek",
+    "short": "RHSC",
+    "color": "#0ea5e9"
+  },
+  {
+    "id": "rockford",
+    "name": "Rockford",
+    "short": "R",
+    "color": "#f43f5e"
+  },
+  {
+    "id": "romeo",
+    "name": "Romeo",
+    "short": "R",
+    "color": "#6366f1"
+  },
+  {
+    "id": "saline",
+    "name": "Saline",
+    "short": "S",
+    "color": "#fb923c"
+  },
+  {
+    "id": "troy",
+    "name": "Troy",
+    "short": "T",
+    "color": "#a3e635"
+  },
+  {
+    "id": "troy_athens",
+    "name": "Troy Athens",
+    "short": "TA",
+    "color": "#fde047"
+  },
+  {
+    "id": "utica_eisenhower",
+    "name": "Utica Eisenhower",
+    "short": "UE",
+    "color": "#ef4444"
+  },
+  {
+    "id": "west_bloomfield",
+    "name": "West Bloomfield",
+    "short": "WB",
+    "color": "#3b82f6"
+  }
+]

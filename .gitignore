@@ -1,3 +1,7 @@
 _scraped.json
 .env*.local
 .vercel
+node_modules/
+app/dist/
+scraper/raw-state/
+scraper/raw/

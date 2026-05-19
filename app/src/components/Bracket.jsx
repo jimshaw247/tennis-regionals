@@ -1,60 +1,78 @@
-import { describeMatches, setWinner } from '../lib/bracket.js'
+import { describeMatches, setWinner, ROUND_DEFS } from '../lib/bracket.js'
 import { TEAM_BY_ID, HIGHLIGHT_TEAM } from '../data/teams.js'
 
+function SideLabel({ entry, empty, highlight }) {
+  if (empty) return <span className="text-slate-500 italic">BYE</span>
+  if (!entry) return <span className="text-slate-500 italic">TBD</span>
+  const team = entry.teamId ? TEAM_BY_ID[entry.teamId] : null
+  const personLabel = entry.name
+    ? (entry.partner ? `${entry.name} / ${entry.partner}` : entry.name)
+    : null
+  return (
+    <span className="flex items-center gap-2 min-w-0">
+      {team && (
+        <span className="inline-block w-2 h-6 rounded-sm flex-shrink-0" style={{ background: team.color }} />
+      )}
+      <span className="flex-1 min-w-0">
+        <div className={['text-[13px] leading-tight break-words', highlight ? 'font-bold' : ''].join(' ')}>
+          {entry.seed != null && <span className="text-slate-400 mr-1">({entry.seed})</span>}
+          {personLabel || team?.name || '—'}
+        </div>
+        {team && personLabel && (
+          <div className="text-[10px] text-slate-400 leading-tight">{team.name}</div>
+        )}
+      </span>
+    </span>
+  )
+}
+
 function MatchCard({ match, onPick, readonly }) {
+  // Skip rendering matches that have no real entries on either side (deep byes).
+  if (match.topEmpty && match.botEmpty) {
+    return (
+      <div className="rounded-lg border border-dashed border-slate-800 px-2 py-3 text-[11px] italic text-slate-600">
+        empty
+      </div>
+    )
+  }
+
   const sides = ['top', 'bot'].map(side => {
     const entry = side === 'top' ? match.topEntry : match.botEntry
-    const team = entry?.teamId ? TEAM_BY_ID[entry.teamId] : null
+    const empty = side === 'top' ? match.topEmpty : match.botEmpty
     const winner = match.winner === side
     const loser = match.winner && match.winner !== side
-    const empty = !entry
-    return { side, entry, team, winner, loser, empty }
+    return { side, entry, empty, winner, loser }
   })
+
+  const clickable = !readonly && !match.isBye
+  const isHi = (e) => e?.teamId === HIGHLIGHT_TEAM
+
   return (
-    <div className="rounded-lg border border-slate-700 bg-slate-900/60 overflow-hidden">
-      <div className="text-[10px] uppercase tracking-wider text-slate-400 px-2 pt-1">{match.label}</div>
+    <div className={['rounded-lg border bg-slate-900/60 overflow-hidden',
+      match.isBye ? 'border-slate-800' : 'border-slate-700'].join(' ')}>
       {sides.map(s => (
         <button
           key={s.side}
-          disabled={s.empty || !match.ready || readonly}
-          onClick={() => !readonly && onPick(match.id, match.winner === s.side ? null : s.side)}
+          disabled={!clickable || s.empty}
+          onClick={() => clickable && onPick(match.id, match.winner === s.side ? null : s.side)}
           className={[
-            'w-full text-left px-2 py-2 flex items-center gap-2 border-t border-slate-800',
+            'w-full text-left px-2 py-2 flex items-center gap-2 border-t border-slate-800 first:border-t-0',
             s.winner ? 'bg-emerald-700/40' : '',
             s.loser ? 'opacity-40 line-through' : '',
-            !s.empty && match.ready && !readonly ? 'active:bg-slate-700' : '',
-            s.empty ? 'text-slate-500 italic' : '',
+            clickable && !s.empty ? 'active:bg-slate-700' : '',
           ].join(' ')}
         >
-          {s.team && (
-            <span
-              className="inline-block w-2 h-6 rounded-sm flex-shrink-0"
-              style={{ background: s.team.color }}
-            />
-          )}
-          <span className="flex-1 min-w-0">
-            <div className={[
-              'text-[13px] leading-tight break-words',
-              s.team?.id === HIGHLIGHT_TEAM ? 'font-bold' : '',
-            ].join(' ')}>
-              {s.entry?.seed != null && <span className="text-slate-400 mr-1">({s.entry.seed})</span>}
-              {s.entry?.name || (s.team?.name) || (s.empty ? 'TBD' : '—')}
-            </div>
-            {s.team && s.entry?.name && (
-              <div className="text-[10px] text-slate-400 leading-tight">{s.team.name}</div>
-            )}
-          </span>
+          <SideLabel entry={s.entry} empty={s.empty} highlight={isHi(s.entry)} />
         </button>
       ))}
     </div>
   )
 }
 
-// Group matches by round for a column-per-round layout.
 function byRound(matches) {
-  const cols = { P: [], Q: [], S: [], F: [] }
-  for (const m of matches) cols[m.round].push(m)
-  return cols
+  const out = Object.fromEntries(ROUND_DEFS.map(r => [r.id, []]))
+  for (const m of matches) out[m.round].push(m)
+  return out
 }
 
 export default function Bracket({ flight, onUpdate, readonly }) {
@@ -63,24 +81,17 @@ export default function Bracket({ flight, onUpdate, readonly }) {
   const pick = (id, side) => onUpdate && onUpdate(setWinner(flight, id, side))
   return (
     <div className="flex gap-2 overflow-x-auto pb-3">
-      {cols.P.length > 0 && (
-        <div className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
-          <div className="text-xs uppercase text-slate-400 font-semibold">Play-in</div>
-          {cols.P.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
-        </div>
-      )}
-      <div className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
-        <div className="text-xs uppercase text-slate-400 font-semibold">Quarterfinals</div>
-        {cols.Q.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
-      </div>
-      <div className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
-        <div className="text-xs uppercase text-slate-400 font-semibold">Semifinals</div>
-        {cols.S.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
-      </div>
-      <div className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
-        <div className="text-xs uppercase text-slate-400 font-semibold">Final</div>
-        {cols.F.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
-      </div>
+      {ROUND_DEFS.map(r => {
+        const colMatches = cols[r.id]
+        const hasReal = colMatches.some(m => !(m.topEmpty && m.botEmpty))
+        if (!hasReal) return null
+        return (
+          <div key={r.id} className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
+            <div className="text-xs uppercase text-slate-400 font-semibold">{r.label}</div>
+            {colMatches.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
+          </div>
+        )
+      })}
     </div>
   )
 }

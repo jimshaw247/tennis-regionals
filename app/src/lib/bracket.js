@@ -1,169 +1,214 @@
-// 9-draw single-elimination bracket structure used for every MHSAA flight.
-// Positions 0..8 map onto a fixed bracket:
-//   Play-in  : pos 7 vs pos 8           -> winner = PI
-//   QF1      : pos 0 vs PI              -> winner = QF1
-//   QF2      : pos 3 vs pos 4           -> winner = QF2
-//   QF3      : pos 2 vs pos 5           -> winner = QF3
-//   QF4      : pos 1 vs pos 6           -> winner = QF4
-//   SF1      : QF1 vs QF2               -> winner = SF1
-//   SF2      : QF3 vs QF4               -> winner = SF2
-//   F        : SF1 vs SF2               -> champion
+// 32-slot single-elimination bracket used for MHSAA D1 State Finals.
+// Each of the 8 flights has 32 bracket positions (0..31), with byes filling
+// unused slots. The bracket has 5 rounds:
 //
-// "Source" refs are either a position number (0..8) or a match id string.
+//   R1 (16 matches): pairs of adjacent positions (0,1), (2,3), ..., (30,31)
+//   R2  (8 matches): pairs of R1 winners
+//   R3  (4 matches): pairs of R2 winners (quarterfinals)
+//   SF  (2 matches): pairs of R3 winners (semifinals)
+//   F   (1 match):   SF winners (championship)
+//
+// An R1 match where one side is empty (entry.teamId == null) is a BYE — the
+// other side auto-advances and the round is not "an actual match" for scoring.
+//
+// Scoring: 1 point per match win. A bye is worth 1 point IF AND ONLY IF the
+// entry wins its first actual match. (Two consecutive byes both pay out on
+// the next win, by the same rule.) Each entry caps at 5 points (5 rounds).
 
-export const MATCH_DEFS = [
-  { id: 'PI',  round: 'P', label: 'Play-in', top: 7, bot: 8 },
-  { id: 'QF1', round: 'Q', label: 'QF',      top: 0, bot: 'PI' },
-  { id: 'QF2', round: 'Q', label: 'QF',      top: 3, bot: 4 },
-  { id: 'QF3', round: 'Q', label: 'QF',      top: 2, bot: 5 },
-  { id: 'QF4', round: 'Q', label: 'QF',      top: 1, bot: 6 },
-  { id: 'SF1', round: 'S', label: 'SF',      top: 'QF1', bot: 'QF2' },
-  { id: 'SF2', round: 'S', label: 'SF',      top: 'QF3', bot: 'QF4' },
-  { id: 'F',   round: 'F', label: 'Final',   top: 'SF1', bot: 'SF2' },
+export const FLIGHT_SIZE = 32
+
+export const ROUND_DEFS = [
+  { id: 'R1', label: 'Round 1',      count: 16 },
+  { id: 'R2', label: 'Round 2',      count: 8 },
+  { id: 'R3', label: 'Round 3',      count: 4 },
+  { id: 'SF', label: 'Semifinals',   count: 2 },
+  { id: 'F',  label: 'Championship', count: 1 },
 ]
 
-export const ROUNDS = ['P', 'Q', 'S', 'F']
-export const ROUND_LABEL = { P: 'Play-in', Q: 'Quarterfinal', S: 'Semifinal', F: 'Final' }
+// All match definitions, in round order. Sources are either a position number
+// (0..31) for R1, or a match id string ('R1m0'..) for later rounds.
+export const MATCH_DEFS = (() => {
+  const defs = []
+  // R1
+  for (let i = 0; i < 16; i++) {
+    defs.push({ id: `R1m${i}`, round: 'R1', top: 2 * i, bot: 2 * i + 1 })
+  }
+  // R2..F: each match consumes two consecutive prior-round match winners.
+  const later = [
+    { round: 'R2', count: 8,  prev: 'R1' },
+    { round: 'R3', count: 4,  prev: 'R2' },
+    { round: 'SF', count: 2,  prev: 'R3' },
+    { round: 'F',  count: 1,  prev: 'SF' },
+  ]
+  for (const { round, count, prev } of later) {
+    for (let i = 0; i < count; i++) {
+      defs.push({ id: `${round}m${i}`, round, top: `${prev}m${2 * i}`, bot: `${prev}m${2 * i + 1}` })
+    }
+  }
+  return defs
+})()
 
-// Scoring rule (MHSAA): you get a point for the BYE round IF you win your first
-// actual match. So everyone caps at 4 points per entry:
-//   pos 0-6 (auto-advance to QF):  BYE + QF + SF + F = 4 (BYE only counts after QF win)
-//   pos 7,8 (play-in):              PI + QF + SF + F = 4 (no BYE)
-const STARTING_WINS = { 0: 4, 1: 4, 2: 4, 3: 4, 4: 4, 5: 4, 6: 4, 7: 4, 8: 4 }
-const HAS_BYE = (pos) => pos >= 0 && pos <= 6 // entries with a R1 bye
+const DEFS_BY_ID = Object.fromEntries(MATCH_DEFS.map(m => [m.id, m]))
 
 export function emptyFlight(id) {
   return {
     id,
-    entries: Array.from({ length: 9 }, (_, i) => ({ pos: i, teamId: null, seed: null, name: '' })),
+    entries: Array.from({ length: FLIGHT_SIZE }, (_, i) => ({
+      pos: i, teamId: null, seed: null, name: '', partner: '',
+    })),
     winners: {}, // matchId -> 'top' | 'bot'
   }
 }
 
-// Resolve the entry (by position 0..8) at one side of a match, given winners so far.
-// Returns the position number, or null if not yet determined.
-function resolveSource(src, winners) {
-  if (typeof src === 'number') return src
-  const w = winners[src]
-  if (!w) return null
-  const def = MATCH_DEFS.find(m => m.id === src)
-  return resolveSource(w === 'top' ? def.top : def.bot, winners)
-}
-
-// All matches with their resolved entry positions and current winner pos (if any).
-export function describeMatches(flight) {
-  return MATCH_DEFS.map(def => {
-    const topPos = resolveSource(def.top, flight.winners)
-    const botPos = resolveSource(def.bot, flight.winners)
-    const w = flight.winners[def.id]
-    const winnerPos = w ? (w === 'top' ? topPos : botPos) : null
-    return {
-      ...def,
-      topPos, botPos,
-      topEntry: topPos != null ? flight.entries[topPos] : null,
-      botEntry: botPos != null ? flight.entries[botPos] : null,
-      winner: w,
-      winnerPos,
-      ready: topPos != null && botPos != null,
-    }
-  })
-}
-
-// Wins per team for a single flight. 1 point per match won, plus a BYE bonus
-// point when a pos 0-6 entry wins its QF (its first actual match).
-export function flightTeamPoints(flight) {
-  const out = {}
-  const matches = describeMatches(flight)
-  for (const m of matches) {
-    if (!m.winner) continue
-    const e = m.winner === 'top' ? m.topEntry : m.botEntry
-    if (!e || !e.teamId) continue
-    out[e.teamId] = (out[e.teamId] || 0) + 1
-    // BYE bonus: if this is a QF won by a pos 0-6 entry, that entry just won
-    // its first actual match, so credit the BYE round too.
-    if (m.round === 'Q' && HAS_BYE(m.winnerPos)) {
-      out[e.teamId] += 1
-    }
+// Resolve which entry "is on" this side of a match. Returns:
+//   { pos, empty: false } — a real entry occupies this side
+//   { pos, empty: true  } — this side is a bye (no team — pos is identifiable
+//                            so we can still display "BYE" anchored to a slot)
+//   null                   — undecided (upstream match needs a pick)
+function resolveSource(flight, src) {
+  if (typeof src === 'number') {
+    const e = flight.entries[src]
+    return { pos: src, empty: !e?.teamId }
   }
-  return out
+  const def = DEFS_BY_ID[src]
+  if (!def) return null
+  const top = resolveSource(flight, def.top)
+  const bot = resolveSource(flight, def.bot)
+  const userWinner = flight.winners[src]
+  if (userWinner === 'top') return top
+  if (userWinner === 'bot') return bot
+  // No explicit pick — try to auto-resolve.
+  const topReal = top && !top.empty
+  const botReal = bot && !bot.empty
+  if (topReal && !botReal && bot) return top    // bot side empty (or empty chain) → top auto-wins
+  if (botReal && !topReal && top) return bot    // mirror
+  if (top && bot && !topReal && !botReal) {
+    // Both subtrees are byes → propagate an empty placeholder (pick top arbitrarily).
+    return { pos: top.pos, empty: true }
+  }
+  return null // both real, undecided — caller treats as pending
 }
 
-// Walk forward from a given match in match-tree order. Returns the list of
-// later match IDs that this match feeds into (for clearing downstream winners).
+// Auto-winner for visualization: same rule as resolveSource's auto branch.
+// Returns 'top' | 'bot' | null.
+function autoWinnerOf(top, bot) {
+  const topReal = top && !top.empty
+  const botReal = bot && !bot.empty
+  if (topReal && !botReal && bot) return 'top'
+  if (botReal && !topReal && top) return 'bot'
+  return null
+}
+
+function describeOne(flight, def) {
+  const top = resolveSource(flight, def.top)
+  const bot = resolveSource(flight, def.bot)
+  const userWinner = flight.winners[def.id]
+  const auto = autoWinnerOf(top, bot)
+  const winner = userWinner || auto
+  const winnerPos = winner ? (winner === 'top' ? top?.pos : bot?.pos) : null
+
+  // "Empty" only when this side has resolved to a bye (no team). "Pending"
+  // (top/bot is null) is a third state — neither real nor empty.
+  const topEmpty = !!top && top.empty
+  const botEmpty = !!bot && bot.empty
+  const topPending = !top
+  const botPending = !bot
+
+  return {
+    ...def,
+    topPos: top?.pos ?? null,
+    botPos: bot?.pos ?? null,
+    topEntry: top && !top.empty ? flight.entries[top.pos] : null,
+    botEntry: bot && !bot.empty ? flight.entries[bot.pos] : null,
+    topEmpty,
+    botEmpty,
+    topPending,
+    botPending,
+    ready: !topPending && !botPending && !(topEmpty && botEmpty),
+    winner,
+    winnerPos,
+    isBye: !!auto && !userWinner,
+    bothEmpty: topEmpty && botEmpty,
+  }
+}
+
+export function describeMatches(flight) {
+  return MATCH_DEFS.map(d => describeOne(flight, d))
+}
+
+// All later matches that depend (transitively) on the given match.
 function downstream(matchId) {
-  const result = []
+  const out = []
   const queue = [matchId]
   while (queue.length) {
     const cur = queue.shift()
     for (const m of MATCH_DEFS) {
       if (m.top === cur || m.bot === cur) {
-        if (!result.includes(m.id)) {
-          result.push(m.id)
-          queue.push(m.id)
-        }
+        if (!out.includes(m.id)) { out.push(m.id); queue.push(m.id) }
       }
     }
   }
-  return result
+  return out
 }
 
-// Set or clear the winner of a match. If clearing or overriding, removes any
-// downstream winners that depended on the now-undetermined entry.
+// Set or clear a user-picked winner. Clears downstream picks since the path
+// may have changed.
 export function setWinner(flight, matchId, sideOrNull) {
   const next = { ...flight, winners: { ...flight.winners } }
-  if (sideOrNull == null) {
-    delete next.winners[matchId]
-  } else {
-    next.winners[matchId] = sideOrNull
-  }
+  if (sideOrNull == null) delete next.winners[matchId]
+  else next.winners[matchId] = sideOrNull
   for (const d of downstream(matchId)) delete next.winners[d]
   return next
 }
 
-// For a given entry position, how many points it has already and how many it could still earn
-// assuming it wins out. Once an entry advances, downstream describeMatches() resolves the
-// new top/bot to the original position number, so we walk forward by re-scanning for any
-// match the original position participates in that we haven't already counted.
-//
-// Points = match wins + (1 BYE bonus if pos 0-6 and won at least one actual match).
+// Per-entry standing: how many points it has and how many more it could earn.
+// Implements the bye-point rule: pending byes pay out on the next actual win.
 export function entryStanding(flight, pos) {
-  const matches = describeMatches(flight)
-  let matchWins = 0
+  const e = flight.entries[pos]
+  if (!e?.teamId) return { wins: 0, maxRemaining: 0, alive: false, eliminated: true, startingMax: 0 }
+
+  const matchesInOrder = MATCH_DEFS.map(d => describeOne(flight, d))
+  let wins = 0
+  let pendingByes = 0
   let alive = true
-  const seen = new Set()
-  while (alive) {
-    const m = matches.find(mm => (mm.topPos === pos || mm.botPos === pos) && !seen.has(mm.id))
-    if (!m || !m.ready || m.winner == null) break
-    seen.add(m.id)
-    const side = m.topPos === pos ? 'top' : 'bot'
-    if (m.winner === side) {
-      matchWins++
+  const currentPos = pos
+
+  for (const roundDef of ROUND_DEFS) {
+    const m = matchesInOrder.find(mm => mm.round === roundDef.id && (mm.topPos === currentPos || mm.botPos === currentPos))
+    if (!m) break
+    const ourSide = m.topPos === currentPos ? 'top' : 'bot'
+    const otherEmpty = ourSide === 'top' ? m.botEmpty : m.topEmpty
+    if (otherEmpty) { pendingByes++; continue }
+    if (!m.winner) break
+    if (m.winner === ourSide) {
+      wins += 1 + pendingByes
+      pendingByes = 0
     } else {
       alive = false
+      break
     }
   }
-  const byeBonus = (HAS_BYE(pos) && matchWins > 0) ? 1 : 0
-  const wins = matchWins + byeBonus
-  const start = STARTING_WINS[pos]
+
+  const cap = ROUND_DEFS.length
   return {
     wins,
-    maxRemaining: alive ? (start - wins) : 0,
+    maxRemaining: alive ? (cap - wins) : 0,
     alive,
     eliminated: !alive,
-    startingMax: start,
+    startingMax: cap,
+    pendingByes,
   }
 }
 
-// Aggregate per-team current points and remaining-potential points across all 8 flights.
-// Also returns aliveCount: how many entries still alive per team.
+// Per-team aggregation across all 8 flights.
 export function aggregate(flights) {
   const points = {}
   const remaining = {}
   const alive = {}
   for (const f of flights) {
-    for (let pos = 0; pos < 9; pos++) {
+    for (let pos = 0; pos < FLIGHT_SIZE; pos++) {
       const e = f.entries[pos]
-      if (!e.teamId) continue
+      if (!e?.teamId) continue
       const s = entryStanding(f, pos)
       points[e.teamId] = (points[e.teamId] || 0) + s.wins
       remaining[e.teamId] = (remaining[e.teamId] || 0) + s.maxRemaining
@@ -171,4 +216,16 @@ export function aggregate(flights) {
     }
   }
   return { points, remaining, alive }
+}
+
+// Per-team points within a single flight (used by FlightSummary).
+export function flightTeamPoints(flight) {
+  const out = {}
+  for (let pos = 0; pos < FLIGHT_SIZE; pos++) {
+    const e = flight.entries[pos]
+    if (!e?.teamId) continue
+    const s = entryStanding(flight, pos)
+    if (s.wins > 0) out[e.teamId] = (out[e.teamId] || 0) + s.wins
+  }
+  return out
 }

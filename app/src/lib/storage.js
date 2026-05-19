@@ -1,51 +1,45 @@
 import { FLIGHTS } from '../data/teams.js'
-import { emptyFlight } from './bracket.js'
-import { SEED_DRAWS } from '../data/seedDraws.js'
+import { emptyFlight, FLIGHT_SIZE } from './bracket.js'
 
-const KEY = 'tennis-regionals-state-v1'
+const KEY = 'tennis-state-v1'
 
 export function loadState() {
   try {
     const raw = localStorage.getItem(KEY)
-    if (!raw) return seedState()
+    if (!raw) return defaultState()
     const parsed = JSON.parse(raw)
-    if (!parsed.flights) return seedState()
-    // Ensure all 8 flights are present (in case schema evolved).
-    const byId = Object.fromEntries(parsed.flights.map(f => [f.id, f]))
+    if (!parsed.flights) return defaultState()
+    const byId = Object.fromEntries(parsed.flights.map(f => [f.id, normalizeFlight(f)]))
     const flights = FLIGHTS.map(f => byId[f.id] || emptyFlight(f.id))
     return { flights }
   } catch {
-    return seedState()
+    return defaultState()
   }
 }
 
-// First-run state: pre-populated brackets from the scrape, if available.
-function seedState() {
-  if (SEED_DRAWS?.flights?.length) {
-    const byId = Object.fromEntries(SEED_DRAWS.flights.map(f => [f.id, f]))
-    return { flights: FLIGHTS.map(f => byId[f.id] || emptyFlight(f.id)) }
-  }
-  return defaultState()
+// Backfill any missing slots so older saves expand into the 32-slot shape.
+function normalizeFlight(f) {
+  const base = emptyFlight(f.id)
+  const merged = base.entries.map((e, i) => f.entries?.[i] ? { ...e, ...f.entries[i], pos: i } : e)
+  // Trim or pad to FLIGHT_SIZE.
+  while (merged.length < FLIGHT_SIZE) merged.push({ pos: merged.length, teamId: null, seed: null, name: '', partner: '' })
+  merged.length = FLIGHT_SIZE
+  return { id: f.id, entries: merged, winners: f.winners || {} }
 }
 
 export function saveState(state) {
-  try {
-    localStorage.setItem(KEY, JSON.stringify(state))
-  } catch {
-    /* localStorage full or unavailable; surfacing a UI error would distract from match entry */
-  }
+  try { localStorage.setItem(KEY, JSON.stringify(state)) } catch { /* localStorage full or disabled */ }
 }
 
 export function defaultState() {
   return { flights: FLIGHTS.map(f => emptyFlight(f.id)) }
 }
 
-export function exportJson(state) {
-  return JSON.stringify(state, null, 2)
-}
+export function exportJson(state) { return JSON.stringify(state, null, 2) }
 
 export function importJson(text) {
   const parsed = JSON.parse(text)
   if (!parsed.flights || !Array.isArray(parsed.flights)) throw new Error('Missing flights array')
-  return parsed
+  const byId = Object.fromEntries(parsed.flights.map(f => [f.id, normalizeFlight(f)]))
+  return { flights: FLIGHTS.map(f => byId[f.id] || emptyFlight(f.id)) }
 }
