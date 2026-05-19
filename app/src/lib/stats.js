@@ -1,19 +1,28 @@
-import { TEAMS } from '../data/teams.js'
+import { TEAM_BY_ID } from '../data/teams.js'
 import { aggregate } from './bracket.js'
 
 // Sorted leaderboard for state finals: rank, points, max possible, alive entries,
 // and conservative best/worst finish bounds.
+// Only teams with at least one entry in the current flights show up — TEAMS
+// is a master list across all 4 divisions, so we filter to the current state.
 export function leaderboard(flights) {
   const { points, remaining, alive } = aggregate(flights)
-  const rows = TEAMS.map(t => {
-    const cur = points[t.id] || 0
-    const rem = remaining[t.id] || 0
+  const presentIds = new Set()
+  for (const f of flights) {
+    for (const e of f.entries) {
+      if (e?.teamId) presentIds.add(e.teamId)
+    }
+  }
+  const rows = [...presentIds].map(id => {
+    const team = TEAM_BY_ID[id] || { id, name: id, short: id.slice(0, 4).toUpperCase(), color: '#64748b' }
+    const cur = points[id] || 0
+    const rem = remaining[id] || 0
     return {
-      team: t,
+      team,
       points: cur,
       maxPossible: cur + rem,
       remaining: rem,
-      alive: alive[t.id] || 0,
+      alive: alive[id] || 0,
     }
   })
 

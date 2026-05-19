@@ -17,9 +17,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const EVENT_ID = 611
 const DIVISIONS = {
   D1: { division: 995, host: 2951 },
-  D2: { division: null, host: null }, // fill in when bracket goes live
-  D3: { division: null, host: null },
-  D4: { division: null, host: null },
+  D2: { division: 996, host: 2952 },
+  D3: { division: 997, host: 2953 },
+  D4: { division: 998, host: 2954 },
 }
 const TARGET = (process.argv[2] || 'D1').toUpperCase()
 const conf = DIVISIONS[TARGET]
@@ -123,11 +123,11 @@ for (const f of FLIGHTS) {
   all[f.id] = { flight: f, url, ...parsed }
   // Save raw HTML for debugging.
   const html = await page.content()
-  writeFileSync(`${__dirname}/raw-state/${f.id}.html`, html)
+  writeFileSync(`${__dirname}/raw-state-${OUT_SUFFIX}/${f.id}.html`, html)
   console.log(`[${f.id}] rounds: ${parsed.rounds.map(r => `${r.heading}=${r.matches.length}`).join(', ')}`)
   await page.close()
 }
 
 await browser.close()
-writeFileSync(`${__dirname}/state-2025.json`, JSON.stringify(all, null, 2))
-console.log('Wrote scraper/state-2025.json')
+writeFileSync(`${__dirname}/state-2025-${OUT_SUFFIX}.json`, JSON.stringify(all, null, 2))
+console.log(`Wrote scraper/state-2025-${OUT_SUFFIX}.json`)

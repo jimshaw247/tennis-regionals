@@ -8,7 +8,14 @@ import { fileURLToPath } from 'node:url'
 import { createClient } from '@supabase/supabase-js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const scrape = JSON.parse(readFileSync(join(__dirname, 'state-2025.json'), 'utf8'))
+
+// Usage: node seed-2025.mjs [D1|D2|D3|D4]
+const DIVISION = (process.argv[2] || 'D1').toUpperCase()
+const ROW_BY_DIVISION = { D1: 1, D2: 2, D3: 3, D4: 4 }
+const ROW_ID = ROW_BY_DIVISION[DIVISION]
+if (!ROW_ID) { console.error(`Unknown division ${DIVISION}`); process.exit(1) }
+
+const scrape = JSON.parse(readFileSync(join(__dirname, `state-2025-${DIVISION.toLowerCase()}.json`), 'utf8'))
 
 const FLIGHT_SIZE = 32
 const FLIGHT_IDS = ['1S', '2S', '3S', '4S', '1D', '2D', '3D', '4D']
@@ -88,7 +95,7 @@ function buildFlight(flightId, fdata) {
 const flights = FLIGHT_IDS.map(id => buildFlight(id, scrape[id]))
 const state = { flights }
 
-const outFile = join(__dirname, 'state-2025-app.json')
+const outFile = join(__dirname, `state-2025-app-${DIVISION.toLowerCase()}.json`)
 writeFileSync(outFile, JSON.stringify(state, null, 2))
 console.log(`Wrote ${outFile}`)
 for (const f of flights) {
@@ -108,9 +115,9 @@ if (!URL || !ANON) {
 const supabase = createClient(URL, ANON)
 const { error } = await supabase
   .from('tennis_state')
-  .upsert({ id: 1, data: state, updated_at: new Date().toISOString() })
+  .upsert({ id: ROW_ID, data: state, updated_at: new Date().toISOString() })
 if (error) {
   console.error('Push failed:', error.message)
   process.exit(1)
 }
-console.log('\nPushed 2025 state finals to Supabase. The live app should update via realtime.')
+console.log(`\nPushed 2025 ${DIVISION} state finals to Supabase row id=${ROW_ID}.`)

@@ -1,0 +1,2011 @@
+{
+  "flights": [
+    {
+      "id": "1S",
+      "entries": [
+        {
+          "pos": 0,
+          "teamId": "bloomfield_hills_cranbrook_kingswood",
+          "seed": null,
+          "name": "Chloe Qin",
+          "partner": ""
+        },
+        {
+          "pos": 1,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 2,
+          "teamId": "fruitport",
+          "seed": null,
+          "name": "Josalynn Nowicki",
+          "partner": ""
+        },
+        {
+          "pos": 3,
+          "teamId": "vicksburg",
+          "seed": null,
+          "name": "Scarlett Hosner",
+          "partner": ""
+        },
+        {
+          "pos": 4,
+          "teamId": "chelsea",
+          "seed": null,
+          "name": "Samantha Bieber",
+          "partner": ""
+        },
+        {
+          "pos": 5,
+          "teamId": "hamilton",
+          "seed": null,
+          "name": "Isabelle Troost",
+          "partner": ""
+        },
+        {
+          "pos": 6,
+          "teamId": "haslett",
+          "seed": null,
+          "name": "Gabrielle Asher",
+          "partner": ""
+        },
+        {
+          "pos": 7,
+          "teamId": "east_grand_rapids",
+          "seed": null,
+          "name": "Divyana Varma",
+          "partner": ""
+        },
+        {
+          "pos": 8,
+          "teamId": "bloomfield_hills_marian",
+          "seed": null,
+          "name": "Caroline Torok",
+          "partner": ""
+        },
+        {
+          "pos": 9,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 10,
+          "teamId": "dearborn_divine_child",
+          "seed": null,
+          "name": "Alexandria Weitz",
+          "partner": ""
+        },
+        {
+          "pos": 11,
+          "teamId": "lansing_eastern",
+          "seed": null,
+          "name": "Mackenzie Fox",
+          "partner": ""
+        },
+        {
+          "pos": 12,
+          "teamId": "stevensville_lakeshore",
+          "seed": null,
+          "name": "Josie Arbanas",
+          "partner": ""
+        },
+        {
+          "pos": 13,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 14,
+          "teamId": "grand_rapids_catholic_central",
+          "seed": null,
+          "name": "Lily David",
+          "partner": ""
+        },
+        {
+          "pos": 15,
+          "teamId": "croswelllexington",
+          "seed": null,
+          "name": "Elizabeth Pardy",
+          "partner": ""
+        },
+        {
+          "pos": 16,
+          "teamId": "grosse_ile",
+          "seed": null,
+          "name": "Ava Dame",
+          "partner": ""
+        },
+        {
+          "pos": 17,
+          "teamId": "edwardsburg",
+          "seed": null,
+          "name": "Erin Letter",
+          "partner": ""
+        },
+        {
+          "pos": 18,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 19,
+          "teamId": "ada_forest_hills_eastern",
+          "seed": null,
+          "name": "Lilah Zaskowski",
+          "partner": ""
+        },
+        {
+          "pos": 20,
+          "teamId": "ortonville_brandon",
+          "seed": null,
+          "name": "Kaja Wiederhold",
+          "partner": ""
+        },
+        {
+          "pos": 21,
+          "teamId": "holland_christian",
+          "seed": null,
+          "name": "Gabi Rooks",
+          "partner": ""
+        },
+        {
+          "pos": 22,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 23,
+          "teamId": "grand_rapids_christian",
+          "seed": null,
+          "name": "Henley Honholt",
+          "partner": ""
+        },
+        {
+          "pos": 24,
+          "teamId": "parma_western",
+          "seed": null,
+          "name": "Dru Porter",
+          "partner": ""
+        },
+        {
+          "pos": 25,
+          "teamId": "st_johns",
+          "seed": null,
+          "name": "Paityn Chant",
+          "partner": ""
+        },
+        {
+          "pos": 26,
+          "teamId": "st_clair",
+          "seed": null,
+          "name": "Haylee Mills",
+          "partner": ""
+        },
+        {
+          "pos": 27,
+          "teamId": "adrian",
+          "seed": null,
+          "name": "Angelina Jovicic",
+          "partner": ""
+        },
+        {
+          "pos": 28,
+          "teamId": "grand_rapids_south_christian",
+          "seed": null,
+          "name": "Savana Michmerhuizen",
+          "partner": ""
+        },
+        {
+          "pos": 29,
+          "teamId": "spring_lake",
+          "seed": null,
+          "name": "Sloan Horton",
+          "partner": ""
+        },
+        {
+          "pos": 30,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 31,
+          "teamId": "detroit_country_day",
+          "seed": null,
+          "name": "Sophia Grzesiak",
+          "partner": ""
+        }
+      ],
+      "winners": {
+        "R1m1": "bot",
+        "R1m2": "top",
+        "R1m3": "bot",
+        "R1m5": "bot",
+        "R1m7": "top",
+        "R1m8": "bot",
+        "R1m10": "bot",
+        "R1m12": "top",
+        "R1m13": "bot",
+        "R1m14": "top",
+        "R2m0": "top",
+        "R2m1": "top",
+        "R2m2": "top",
+        "R2m3": "top",
+        "R2m4": "bot",
+        "R2m5": "bot",
+        "R2m6": "bot",
+        "R2m7": "bot",
+        "R3m0": "top",
+        "R3m1": "bot",
+        "R3m2": "bot",
+        "R3m3": "bot",
+        "SFm0": "top",
+        "SFm1": "bot",
+        "Fm0": "top"
+      }
+    },
+    {
+      "id": "2S",
+      "entries": [
+        {
+          "pos": 0,
+          "teamId": "bloomfield_hills_cranbrook_kingswood",
+          "seed": null,
+          "name": "Caroline Liu",
+          "partner": ""
+        },
+        {
+          "pos": 1,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 2,
+          "teamId": "grand_rapids_catholic_central",
+          "seed": null,
+          "name": "Colleen Kirk",
+          "partner": ""
+        },
+        {
+          "pos": 3,
+          "teamId": "st_johns",
+          "seed": null,
+          "name": "Emersyn Sturgis",
+          "partner": ""
+        },
+        {
+          "pos": 4,
+          "teamId": "edwardsburg",
+          "seed": null,
+          "name": "Julia Lewis",
+          "partner": ""
+        },
+        {
+          "pos": 5,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 6,
+          "teamId": "st_clair",
+          "seed": null,
+          "name": "Amaya Graebert",
+          "partner": ""
+        },
+        {
+          "pos": 7,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 8,
+          "teamId": "bloomfield_hills_marian",
+          "seed": null,
+          "name": "Elizabeth Torok",
+          "partner": ""
+        },
+        {
+          "pos": 9,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 10,
+          "teamId": "grand_rapids_south_christian",
+          "seed": null,
+          "name": "Gabby Young",
+          "partner": ""
+        },
+        {
+          "pos": 11,
+          "teamId": "holland_christian",
+          "seed": null,
+          "name": "Camryn Nadig",
+          "partner": ""
+        },
+        {
+          "pos": 12,
+          "teamId": "east_grand_rapids",
+          "seed": null,
+          "name": "Farha Malviya",
+          "partner": ""
+        },
+        {
+          "pos": 13,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 14,
+          "teamId": "chelsea",
+          "seed": null,
+          "name": "Seffi Berg",
+          "partner": ""
+        },
+        {
+          "pos": 15,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 16,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 17,
+          "teamId": "parma_western",
+          "seed": null,
+          "name": "Ali Carmody",
+          "partner": ""
+        },
+        {
+          "pos": 18,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 19,
+          "teamId": "grand_rapids_christian",
+          "seed": null,
+          "name": "Avah Jerke",
+          "partner": ""
+        },
+        {
+          "pos": 20,
+          "teamId": "spring_lake",
+          "seed": null,
+          "name": "Ada Feasby",
+          "partner": ""
+        },
+        {
+          "pos": 21,
+          "teamId": "grosse_ile",
+          "seed": null,
+          "name": "Jamie Lofstedt",
+          "partner": ""
+        },
+        {
+          "pos": 22,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 23,
+          "teamId": "ada_forest_hills_eastern",
+          "seed": null,
+          "name": "Caroline Dempsey",
+          "partner": ""
+        },
+        {
+          "pos": 24,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 25,
+          "teamId": "hamilton",
+          "seed": null,
+          "name": "Erin Meiste",
+          "partner": ""
+        },
+        {
+          "pos": 26,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 27,
+          "teamId": "vicksburg",
+          "seed": null,
+          "name": "Maya Grossman",
+          "partner": ""
+        },
+        {
+          "pos": 28,
+          "teamId": "croswelllexington",
+          "seed": null,
+          "name": "Natalie Maxwell",
+          "partner": ""
+        },
+        {
+          "pos": 29,
+          "teamId": "haslett",
+          "seed": null,
+          "name": "Lexi Pridgeon",
+          "partner": ""
+        },
+        {
+          "pos": 30,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 31,
+          "teamId": "detroit_country_day",
+          "seed": null,
+          "name": "Chloe Conniff",
+          "partner": ""
+        }
+      ],
+      "winners": {
+        "R1m1": "top",
+        "R1m5": "bot",
+        "R1m10": "top",
+        "R1m14": "bot",
+        "R2m0": "top",
+        "R2m1": "top",
+        "R2m2": "top",
+        "R2m3": "top",
+        "R2m4": "bot",
+        "R2m5": "bot",
+        "R2m6": "top",
+        "R2m7": "bot",
+        "R3m0": "top",
+        "R3m1": "top",
+        "R3m2": "bot",
+        "R3m3": "bot",
+        "SFm0": "top",
+        "SFm1": "bot",
+        "Fm0": "top"
+      }
+    },
+    {
+      "id": "3S",
+      "entries": [
+        {
+          "pos": 0,
+          "teamId": "detroit_country_day",
+          "seed": null,
+          "name": "Karishma Vakhariya",
+          "partner": ""
+        },
+        {
+          "pos": 1,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 2,
+          "teamId": "st_clair",
+          "seed": null,
+          "name": "Alyssa Schafer",
+          "partner": ""
+        },
+        {
+          "pos": 3,
+          "teamId": "ada_forest_hills_eastern",
+          "seed": null,
+          "name": "Noor Hassan",
+          "partner": ""
+        },
+        {
+          "pos": 4,
+          "teamId": "grosse_ile",
+          "seed": null,
+          "name": "Addison Boggs",
+          "partner": ""
+        },
+        {
+          "pos": 5,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 6,
+          "teamId": "edwardsburg",
+          "seed": null,
+          "name": "Verona Moody",
+          "partner": ""
+        },
+        {
+          "pos": 7,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 8,
+          "teamId": "grand_rapids_catholic_central",
+          "seed": null,
+          "name": "Claire Kaufman",
+          "partner": ""
+        },
+        {
+          "pos": 9,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 10,
+          "teamId": "spring_lake",
+          "seed": null,
+          "name": "Casey Ferguson",
+          "partner": ""
+        },
+        {
+          "pos": 11,
+          "teamId": "st_johns",
+          "seed": null,
+          "name": "Kate Boettger",
+          "partner": ""
+        },
+        {
+          "pos": 12,
+          "teamId": "bloomfield_hills_cranbrook_kingswood",
+          "seed": null,
+          "name": "Roca Yang",
+          "partner": ""
+        },
+        {
+          "pos": 13,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 14,
+          "teamId": "grand_rapids_south_christian",
+          "seed": null,
+          "name": "Danya Hendrickson",
+          "partner": ""
+        },
+        {
+          "pos": 15,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 16,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 17,
+          "teamId": "parma_western",
+          "seed": null,
+          "name": "Natalie Hyde",
+          "partner": ""
+        },
+        {
+          "pos": 18,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 19,
+          "teamId": "east_grand_rapids",
+          "seed": null,
+          "name": "Ines Bordenet",
+          "partner": ""
+        },
+        {
+          "pos": 20,
+          "teamId": "hamilton",
+          "seed": null,
+          "name": "Maya Wettlaufer",
+          "partner": ""
+        },
+        {
+          "pos": 21,
+          "teamId": "haslett",
+          "seed": null,
+          "name": "Kaia Anastor",
+          "partner": ""
+        },
+        {
+          "pos": 22,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 23,
+          "teamId": "bloomfield_hills_marian",
+          "seed": null,
+          "name": "Anya Nix",
+          "partner": ""
+        },
+        {
+          "pos": 24,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 25,
+          "teamId": "holland_christian",
+          "seed": null,
+          "name": "Esmay Klingenberg",
+          "partner": ""
+        },
+        {
+          "pos": 26,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 27,
+          "teamId": "croswelllexington",
+          "seed": null,
+          "name": "Cheyenne Krampits",
+          "partner": ""
+        },
+        {
+          "pos": 28,
+          "teamId": "vicksburg",
+          "seed": null,
+          "name": "Jenna Schramer",
+          "partner": ""
+        },
+        {
+          "pos": 29,
+          "teamId": "chelsea",
+          "seed": null,
+          "name": "Libby Timberlake",
+          "partner": ""
+        },
+        {
+          "pos": 30,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 31,
+          "teamId": "grand_rapids_christian",
+          "seed": null,
+          "name": "Kaitlyn Schmitt",
+          "partner": ""
+        }
+      ],
+      "winners": {
+        "R1m1": "bot",
+        "R1m5": "bot",
+        "R1m10": "top",
+        "R1m14": "bot",
+        "R2m0": "top",
+        "R2m1": "bot",
+        "R2m2": "top",
+        "R2m3": "top",
+        "R2m4": "bot",
+        "R2m5": "bot",
+        "R2m6": "top",
+        "R2m7": "bot",
+        "R3m0": "top",
+        "R3m1": "bot",
+        "R3m2": "bot",
+        "R3m3": "bot",
+        "SFm0": "top",
+        "SFm1": "bot",
+        "Fm0": "top"
+      }
+    },
+    {
+      "id": "4S",
+      "entries": [
+        {
+          "pos": 0,
+          "teamId": "detroit_country_day",
+          "seed": null,
+          "name": "Helen Benjamin",
+          "partner": ""
+        },
+        {
+          "pos": 1,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 2,
+          "teamId": "grand_rapids_catholic_central",
+          "seed": null,
+          "name": "Isabel Krueger",
+          "partner": ""
+        },
+        {
+          "pos": 3,
+          "teamId": "st_clair",
+          "seed": null,
+          "name": "Ashlyn Simons",
+          "partner": ""
+        },
+        {
+          "pos": 4,
+          "teamId": "spring_lake",
+          "seed": null,
+          "name": "Eve Feasby",
+          "partner": ""
+        },
+        {
+          "pos": 5,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 6,
+          "teamId": "chelsea",
+          "seed": null,
+          "name": "Nora Garbarkiewicz",
+          "partner": ""
+        },
+        {
+          "pos": 7,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 8,
+          "teamId": "grand_rapids_christian",
+          "seed": null,
+          "name": "Anwen Amash",
+          "partner": ""
+        },
+        {
+          "pos": 9,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 10,
+          "teamId": "grand_rapids_south_christian",
+          "seed": null,
+          "name": "Audi Burgess",
+          "partner": ""
+        },
+        {
+          "pos": 11,
+          "teamId": "st_johns",
+          "seed": null,
+          "name": "Courtney Ouderkirk",
+          "partner": ""
+        },
+        {
+          "pos": 12,
+          "teamId": "bloomfield_hills_cranbrook_kingswood",
+          "seed": null,
+          "name": "Giselle Harman",
+          "partner": ""
+        },
+        {
+          "pos": 13,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 14,
+          "teamId": "vicksburg",
+          "seed": null,
+          "name": "Elise Howard",
+          "partner": ""
+        },
+        {
+          "pos": 15,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 16,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 17,
+          "teamId": "hamilton",
+          "seed": null,
+          "name": "Kylie Rietema",
+          "partner": ""
+        },
+        {
+          "pos": 18,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 19,
+          "teamId": "bloomfield_hills_marian",
+          "seed": null,
+          "name": "Marja Geisz",
+          "partner": ""
+        },
+        {
+          "pos": 20,
+          "teamId": "croswelllexington",
+          "seed": null,
+          "name": "Maddie Mills",
+          "partner": ""
+        },
+        {
+          "pos": 21,
+          "teamId": "parma_western",
+          "seed": null,
+          "name": "Ellie McCollum",
+          "partner": ""
+        },
+        {
+          "pos": 22,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 23,
+          "teamId": "east_grand_rapids",
+          "seed": null,
+          "name": "Mia Owings",
+          "partner": ""
+        },
+        {
+          "pos": 24,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 25,
+          "teamId": "haslett",
+          "seed": null,
+          "name": "Lauren Richey",
+          "partner": ""
+        },
+        {
+          "pos": 26,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 27,
+          "teamId": "edwardsburg",
+          "seed": null,
+          "name": "Grace Leman",
+          "partner": ""
+        },
+        {
+          "pos": 28,
+          "teamId": "ada_forest_hills_eastern",
+          "seed": null,
+          "name": "Ava Hoogterp",
+          "partner": ""
+        },
+        {
+          "pos": 29,
+          "teamId": "grosse_ile",
+          "seed": null,
+          "name": "Nya Lee-Wah",
+          "partner": ""
+        },
+        {
+          "pos": 30,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 31,
+          "teamId": "holland_christian",
+          "seed": null,
+          "name": "Iyla Holmes",
+          "partner": ""
+        }
+      ],
+      "winners": {
+        "R1m1": "top",
+        "R1m5": "top",
+        "R1m10": "bot",
+        "R1m14": "top",
+        "R2m0": "top",
+        "R2m1": "bot",
+        "R2m2": "top",
+        "R2m3": "top",
+        "R2m4": "bot",
+        "R2m5": "bot",
+        "R2m6": "top",
+        "R2m7": "bot",
+        "R3m0": "top",
+        "R3m1": "top",
+        "R3m2": "bot",
+        "R3m3": "bot",
+        "SFm0": "top",
+        "SFm1": "bot",
+        "Fm0": "top"
+      }
+    },
+    {
+      "id": "1D",
+      "entries": [
+        {
+          "pos": 0,
+          "teamId": "bloomfield_hills_cranbrook_kingswood",
+          "seed": null,
+          "name": "Ava Clogg",
+          "partner": "Chiara Martella"
+        },
+        {
+          "pos": 1,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 2,
+          "teamId": "st_clair",
+          "seed": null,
+          "name": "Olivia Jones",
+          "partner": "Savannah Phillips"
+        },
+        {
+          "pos": 3,
+          "teamId": "grand_rapids_catholic_central",
+          "seed": null,
+          "name": "Mallory Lindemann",
+          "partner": "Mary Irwin"
+        },
+        {
+          "pos": 4,
+          "teamId": "grand_rapids_south_christian",
+          "seed": null,
+          "name": "Stella Jelsema",
+          "partner": "Morgan Struck"
+        },
+        {
+          "pos": 5,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 6,
+          "teamId": "vicksburg",
+          "seed": null,
+          "name": "Olivia Penney",
+          "partner": "Emma Vallier"
+        },
+        {
+          "pos": 7,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 8,
+          "teamId": "chelsea",
+          "seed": null,
+          "name": "Josie Jackson",
+          "partner": "Haley Hopkins"
+        },
+        {
+          "pos": 9,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 10,
+          "teamId": "spring_lake",
+          "seed": null,
+          "name": "Aliya Williams",
+          "partner": "Lydia Recor"
+        },
+        {
+          "pos": 11,
+          "teamId": "haslett",
+          "seed": null,
+          "name": "Adele Leister",
+          "partner": "Ella Boccarossa"
+        },
+        {
+          "pos": 12,
+          "teamId": "east_grand_rapids",
+          "seed": null,
+          "name": "Sophia DeGuzman",
+          "partner": "Kate Simon"
+        },
+        {
+          "pos": 13,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 14,
+          "teamId": "parma_western",
+          "seed": null,
+          "name": "Becca Brushaber",
+          "partner": "Chehek Bharatiya"
+        },
+        {
+          "pos": 15,
+          "teamId": "hamilton",
+          "seed": null,
+          "name": "Danielle Wedeven",
+          "partner": "Brynn Bolhuis"
+        },
+        {
+          "pos": 16,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 17,
+          "teamId": "edwardsburg",
+          "seed": null,
+          "name": "Abby Pryor",
+          "partner": "Mya Eberlein"
+        },
+        {
+          "pos": 18,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 19,
+          "teamId": "grand_rapids_christian",
+          "seed": null,
+          "name": "Gwyn Artz",
+          "partner": "Anneka Vermeulen"
+        },
+        {
+          "pos": 20,
+          "teamId": "stevensville_lakeshore",
+          "seed": null,
+          "name": "Maddie Hawks",
+          "partner": "Courtney Hurdle"
+        },
+        {
+          "pos": 21,
+          "teamId": "grosse_ile",
+          "seed": null,
+          "name": "Emily Riopelle",
+          "partner": "Maddie Mahanic"
+        },
+        {
+          "pos": 22,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 23,
+          "teamId": "bloomfield_hills_marian",
+          "seed": null,
+          "name": "Allegra Curis",
+          "partner": "Emerson Turkot"
+        },
+        {
+          "pos": 24,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 25,
+          "teamId": "holland_christian",
+          "seed": null,
+          "name": "Kassie Evenhouse",
+          "partner": "Stella Klooster"
+        },
+        {
+          "pos": 26,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 27,
+          "teamId": "ada_forest_hills_eastern",
+          "seed": null,
+          "name": "Ella Molesta",
+          "partner": "Izzy Feenstra"
+        },
+        {
+          "pos": 28,
+          "teamId": "croswelllexington",
+          "seed": null,
+          "name": "Rowley Kerry",
+          "partner": "Kaylynn Kramer"
+        },
+        {
+          "pos": 29,
+          "teamId": "st_johns",
+          "seed": null,
+          "name": "Brenda McCann",
+          "partner": "Ramiah Caroland"
+        },
+        {
+          "pos": 30,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 31,
+          "teamId": "detroit_country_day",
+          "seed": null,
+          "name": "Quinn Norlander",
+          "partner": "Katie Han"
+        }
+      ],
+      "winners": {
+        "R1m1": "bot",
+        "R1m5": "bot",
+        "R1m7": "top",
+        "R1m10": "top",
+        "R1m14": "bot",
+        "R2m0": "top",
+        "R2m1": "top",
+        "R2m2": "top",
+        "R2m3": "top",
+        "R2m4": "bot",
+        "R2m5": "bot",
+        "R2m6": "bot",
+        "R2m7": "bot",
+        "R3m0": "top",
+        "R3m1": "top",
+        "R3m2": "bot",
+        "R3m3": "bot",
+        "SFm0": "top",
+        "SFm1": "bot",
+        "Fm0": "top"
+      }
+    },
+    {
+      "id": "2D",
+      "entries": [
+        {
+          "pos": 0,
+          "teamId": "bloomfield_hills_cranbrook_kingswood",
+          "seed": null,
+          "name": "Sophia Kouza",
+          "partner": "Madeline Day"
+        },
+        {
+          "pos": 1,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 2,
+          "teamId": "croswelllexington",
+          "seed": null,
+          "name": "Berta Cancelo Morales",
+          "partner": "Kendell Hayden"
+        },
+        {
+          "pos": 3,
+          "teamId": "grand_rapids_catholic_central",
+          "seed": null,
+          "name": "Ruthie Radgens",
+          "partner": "Jessica Milanowski"
+        },
+        {
+          "pos": 4,
+          "teamId": "vicksburg",
+          "seed": null,
+          "name": "Hannah Moyer",
+          "partner": "Madison kanouse"
+        },
+        {
+          "pos": 5,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 6,
+          "teamId": "holland_christian",
+          "seed": null,
+          "name": "Hope Bruinsma",
+          "partner": "Isa Van Klompenberg"
+        },
+        {
+          "pos": 7,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 8,
+          "teamId": "chelsea",
+          "seed": null,
+          "name": "Lucy Taylor",
+          "partner": "Brenna Taylor"
+        },
+        {
+          "pos": 9,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 10,
+          "teamId": "haslett",
+          "seed": null,
+          "name": "Layla Kerschen",
+          "partner": "Reese Van De Riet"
+        },
+        {
+          "pos": 11,
+          "teamId": "east_grand_rapids",
+          "seed": null,
+          "name": "Edith Zimdar",
+          "partner": "Lia Degoa"
+        },
+        {
+          "pos": 12,
+          "teamId": "hamilton",
+          "seed": null,
+          "name": "Abigail Atwood",
+          "partner": "Sophia Blauwkamp"
+        },
+        {
+          "pos": 13,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 14,
+          "teamId": "parma_western",
+          "seed": null,
+          "name": "Kiiona Carmody",
+          "partner": "Sophia Nguyen"
+        },
+        {
+          "pos": 15,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 16,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 17,
+          "teamId": "grosse_ile",
+          "seed": null,
+          "name": "Anna Robinson",
+          "partner": "Tania Bhatti"
+        },
+        {
+          "pos": 18,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 19,
+          "teamId": "ada_forest_hills_eastern",
+          "seed": null,
+          "name": "Corryn Koffler",
+          "partner": "Juliana Hoving"
+        },
+        {
+          "pos": 20,
+          "teamId": "st_clair",
+          "seed": null,
+          "name": "Violet Hirst",
+          "partner": "Amelia Waidelich"
+        },
+        {
+          "pos": 21,
+          "teamId": "spring_lake",
+          "seed": null,
+          "name": "Emily Schaner",
+          "partner": "Haley Smith"
+        },
+        {
+          "pos": 22,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 23,
+          "teamId": "bloomfield_hills_marian",
+          "seed": null,
+          "name": "Alex Freitag",
+          "partner": "Audrey Agbay"
+        },
+        {
+          "pos": 24,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 25,
+          "teamId": "edwardsburg",
+          "seed": null,
+          "name": "Mara VanBuren",
+          "partner": "Olivia Closson"
+        },
+        {
+          "pos": 26,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 27,
+          "teamId": "st_johns",
+          "seed": null,
+          "name": "Caroline Parsons",
+          "partner": "Callie Morrison"
+        },
+        {
+          "pos": 28,
+          "teamId": "grand_rapids_christian",
+          "seed": null,
+          "name": "Anna Jacobsen",
+          "partner": "Emily VandenBerge"
+        },
+        {
+          "pos": 29,
+          "teamId": "grand_rapids_south_christian",
+          "seed": null,
+          "name": "Maddie Bultsma",
+          "partner": "Ava Oosting"
+        },
+        {
+          "pos": 30,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 31,
+          "teamId": "detroit_country_day",
+          "seed": null,
+          "name": "Addie Grebinski",
+          "partner": "Noor Mahmoud"
+        }
+      ],
+      "winners": {
+        "R1m1": "bot",
+        "R1m5": "bot",
+        "R1m10": "bot",
+        "R1m14": "top",
+        "R2m0": "top",
+        "R2m1": "bot",
+        "R2m2": "top",
+        "R2m3": "top",
+        "R2m4": "bot",
+        "R2m5": "bot",
+        "R2m6": "top",
+        "R2m7": "bot",
+        "R3m0": "top",
+        "R3m1": "top",
+        "R3m2": "bot",
+        "R3m3": "bot",
+        "SFm0": "top",
+        "SFm1": "bot",
+        "Fm0": "top"
+      }
+    },
+    {
+      "id": "3D",
+      "entries": [
+        {
+          "pos": 0,
+          "teamId": "bloomfield_hills_marian",
+          "seed": null,
+          "name": "Stella Glorio",
+          "partner": "Lexa Hindo"
+        },
+        {
+          "pos": 1,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 2,
+          "teamId": "grand_rapids_christian",
+          "seed": null,
+          "name": "Londyn Jerke",
+          "partner": "Johanna Bos"
+        },
+        {
+          "pos": 3,
+          "teamId": "croswelllexington",
+          "seed": null,
+          "name": "Lacie Jahn",
+          "partner": "Mary McNaughton"
+        },
+        {
+          "pos": 4,
+          "teamId": "grosse_ile",
+          "seed": null,
+          "name": "Ava Kowal",
+          "partner": "Ariana Lopez"
+        },
+        {
+          "pos": 5,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 6,
+          "teamId": "holland_christian",
+          "seed": null,
+          "name": "Lily Wierenga",
+          "partner": "Chloe Tait"
+        },
+        {
+          "pos": 7,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 8,
+          "teamId": "east_grand_rapids",
+          "seed": null,
+          "name": "Claire Jones",
+          "partner": "Naomi Stolle"
+        },
+        {
+          "pos": 9,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 10,
+          "teamId": "grand_rapids_south_christian",
+          "seed": null,
+          "name": "Anneka Schuurmans",
+          "partner": "Sophie Young"
+        },
+        {
+          "pos": 11,
+          "teamId": "st_johns",
+          "seed": null,
+          "name": "Summer Kanaski",
+          "partner": "Aubrey Beltran"
+        },
+        {
+          "pos": 12,
+          "teamId": "parma_western",
+          "seed": null,
+          "name": "Anna Wilcox",
+          "partner": "Karly Foster"
+        },
+        {
+          "pos": 13,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 14,
+          "teamId": "edwardsburg",
+          "seed": null,
+          "name": "Abbie Hartley",
+          "partner": "Bella Hankins"
+        },
+        {
+          "pos": 15,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 16,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 17,
+          "teamId": "haslett",
+          "seed": null,
+          "name": "Kendall Armstrong",
+          "partner": "Addison Schroeder"
+        },
+        {
+          "pos": 18,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 19,
+          "teamId": "chelsea",
+          "seed": null,
+          "name": "Ellie Kuck",
+          "partner": "Amelia Baker"
+        },
+        {
+          "pos": 20,
+          "teamId": "spring_lake",
+          "seed": null,
+          "name": "Meredith Sakel",
+          "partner": "Hannah Davis"
+        },
+        {
+          "pos": 21,
+          "teamId": "grand_rapids_catholic_central",
+          "seed": null,
+          "name": "Katelyn Izworski",
+          "partner": "Arabella Sassano"
+        },
+        {
+          "pos": 22,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 23,
+          "teamId": "detroit_country_day",
+          "seed": null,
+          "name": "Zoe Grebinski",
+          "partner": "Margaux Kohn"
+        },
+        {
+          "pos": 24,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 25,
+          "teamId": "vicksburg",
+          "seed": null,
+          "name": "Jodie White",
+          "partner": "Morgan White"
+        },
+        {
+          "pos": 26,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 27,
+          "teamId": "hamilton",
+          "seed": null,
+          "name": "Allison Lezman",
+          "partner": "Sophia Jorba Martinez"
+        },
+        {
+          "pos": 28,
+          "teamId": "ada_forest_hills_eastern",
+          "seed": null,
+          "name": "Bella Zolotarevsky",
+          "partner": "Raka Majumdar"
+        },
+        {
+          "pos": 29,
+          "teamId": "st_clair",
+          "seed": null,
+          "name": "Amira El Hadri",
+          "partner": "Mya Ondrus"
+        },
+        {
+          "pos": 30,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 31,
+          "teamId": "bloomfield_hills_cranbrook_kingswood",
+          "seed": null,
+          "name": "Michelle Chen",
+          "partner": "Jessica Hall"
+        }
+      ],
+      "winners": {
+        "R1m1": "top",
+        "R1m5": "bot",
+        "R1m10": "bot",
+        "R1m14": "top",
+        "R2m0": "top",
+        "R2m1": "bot",
+        "R2m2": "top",
+        "R2m3": "top",
+        "R2m4": "bot",
+        "R2m5": "bot",
+        "R2m6": "bot",
+        "R2m7": "bot",
+        "R3m0": "top",
+        "R3m1": "bot",
+        "R3m2": "bot",
+        "R3m3": "bot",
+        "SFm0": "top",
+        "SFm1": "bot",
+        "Fm0": "top"
+      }
+    },
+    {
+      "id": "4D",
+      "entries": [
+        {
+          "pos": 0,
+          "teamId": "bloomfield_hills_cranbrook_kingswood",
+          "seed": null,
+          "name": "Katelyn Dubrowsky",
+          "partner": "Brianna Giudici"
+        },
+        {
+          "pos": 1,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 2,
+          "teamId": "grosse_ile",
+          "seed": null,
+          "name": "Nora Wharton",
+          "partner": "Morgan Proctor"
+        },
+        {
+          "pos": 3,
+          "teamId": "croswelllexington",
+          "seed": null,
+          "name": "Sophie Dunlap",
+          "partner": "Zofia Pilarczyk"
+        },
+        {
+          "pos": 4,
+          "teamId": "edwardsburg",
+          "seed": null,
+          "name": "Kady Yowell",
+          "partner": "Brailey Fowler"
+        },
+        {
+          "pos": 5,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 6,
+          "teamId": "spring_lake",
+          "seed": null,
+          "name": "Ava Mykols",
+          "partner": "Callie Rantanen"
+        },
+        {
+          "pos": 7,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 8,
+          "teamId": "detroit_country_day",
+          "seed": null,
+          "name": "Grace Kalkanis",
+          "partner": "Katherine Chen"
+        },
+        {
+          "pos": 9,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 10,
+          "teamId": "st_johns",
+          "seed": null,
+          "name": "Emma Burnham",
+          "partner": "Bree Fleischer"
+        },
+        {
+          "pos": 11,
+          "teamId": "grand_rapids_christian",
+          "seed": null,
+          "name": "Charlotte VerMeulen",
+          "partner": "Charline Dahu"
+        },
+        {
+          "pos": 12,
+          "teamId": "bloomfield_hills_marian",
+          "seed": null,
+          "name": "Ellie Brockhaus",
+          "partner": "Lizzie Plunkett"
+        },
+        {
+          "pos": 13,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 14,
+          "teamId": "grand_rapids_south_christian",
+          "seed": null,
+          "name": "Izzie Albrecht",
+          "partner": "Natalie Weiss"
+        },
+        {
+          "pos": 15,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 16,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 17,
+          "teamId": "grand_rapids_catholic_central",
+          "seed": null,
+          "name": "Addison Martinus",
+          "partner": "Callan Pobojewski"
+        },
+        {
+          "pos": 18,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 19,
+          "teamId": "parma_western",
+          "seed": null,
+          "name": "Anna Willinger",
+          "partner": "Silvia Baker"
+        },
+        {
+          "pos": 20,
+          "teamId": "haslett",
+          "seed": null,
+          "name": "Allison Krueger",
+          "partner": "Loela Spadafore"
+        },
+        {
+          "pos": 21,
+          "teamId": "st_clair",
+          "seed": null,
+          "name": "Grace Goff",
+          "partner": "Madeline Schafer"
+        },
+        {
+          "pos": 22,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 23,
+          "teamId": "east_grand_rapids",
+          "seed": null,
+          "name": "Grace Taylor",
+          "partner": "Chloe Custer"
+        },
+        {
+          "pos": 24,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 25,
+          "teamId": "ada_forest_hills_eastern",
+          "seed": null,
+          "name": "Everleigh Surma",
+          "partner": "Shyla Chadda"
+        },
+        {
+          "pos": 26,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 27,
+          "teamId": "hamilton",
+          "seed": null,
+          "name": "Maddie Jipping",
+          "partner": "Taylor Heer"
+        },
+        {
+          "pos": 28,
+          "teamId": "holland_christian",
+          "seed": null,
+          "name": "Lucia Van Klompenberg",
+          "partner": "Izzy Delcalzo"
+        },
+        {
+          "pos": 29,
+          "teamId": "vicksburg",
+          "seed": null,
+          "name": "Sofia Martin",
+          "partner": "Erica Centofanti"
+        },
+        {
+          "pos": 30,
+          "teamId": null,
+          "seed": null,
+          "name": "",
+          "partner": ""
+        },
+        {
+          "pos": 31,
+          "teamId": "chelsea",
+          "seed": null,
+          "name": "Sage Gabriel-Menegay",
+          "partner": "Brooklyn Angel"
+        }
+      ],
+      "winners": {
+        "R1m1": "bot",
+        "R1m5": "bot",
+        "R1m10": "top",
+        "R1m14": "top",
+        "R2m0": "top",
+        "R2m1": "bot",
+        "R2m2": "top",
+        "R2m3": "top",
+        "R2m4": "bot",
+        "R2m5": "bot",
+        "R2m6": "bot",
+        "R2m7": "bot",
+        "R3m0": "top",
+        "R3m1": "top",
+        "R3m2": "bot",
+        "R3m3": "bot",
+        "SFm0": "bot",
+        "SFm1": "bot",
+        "Fm0": "top"
+      }
+    }
+  ]
+}

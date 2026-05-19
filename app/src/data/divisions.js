@@ -5,10 +5,10 @@
 // only for re-running the scraper. `null` means we don't have it yet (you'll
 // find it from the live bracket URL once the division's bracket is posted).
 export const DIVISIONS = [
-  { id: 'D1', label: 'D1', stateRowId: 1, host: 2951, highlightTeam: 'clarkston', available: true },
-  { id: 'D2', label: 'D2', stateRowId: 2, host: null, highlightTeam: null,        available: false },
-  { id: 'D3', label: 'D3', stateRowId: 3, host: null, highlightTeam: null,        available: false },
-  { id: 'D4', label: 'D4', stateRowId: 4, host: null, highlightTeam: null,        available: false },
+  { id: 'D1', label: 'D1', stateRowId: 1, division: 995, host: 2951, highlightTeam: 'clarkston', available: true },
+  { id: 'D2', label: 'D2', stateRowId: 2, division: 996, host: 2952, highlightTeam: null,        available: true },
+  { id: 'D3', label: 'D3', stateRowId: 3, division: 997, host: 2953, highlightTeam: null,        available: true },
+  { id: 'D4', label: 'D4', stateRowId: 4, division: 998, host: 2954, highlightTeam: null,        available: true },
 ]
 
 export const DIVISION_BY_ID = Object.fromEntries(DIVISIONS.map(d => [d.id, d]))

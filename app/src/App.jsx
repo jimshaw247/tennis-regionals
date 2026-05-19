@@ -3,6 +3,7 @@ import { FLIGHTS } from './data/teams.js'
 import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl } from './data/divisions.js'
 import { FLIGHT_SIZE, MATCH_DEFS } from './lib/bracket.js'
 import { loadState, saveState, defaultState } from './lib/storage.js'
+import { generateTestA, generateTestB } from './lib/testData.js'
 import { pullState, subscribeState, pushState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
@@ -93,6 +94,11 @@ function AdminApp() {
   const resetResults = () => {
     if (!confirm('Reset all match results? Draws stay.')) return
     commit({ ...state, flights: state.flights.map(f => ({ ...f, winners: {} })) })
+  }
+  const loadTest = (label, generator) => {
+    if (!confirm(`Replace current ${divisionId} state with ${label}? Uses 2025 D1 entries with randomized winners.`)) return
+    if (divisionId !== 'D1') setDivisionId('D1')
+    commit(generator())
   }
 
   return (
@@ -198,6 +204,10 @@ function AdminApp() {
         <button onClick={resetResults} className="px-2 py-1 rounded bg-slate-800 border border-slate-700">Reset results</button>
         <button onClick={resetAll} className="px-2 py-1 rounded bg-red-900/40 border border-red-700/60 text-red-200">Reset all</button>
         <SyncButton currentState={state} onApply={(merged) => commit(merged)} />
+        <button onClick={() => loadTest('Test Data A (75% of R2 done)', generateTestA)}
+          className="px-2 py-1 rounded bg-purple-900/40 border border-purple-700/60 text-purple-200">Load Test A</button>
+        <button onClick={() => loadTest('Test Data B (everything but F done)', generateTestB)}
+          className="px-2 py-1 rounded bg-purple-900/40 border border-purple-700/60 text-purple-200">Load Test B</button>
         <button onClick={logout} className="ml-auto px-2 py-1 rounded bg-slate-800 border border-slate-700">Lock</button>
       </footer>
     </div>
