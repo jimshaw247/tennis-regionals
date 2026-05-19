@@ -72,7 +72,7 @@ export default function Viewer() {
               onClick={() => setDivisionId(d.id)}
               className={[
                 'px-2.5 py-1 rounded text-[11px] font-semibold uppercase tracking-wider',
-                divisionId === d.id ? 'bg-amber-600 text-white' : 'bg-slate-800 text-slate-300',
+                divisionId === d.id ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300',
                 !d.available ? 'opacity-60' : '',
               ].join(' ')}
               title={d.available ? '' : 'Bracket URL not yet configured for this division'}

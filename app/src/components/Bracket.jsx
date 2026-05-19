@@ -1,7 +1,7 @@
 import { describeMatches, setWinner, ROUND_DEFS } from '../lib/bracket.js'
 import { TEAM_BY_ID, HIGHLIGHT_TEAM } from '../data/teams.js'
 
-function SideLabel({ entry, empty, highlight }) {
+function SideLabel({ entry, empty, highlight, score }) {
   if (empty) return <span className="text-slate-500 italic">BYE</span>
   if (!entry) return <span className="text-slate-500 italic">TBD</span>
   const team = entry.teamId ? TEAM_BY_ID[entry.teamId] : null
@@ -9,7 +9,7 @@ function SideLabel({ entry, empty, highlight }) {
     ? (entry.partner ? `${entry.name} / ${entry.partner}` : entry.name)
     : null
   return (
-    <span className="flex items-center gap-2 min-w-0">
+    <span className="flex items-center gap-2 min-w-0 w-full">
       {team && (
         <span className="inline-block w-2 h-6 rounded-sm flex-shrink-0" style={{ background: team.color }} />
       )}
@@ -22,6 +22,9 @@ function SideLabel({ entry, empty, highlight }) {
           <div className="text-[10px] text-slate-400 leading-tight">{team.name}</div>
         )}
       </span>
+      {score && (
+        <span className="text-[13px] text-slate-300 font-mono flex-shrink-0 ml-1">{score}</span>
+      )}
     </span>
   )
 }
@@ -62,14 +65,9 @@ function MatchCard({ match, score, onPick, readonly }) {
             clickable && !s.empty ? 'active:bg-slate-700' : '',
           ].join(' ')}
         >
-          <SideLabel entry={s.entry} empty={s.empty} highlight={isHi(s.entry)} />
+          <SideLabel entry={s.entry} empty={s.empty} highlight={isHi(s.entry)} score={s.winner ? score : null} />
         </button>
       ))}
-      {score && (
-        <div className="px-2 py-1 text-[10px] text-slate-400 font-mono text-center border-t border-slate-800 bg-slate-950/40">
-          {score}
-        </div>
-      )}
     </div>
   )
 }

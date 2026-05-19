@@ -571,6 +571,13 @@ export const TEAMS = [
   }
 ]
 
+// Apply per-school color overrides (athletic colors for known MHSAA schools).
+// Anything not in SCHOOL_COLORS keeps the auto-generated palette color above.
+import { SCHOOL_COLORS } from './schoolColors.js'
+for (const t of TEAMS) {
+  if (SCHOOL_COLORS[t.id]) t.color = SCHOOL_COLORS[t.id]
+}
+
 export const TEAM_BY_ID = Object.fromEntries(TEAMS.map(t => [t.id, t]))
 
 export const FLIGHTS = [
