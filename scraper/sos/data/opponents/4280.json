@@ -1,0 +1,5831 @@
+{
+  "school": {
+    "id": 4280,
+    "name": "Howell",
+    "address": "1200 W. GRAND RIVER",
+    "zipCode": "48843",
+    "lowestGrade": "9",
+    "highestGrade": "12",
+    "encryptedUri": null,
+    "expireDate": null,
+    "logo": null,
+    "createdAt": "2020-02-11T06:37:45.000Z",
+    "updatedAt": "2022-09-21T11:51:24.000Z",
+    "deletedAt": null,
+    "cityId": 8544,
+    "city": {
+      "id": 8544,
+      "name": "Howell",
+      "stateId": 30,
+      "state": {
+        "name": "Michigan",
+        "abbr": "MI"
+      }
+    }
+  },
+  "coaches": [
+    {
+      "id": 763,
+      "firstName": "Jim ",
+      "lastName": "Gagalis",
+      "address": "1200 W Grand River Ave, Howell, MI 48843",
+      "phone": "(517) 915-8394",
+      "email": "clarkk@howellschools.com",
+      "division": "1",
+      "schoolId": 4280,
+      "genderId": 1
+    },
+    {
+      "id": 4580,
+      "firstName": "Jason ",
+      "lastName": "Lounds",
+      "address": "Mi G",
+      "phone": "(734) 926-5936",
+      "email": "loundsj@howellschools.com",
+      "division": "3",
+      "schoolId": 4280,
+      "genderId": 2
+    }
+  ],
+  "overallRecord": {
+    "win": 1,
+    "loss": 7,
+    "tie": 0
+  },
+  "meets": [
+    {
+      "id": 223111,
+      "title": "Event (MHSAA Regional-2026). Regional 2-Novi  ",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": true,
+      "approveMeet": true,
+      "eventId": 786,
+      "winnerSchoolId": null,
+      "coach": null,
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4337,
+            "name": "Northville",
+            "logo": "school_4337.jpg",
+            "score": 23,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 3933,
+            "name": "Novi",
+            "logo": null,
+            "score": 17,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 3834,
+            "name": "Brighton",
+            "logo": "school_3834.png",
+            "score": 8,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4040,
+            "name": "Walled Lake Northern",
+            "logo": null,
+            "score": 6,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4284,
+            "name": "Canton",
+            "logo": "school_4284.jpeg",
+            "score": 4,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4050,
+            "name": "Plymouth",
+            "logo": null,
+            "score": 3,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4450,
+            "name": "Hartland",
+            "logo": null,
+            "score": 2,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4142,
+            "name": "Salem",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3151771": 6,
+                "3151772": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3151771": 6,
+                "3151772": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575921,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3151771,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3151771,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126577,
+                    "firstName": "Arianna ",
+                    "lastName": "Kinney",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3151772,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170050,
+                    "firstName": "Kavya",
+                    "lastName": "Jhaveri",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3151777": 6,
+                "3151778": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3151777": 6,
+                "3151778": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575924,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3151777,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3151777,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124996,
+                    "firstName": "Talia",
+                    "lastName": "Nishanian",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-30T00:02:04.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3151778,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149111,
+                    "firstName": "Baylee",
+                    "lastName": "Kotrba",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3151779": 6,
+                "3151780": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3151779": 6,
+                "3151780": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575925,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3151779,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3151779,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168873,
+                    "firstName": "Sophia",
+                    "lastName": "Markoz",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4040,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Walled Lake Northern",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3151780,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3151851": 6,
+                "3151852": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3151851": 6,
+                "3151852": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575961,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3151851,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3151851,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 131637,
+                    "firstName": "Jordan",
+                    "lastName": "Manna",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4040,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Walled Lake Northern",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 148504,
+                    "firstName": "Sierra",
+                    "lastName": "Black",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4040,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Walled Lake Northern",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3151852,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195186,
+                    "firstName": "Katie",
+                    "lastName": "Johnston",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:32:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195195,
+                    "firstName": "Paige",
+                    "lastName": "Owens",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3151853": 6,
+                "3151854": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3151853": 6,
+                "3151854": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575962,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3151853,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3151853,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126862,
+                    "firstName": "Kadance",
+                    "lastName": "Radwanski Balogh",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 144245,
+                    "firstName": "Claire",
+                    "lastName": "Chandler",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3151854,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 191692,
+                    "firstName": "Eliza ",
+                    "lastName": "Ernest ",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2026-03-21T11:01:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 191696,
+                    "firstName": "Katlynn",
+                    "lastName": "Leedle",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2026-03-21T11:04:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3151857": 6,
+                "3151858": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3151857": 6,
+                "3151858": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575964,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3151857,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3151857,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 127339,
+                    "firstName": "Kyra ",
+                    "lastName": "Thomas",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 127340,
+                    "firstName": "Samaara ",
+                    "lastName": "George",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3151858,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149548,
+                    "firstName": "Natalie",
+                    "lastName": "Brown",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169091,
+                    "firstName": "Hope",
+                    "lastName": "Purwadihardja",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": {
+        "id": 786,
+        "bracketType": 16,
+        "name": "MHSAA Regional-2026",
+        "logo": "event_786.png",
+        "eventTypeId": 1
+      }
+    },
+    {
+      "id": 222958,
+      "title": "KLAA B",
+      "meetDateTime": "2026-05-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4142,
+        "firstName": "Jennifer",
+        "lastName": "Wells",
+        "genderId": 2,
+        "email": "salemgirlstennis@pccsk12.com",
+        "phone": "(248) 884-5972",
+        "school": {
+          "name": "Salem",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4284,
+            "name": "Canton",
+            "logo": "school_4284.jpeg",
+            "score": 16,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4142,
+            "name": "Salem",
+            "logo": null,
+            "score": 13,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4050,
+            "name": "Plymouth",
+            "logo": null,
+            "score": 12,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4538,
+            "name": "Belleville",
+            "logo": null,
+            "score": 6,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 5,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4235,
+            "name": "Westland John Glenn",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3130151": 6,
+                "3130152": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130151": 2,
+                "3130152": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3130151": 4,
+                "3130152": 10,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1565111,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130152,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130151,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 129196,
+                    "firstName": "Lydia",
+                    "lastName": "Roberts",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130152,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170050,
+                    "firstName": "Kavya",
+                    "lastName": "Jhaveri",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130157": 6,
+                "3130158": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130157": 6,
+                "3130158": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565114,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130157,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130157,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126436,
+                    "firstName": "Shloka ",
+                    "lastName": "Patel",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130158,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196312,
+                    "firstName": "Eliana",
+                    "lastName": "Hutson",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2026-04-09T14:29:00.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130159": 6,
+                "3130160": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130159": 6,
+                "3130160": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565115,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130159,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130159,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130160,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3130379": 2,
+                "3130380": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130379": 2,
+                "3130380": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565225,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3130379,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130379,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149567,
+                    "firstName": "Lyric",
+                    "lastName": "Kindred",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169435,
+                    "firstName": "Sasha Rose",
+                    "lastName": "Sharper",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130380,
+                "isWinner": false,
+                "players": []
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130389": 2,
+                "3130390": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130389": 2,
+                "3130390": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565230,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3130389,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130389,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195205,
+                    "firstName": "Gianna",
+                    "lastName": "Curd",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T01:09:11.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195207,
+                    "firstName": "LIly",
+                    "lastName": "Brown",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T01:10:17.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130390,
+                "isWinner": false,
+                "players": []
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130397": 2,
+                "3130398": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130397": 2,
+                "3130398": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565234,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3130397,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130397,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171528,
+                    "firstName": "Zaeba ",
+                    "lastName": "Zahid",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195892,
+                    "firstName": "Paige",
+                    "lastName": "Cooper",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2026-04-08T14:59:05.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130398,
+                "isWinner": false,
+                "players": []
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 221282,
+      "title": "Howell Varsity vs. Pinckney",
+      "meetDateTime": "2026-05-01T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4280,
+        "firstName": "Jason ",
+        "lastName": "Lounds",
+        "genderId": 2,
+        "email": "loundsj@howellschools.com",
+        "phone": "(734) 926-5936",
+        "school": {
+          "name": "Howell",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 7,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4207,
+            "name": "Pinckney",
+            "logo": null,
+            "score": 3,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3103853": 6,
+                "3103854": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3103853": 6,
+                "3103854": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1551962,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3103853,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3103853,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3103854,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151183,
+                    "firstName": "Taylor",
+                    "lastName": "Hack",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3103881": 4,
+                "3103882": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3103881": 2,
+                "3103882": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1551976,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3103882,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3103881,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3103882,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150762,
+                    "firstName": "Emily",
+                    "lastName": "Brewer",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3103903": 3,
+                "3103904": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3103903": 7,
+                "3103904": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3103903": 7,
+                "3103904": 4,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1551987,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3103903,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3103903,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195192,
+                    "firstName": "Sophia",
+                    "lastName": "Messner",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:49:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3103904,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 165014,
+                    "firstName": "Ava",
+                    "lastName": "Kaus",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3103943": 6,
+                "3103944": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3103943": 6,
+                "3103944": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1552007,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3103943,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3103943,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195186,
+                    "firstName": "Katie",
+                    "lastName": "Johnston",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:32:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195195,
+                    "firstName": "Paige",
+                    "lastName": "Owens",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3103944,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172640,
+                    "firstName": "Harper",
+                    "lastName": "Henderson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2026-04-10T00:36:48.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 198968,
+                    "firstName": "Laurel",
+                    "lastName": "Germain",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2026-04-28T12:20:11.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3103955": 7,
+                "3103956": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3103955": 6,
+                "3103956": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1552013,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3103955,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3103955,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164293,
+                    "firstName": "Berklee",
+                    "lastName": "Wolfe",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195199,
+                    "firstName": "Kennedy",
+                    "lastName": "Wolfe",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:54:02.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3103956,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151184,
+                    "firstName": "Lauren",
+                    "lastName": "Harteg",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169227,
+                    "firstName": "Kate",
+                    "lastName": "O'Neil",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2026-04-14T16:49:07.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3104005": 6,
+                "3104006": 5,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1552038,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3104005,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3104005,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195193,
+                    "firstName": "Charlotte",
+                    "lastName": "Mullins",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195198,
+                    "firstName": "Addy",
+                    "lastName": "Wasikowski",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:52:58.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3104006,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172641,
+                    "firstName": "Sophia",
+                    "lastName": "Fulton",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2026-04-10T00:39:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 191424,
+                    "firstName": "Annabelle",
+                    "lastName": "Tayon",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4207,
+                    "updatedAt": "2026-03-20T04:02:21.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Pinckney",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 219738,
+      "title": "Howell Varsity vs Canton Varsity",
+      "meetDateTime": "2026-04-28T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4280,
+        "firstName": "Jason ",
+        "lastName": "Lounds",
+        "genderId": 2,
+        "email": "loundsj@howellschools.com",
+        "phone": "(734) 926-5936",
+        "school": {
+          "name": "Howell",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4284,
+            "name": "Canton",
+            "logo": "school_4284.jpeg",
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3069595": 3,
+                "3069596": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069595": 2,
+                "3069596": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534833,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3069596,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069595,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069596,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124220,
+                    "firstName": "Alyssa",
+                    "lastName": "Mocanu",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3069615": 1,
+                "3069616": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069615": 1,
+                "3069616": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534843,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3069616,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069615,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069616,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195650,
+                    "firstName": "Charlotte",
+                    "lastName": "Andrews",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2026-04-08T02:15:20.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3069633": 1,
+                "3069634": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069633": 3,
+                "3069634": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534852,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3069634,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069633,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195192,
+                    "firstName": "Sophia",
+                    "lastName": "Messner",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:49:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069634,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171892,
+                    "firstName": "Jiya",
+                    "lastName": "Patel",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3069677": 6,
+                "3069678": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069677": 6,
+                "3069678": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534874,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3069677,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069677,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195186,
+                    "firstName": "Katie",
+                    "lastName": "Johnston",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:32:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195195,
+                    "firstName": "Paige",
+                    "lastName": "Owens",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069678,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171741,
+                    "firstName": "Julia",
+                    "lastName": "Fenstermacher",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 198334,
+                    "firstName": "Alyssa",
+                    "lastName": "Ajai",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2026-04-20T17:31:17.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3069691": 3,
+                "3069692": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069691": 0,
+                "3069692": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534881,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3069692,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069691,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164293,
+                    "firstName": "Berklee",
+                    "lastName": "Wolfe",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195199,
+                    "firstName": "Kennedy",
+                    "lastName": "Wolfe",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:54:02.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069692,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124228,
+                    "firstName": "Angelina",
+                    "lastName": "Gampala",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 152636,
+                    "firstName": "Eliza",
+                    "lastName": "Mullaademi",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3069719": 0,
+                "3069720": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069719": 0,
+                "3069720": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534895,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3069720,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069719,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195185,
+                    "firstName": "Brianna",
+                    "lastName": "Hood",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:25:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195197,
+                    "firstName": "Ella",
+                    "lastName": "Richard",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:51:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069720,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171223,
+                    "firstName": "Ella ",
+                    "lastName": "Mahmood",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195655,
+                    "firstName": "Ema",
+                    "lastName": "Mullaademi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4284,
+                    "updatedAt": "2026-04-08T02:19:35.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 219350,
+      "title": "Howell @ Hartland",
+      "meetDateTime": "2026-04-23T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4450,
+        "firstName": "Doug",
+        "lastName": "Moffat",
+        "genderId": 2,
+        "email": "moffatdoug@hotmail.com",
+        "phone": "(810) 333-1713",
+        "school": {
+          "name": "Hartland",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4450,
+            "name": "Hartland",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3061715": 6,
+                "3061716": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3061715": 6,
+                "3061716": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1530893,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3061715,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3061715,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126577,
+                    "firstName": "Arianna ",
+                    "lastName": "Kinney",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3061716,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3061717": 6,
+                "3061718": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3061717": 6,
+                "3061718": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1530894,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3061717,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3061717,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149111,
+                    "firstName": "Baylee",
+                    "lastName": "Kotrba",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3061718,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3061721": 6,
+                "3061722": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3061721": 6,
+                "3061722": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1530896,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3061721,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3061721,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168100,
+                    "firstName": "Leda ",
+                    "lastName": "Pantelas",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3061722,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195192,
+                    "firstName": "Sophia",
+                    "lastName": "Messner",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:49:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3061729": 6,
+                "3061730": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3061729": 6,
+                "3061730": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1530900,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3061729,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3061729,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168097,
+                    "firstName": "Daphne ",
+                    "lastName": "Pargulski",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 191692,
+                    "firstName": "Eliza ",
+                    "lastName": "Ernest ",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2026-03-21T11:01:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3061730,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195186,
+                    "firstName": "Katie",
+                    "lastName": "Johnston",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:32:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195195,
+                    "firstName": "Paige",
+                    "lastName": "Owens",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3061731": 6,
+                "3061732": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3061731": 6,
+                "3061732": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1530901,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3061731,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3061731,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168098,
+                    "firstName": "Avery ",
+                    "lastName": "Shaw",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 191696,
+                    "firstName": "Katlynn",
+                    "lastName": "Leedle",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2026-03-21T11:04:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3061732,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164293,
+                    "firstName": "Berklee",
+                    "lastName": "Wolfe",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195199,
+                    "firstName": "Kennedy",
+                    "lastName": "Wolfe",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:54:02.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3061733": 6,
+                "3061734": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3061733": 6,
+                "3061734": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1530902,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3061733,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3061733,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168096,
+                    "firstName": "Stella ",
+                    "lastName": "Kelsey",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 168099,
+                    "firstName": "Maria",
+                    "lastName": "DiMatteo",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4450,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hartland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3061734,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195185,
+                    "firstName": "Brianna",
+                    "lastName": "Hood",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:25:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195198,
+                    "firstName": "Addy",
+                    "lastName": "Wasikowski",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:52:58.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 217968,
+      "title": "Howell Varsity vs. Plymouth Varsity",
+      "meetDateTime": "2026-04-21T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4280,
+        "firstName": "Jason ",
+        "lastName": "Lounds",
+        "genderId": 2,
+        "email": "loundsj@howellschools.com",
+        "phone": "(734) 926-5936",
+        "school": {
+          "name": "Howell",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4050,
+            "name": "Plymouth",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3034791": 7,
+                "3034792": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3034791": 6,
+                "3034792": 7,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3034791": 10,
+                "3034792": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1517431,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3034791,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3034791,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3034792,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126436,
+                    "firstName": "Shloka ",
+                    "lastName": "Patel",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3034795": 0,
+                "3034796": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3034795": 1,
+                "3034796": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1517433,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3034796,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3034795,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3034796,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149547,
+                    "firstName": "Lauren",
+                    "lastName": "Bunch",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3034927": 2,
+                "3034928": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3034927": 5,
+                "3034928": 7,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1517499,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3034928,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3034927,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195192,
+                    "firstName": "Sophia",
+                    "lastName": "Messner",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:49:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3034928,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149546,
+                    "firstName": "Harmony",
+                    "lastName": "Purwadihardja",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3034941": 2,
+                "3034942": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3034941": 2,
+                "3034942": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1517506,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3034942,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3034941,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195186,
+                    "firstName": "Katie",
+                    "lastName": "Johnston",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:32:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195195,
+                    "firstName": "Paige",
+                    "lastName": "Owens",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3034942,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149548,
+                    "firstName": "Natalie",
+                    "lastName": "Brown",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169091,
+                    "firstName": "Hope",
+                    "lastName": "Purwadihardja",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3034967": 3,
+                "3034968": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3034967": 4,
+                "3034968": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1517519,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3034968,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3034967,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164293,
+                    "firstName": "Berklee",
+                    "lastName": "Wolfe",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195199,
+                    "firstName": "Kennedy",
+                    "lastName": "Wolfe",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:54:02.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3034968,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 131140,
+                    "firstName": "Savannah",
+                    "lastName": "Souidan",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 152819,
+                    "firstName": "Kiersten",
+                    "lastName": "Floyd",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3034987": 0,
+                "3034988": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3034987": 0,
+                "3034988": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1517529,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3034988,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3034987,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195197,
+                    "firstName": "Ella",
+                    "lastName": "Richard",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:51:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195198,
+                    "firstName": "Addy",
+                    "lastName": "Wasikowski",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:52:58.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3034988,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169095,
+                    "firstName": "Elena",
+                    "lastName": "Sekula",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169096,
+                    "firstName": "Samaera",
+                    "lastName": "Jassar",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 216965,
+      "title": "Howell",
+      "meetDateTime": "2026-04-17T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 3933,
+        "firstName": "Daniel",
+        "lastName": "Lowes",
+        "genderId": 2,
+        "email": "daniel.lowes@novik12.org",
+        "phone": "(248) 231-4700",
+        "school": {
+          "name": "Novi",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 3933,
+            "name": "Novi",
+            "logo": null,
+            "score": 10,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3015123": 6,
+                "3015124": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3015123": 6,
+                "3015124": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1507597,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3015123,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3015123,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195531,
+                    "firstName": "Alice",
+                    "lastName": "Wang",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2026-04-07T21:37:39.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3015124,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3015127": 6,
+                "3015128": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3015127": 6,
+                "3015128": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1507599,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3015127,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3015127,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 127338,
+                    "firstName": "Rebecca ",
+                    "lastName": "Liu",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3015128,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3015129": 6,
+                "3015130": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3015129": 6,
+                "3015130": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1507600,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3015129,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3015129,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169450,
+                    "firstName": "Tsubasa",
+                    "lastName": "Ishibashi",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3015130,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195192,
+                    "firstName": "Sophia",
+                    "lastName": "Messner",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:49:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3015141": 6,
+                "3015142": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3015141": 6,
+                "3015142": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1507606,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3015141,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3015141,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 127339,
+                    "firstName": "Kyra ",
+                    "lastName": "Thomas",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 127340,
+                    "firstName": "Samaara ",
+                    "lastName": "George",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3015142,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195184,
+                    "firstName": "Maritza",
+                    "lastName": "Coloma",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:24:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195185,
+                    "firstName": "Brianna",
+                    "lastName": "Hood",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:25:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3015145": 6,
+                "3015146": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3015145": 6,
+                "3015146": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1507608,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3015145,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3015145,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147673,
+                    "firstName": "Emily ",
+                    "lastName": "Backus",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169449,
+                    "firstName": "Sruthi",
+                    "lastName": "Karthik",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3015146,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195198,
+                    "firstName": "Addy",
+                    "lastName": "Wasikowski",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:52:58.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 196181,
+                    "firstName": "Sophia",
+                    "lastName": "Honkala",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-09T03:18:16.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3015161": 6,
+                "3015162": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3015161": 6,
+                "3015162": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1507616,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3015161,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3015161,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169451,
+                    "firstName": "Rujuta",
+                    "lastName": "Deshpande",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169455,
+                    "firstName": "Mathanghi",
+                    "lastName": "Ram",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3933,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Novi",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3015162,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195949,
+                    "firstName": "Francesca",
+                    "lastName": "De Falco",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-08T17:26:47.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195950,
+                    "firstName": "Victoria",
+                    "lastName": "Llanos",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-08T17:27:00.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 216224,
+      "title": "Howell Varsity vs Northville Varsity",
+      "meetDateTime": "2026-04-14T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4280,
+        "firstName": "Jason ",
+        "lastName": "Lounds",
+        "genderId": 2,
+        "email": "loundsj@howellschools.com",
+        "phone": "(734) 926-5936",
+        "school": {
+          "name": "Howell",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4337,
+            "name": "Northville",
+            "logo": "school_4337.jpg",
+            "score": 10,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3000457": 0,
+                "3000458": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3000457": 0,
+                "3000458": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3000457": null,
+                "3000458": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1500264,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3000458,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3000457,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3000458,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 193506,
+                    "firstName": "Sophia",
+                    "lastName": "Shipway",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-29T12:35:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3000483": 0,
+                "3000484": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3000483": 0,
+                "3000484": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1500277,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3000484,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3000483,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3000484,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 172241,
+                    "firstName": "Gabrielle",
+                    "lastName": "DesNoyer",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-30T00:08:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3000529": 0,
+                "3000530": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3000529": 0,
+                "3000530": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1500300,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3000530,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3000529,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195192,
+                    "firstName": "Sophia",
+                    "lastName": "Messner",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:49:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3000530,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170518,
+                    "firstName": "Grace",
+                    "lastName": "Xu",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-30T00:04:34.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3000575": 0,
+                "3000576": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3000575": 0,
+                "3000576": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1500323,
+            "flight": "6",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3000576,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3000575,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195183,
+                    "firstName": "Avery",
+                    "lastName": "Breidinger",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:22:17.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195190,
+                    "firstName": "Chloe",
+                    "lastName": "McCormick",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:45:44.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3000576,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146345,
+                    "firstName": "Emma ",
+                    "lastName": "Murphy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-30T00:02:57.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 193505,
+                    "firstName": "Simran",
+                    "lastName": "Bilolikar",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-29T12:35:15.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3000599": 0,
+                "3000600": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3000599": 0,
+                "3000600": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1500335,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3000600,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3000599,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195187,
+                    "firstName": "Khloe",
+                    "lastName": "King",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:33:53.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195193,
+                    "firstName": "Charlotte",
+                    "lastName": "Mullins",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3000600,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 151888,
+                    "firstName": "Sanaaya",
+                    "lastName": "Dhanasri",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-30T00:03:48.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 170520,
+                    "firstName": "Julia",
+                    "lastName": "Jones",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-30T00:05:11.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3000627": 0,
+                "3000628": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3000627": 0,
+                "3000628": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1500349,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3000628,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3000627,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195185,
+                    "firstName": "Brianna",
+                    "lastName": "Hood",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:25:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195198,
+                    "firstName": "Addy",
+                    "lastName": "Wasikowski",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:52:58.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3000628,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124994,
+                    "firstName": "Michelle",
+                    "lastName": "Lee",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-30T00:01:34.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 146345,
+                    "firstName": "Emma ",
+                    "lastName": "Murphy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4337,
+                    "updatedAt": "2026-03-30T00:02:57.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 214909,
+      "title": "Howell Varsity vs Salem Varsity",
+      "meetDateTime": "2026-04-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4280,
+        "firstName": "Jason ",
+        "lastName": "Lounds",
+        "genderId": 2,
+        "email": "loundsj@howellschools.com",
+        "phone": "(734) 926-5936",
+        "school": {
+          "name": "Howell",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4142,
+            "name": "Salem",
+            "logo": null,
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 2,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2975677": 6,
+                "2975678": 3,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "2975677": 10,
+                "2975678": 8,
+                "number": 3,
+                "tie": null
+              },
+              {
+                "2975677": 3,
+                "2975678": 6,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1487874,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2975677,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2975677,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2975678,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170050,
+                    "firstName": "Kavya",
+                    "lastName": "Jhaveri",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2975679": 0,
+                "2975680": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2975679": 0,
+                "2975680": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487875,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2975680,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2975679,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2975680,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 127924,
+                    "firstName": "Apurvasai",
+                    "lastName": "Lakshmanan",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2026-04-12T16:38:33.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2975681": 0,
+                "2975682": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2975681": 0,
+                "2975682": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487876,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2975682,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2975681,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195192,
+                    "firstName": "Sophia",
+                    "lastName": "Messner",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:49:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2975682,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149575,
+                    "firstName": "Natalie",
+                    "lastName": "Artley",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2975693": 0,
+                "2975694": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2975693": 3,
+                "2975694": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487882,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2975694,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2975693,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195186,
+                    "firstName": "Katie",
+                    "lastName": "Johnston",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:32:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195195,
+                    "firstName": "Paige",
+                    "lastName": "Owens",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2975694,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149574,
+                    "firstName": "Charmi",
+                    "lastName": "Patel",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 149577,
+                    "firstName": "Angie",
+                    "lastName": "Crosby",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2975695": 6,
+                "2975696": 3,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "2975695": 4,
+                "2975696": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2975695": 10,
+                "2975696": 4,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1487883,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2975695,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2975695,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164293,
+                    "firstName": "Berklee",
+                    "lastName": "Wolfe",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195199,
+                    "firstName": "Kennedy",
+                    "lastName": "Wolfe",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:54:02.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2975696,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170051,
+                    "firstName": "Haylee ",
+                    "lastName": "Wong",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 170054,
+                    "firstName": "Arya D",
+                    "lastName": "Patel",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2975697": 4,
+                "2975698": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2975697": 2,
+                "2975698": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487884,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2975698,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2975697,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195184,
+                    "firstName": "Maritza",
+                    "lastName": "Coloma",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:24:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195185,
+                    "firstName": "Brianna",
+                    "lastName": "Hood",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:25:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2975698,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195202,
+                    "firstName": "Sarah",
+                    "lastName": "Kastler",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2026-04-07T01:07:58.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195203,
+                    "firstName": "Ashishree",
+                    "lastName": "Patel",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2026-04-07T01:08:27.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 214291,
+      "title": "Howell",
+      "meetDateTime": "2026-04-07T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 3834,
+        "firstName": "Holly",
+        "lastName": "Skelton",
+        "genderId": 2,
+        "email": "hollyaskelton@gmail.com",
+        "phone": "(248) 515-1786",
+        "school": {
+          "name": "Brighton",
+          "logo": "school_3834.png"
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 3834,
+            "name": "Brighton",
+            "logo": "school_3834.png",
+            "score": 10,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2963339": 6,
+                "2963340": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2963339": 6,
+                "2963340": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1481705,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2963339,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2963339,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126858,
+                    "firstName": "Sydney",
+                    "lastName": "Grisamer",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2963340,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2963341": 6,
+                "2963342": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2963341": 6,
+                "2963342": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1481706,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2963341,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2963341,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126861,
+                    "firstName": "Ruby",
+                    "lastName": "Pennala",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2963342,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164285,
+                    "firstName": "Penny",
+                    "lastName": "Mick",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2963343": 6,
+                "2963344": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2963343": 6,
+                "2963344": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1481707,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2963343,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2963343,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 151859,
+                    "firstName": "Irelynd",
+                    "lastName": "Otis",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2963344,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195192,
+                    "firstName": "Sophia",
+                    "lastName": "Messner",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:49:06.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2963367": 6,
+                "2963368": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2963367": 6,
+                "2963368": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1481719,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2963367,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2963367,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126862,
+                    "firstName": "Kadance",
+                    "lastName": "Radwanski Balogh",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 144245,
+                    "firstName": "Claire",
+                    "lastName": "Chandler",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2963368,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195186,
+                    "firstName": "Katie",
+                    "lastName": "Johnston",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:32:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195195,
+                    "firstName": "Paige",
+                    "lastName": "Owens",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:50:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2963369": 6,
+                "2963370": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2963369": 6,
+                "2963370": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1481720,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2963369,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2963369,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169442,
+                    "firstName": "Deeyana",
+                    "lastName": "Babaei",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 171744,
+                    "firstName": "Alexis",
+                    "lastName": "Ainsworth",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2963370,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164293,
+                    "firstName": "Berklee",
+                    "lastName": "Wolfe",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195199,
+                    "firstName": "Kennedy",
+                    "lastName": "Wolfe",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:54:02.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2963371": 6,
+                "2963372": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2963371": 6,
+                "2963372": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1481721,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2963371,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2963371,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 151434,
+                    "firstName": "Kylie ",
+                    "lastName": "Henry",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 188958,
+                    "firstName": "Nora",
+                    "lastName": "O'Malley",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3834,
+                    "updatedAt": "2026-03-13T12:32:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Brighton",
+                      "logo": "school_3834.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2963372,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195184,
+                    "firstName": "Maritza",
+                    "lastName": "Coloma",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:24:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195197,
+                    "firstName": "Ella",
+                    "lastName": "Richard",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T00:51:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    }
+  ]
+}

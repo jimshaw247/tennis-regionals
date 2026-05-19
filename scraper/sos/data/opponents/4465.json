@@ -1,0 +1,5306 @@
+{
+  "school": {
+    "id": 4465,
+    "name": "Dearborn Fordson",
+    "address": "13800 FORD ROAD",
+    "zipCode": "48126",
+    "lowestGrade": "9",
+    "highestGrade": "12",
+    "encryptedUri": null,
+    "expireDate": null,
+    "logo": null,
+    "createdAt": "2020-02-11T06:37:43.000Z",
+    "updatedAt": "2022-09-21T11:52:31.000Z",
+    "deletedAt": null,
+    "cityId": 4568,
+    "city": {
+      "id": 4568,
+      "name": "Dearborn",
+      "stateId": 30,
+      "state": {
+        "name": "Michigan",
+        "abbr": "MI"
+      }
+    }
+  },
+  "coaches": [
+    {
+      "id": 762,
+      "firstName": "Hayat ",
+      "lastName": "Taleb",
+      "address": "13800 Ford Road  Dearborn, MI 48126",
+      "phone": "(313) 247-3989",
+      "email": "talebh@dearbornschools.org",
+      "division": "1",
+      "schoolId": 4465,
+      "genderId": 1
+    },
+    {
+      "id": 1373,
+      "firstName": "Hayat ",
+      "lastName": "Taleb",
+      "address": "13800 Ford Road, Dearborn, MI 48126",
+      "phone": "(313) 247-3989",
+      "email": "talebh@dearbornschools.org",
+      "division": "1",
+      "schoolId": 4465,
+      "genderId": 2
+    }
+  ],
+  "overallRecord": {
+    "win": 0,
+    "loss": 8,
+    "tie": 0
+  },
+  "meets": [
+    {
+      "id": 223561,
+      "title": "Event (MHSAA Regional-2026). Regional 4-West Bloomfield  ",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": true,
+      "approveMeet": true,
+      "eventId": 786,
+      "winnerSchoolId": null,
+      "coach": null,
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 9195,
+            "name": "Bloomfield Hills",
+            "logo": null,
+            "score": 24,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4287,
+            "name": "West Bloomfield",
+            "logo": null,
+            "score": 12,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4350,
+            "name": "Farmington",
+            "logo": null,
+            "score": 10,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4502,
+            "name": "Dearborn",
+            "logo": null,
+            "score": 7,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4388,
+            "name": "Livonia Stevenson",
+            "logo": "school_4388.jpg",
+            "score": 3,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4209,
+            "name": "Dearborn Edsel Ford",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4235,
+            "name": "Westland John Glenn",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3150611": 6,
+                "3150612": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150611": 6,
+                "3150612": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575341,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150611,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150611,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191237,
+                    "firstName": "Alexandra",
+                    "lastName": "Pascarella",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 9195,
+                    "updatedAt": "2026-03-19T21:08:55.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150612,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:46:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150623": 2,
+                "3150624": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150623": 1,
+                "3150624": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575347,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150624,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150623,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150624,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195045,
+                    "firstName": "Kaitlyn \"Kay\"",
+                    "lastName": "Thomas",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:26:17.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150629": 6,
+                "3150630": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150629": 6,
+                "3150630": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575350,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150629,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150629,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146735,
+                    "firstName": "Zahraa",
+                    "lastName": "Marji",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150630,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 130012,
+                    "firstName": "Tori",
+                    "lastName": "Scott",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3150765": 2,
+                "3150766": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150765": 2,
+                "3150766": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575418,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": "Default",
+            "winnerTeamId": 3150765,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150765,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168333,
+                    "firstName": "Ruhi",
+                    "lastName": "Balaji",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 9195,
+                    "updatedAt": "2026-03-19T16:33:18.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 168341,
+                    "firstName": "Madeline",
+                    "lastName": "Baker",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 9195,
+                    "updatedAt": "2026-03-19T16:33:54.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150766,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 152164,
+                    "firstName": "Olivia",
+                    "lastName": "Lind",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-07T16:39:54.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172861,
+                    "firstName": "Layla",
+                    "lastName": "Rivera",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-07T16:58:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150775": 0,
+                "3150776": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150775": 0,
+                "3150776": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575423,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150776,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150775,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150776,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124789,
+                    "firstName": "Gabriela",
+                    "lastName": "Stakvel",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4350,
+                    "updatedAt": "2026-05-03T21:49:17.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 170771,
+                    "firstName": "Aubrey",
+                    "lastName": "Wods",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4350,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150781": 6,
+                "3150782": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150781": 6,
+                "3150782": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575426,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150781,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150781,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 148809,
+                    "firstName": "Sara",
+                    "lastName": "Joyce",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4287,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 170923,
+                    "firstName": "Delaney",
+                    "lastName": "Brager",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4287,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150782,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 128527,
+                    "firstName": "Noelle",
+                    "lastName": "West",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 152368,
+                    "firstName": "Fallynn",
+                    "lastName": "Ellison",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": {
+        "id": 786,
+        "bracketType": 16,
+        "name": "MHSAA Regional-2026",
+        "logo": "event_786.png",
+        "eventTypeId": 1
+      }
+    },
+    {
+      "id": 223168,
+      "title": "Dearborn Fordson",
+      "meetDateTime": "2026-05-07T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4363,
+        "firstName": "Joseph",
+        "lastName": "Patterson",
+        "genderId": 2,
+        "email": "jpatterson@hamtramckschools.org",
+        "phone": "(734) 626-6724",
+        "school": {
+          "name": "Hamtramck",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4363,
+            "name": "Hamtramck",
+            "logo": null,
+            "score": 5,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 3,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3134601": 6,
+                "3134602": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3134601": 6,
+                "3134602": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1567336,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3134601,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134601,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163389,
+                    "firstName": "Farhana ",
+                    "lastName": "Begum",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2026-05-07T13:12:07.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134602,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3134611": 6,
+                "3134612": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3134611": 6,
+                "3134612": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1567341,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3134611,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134611,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163388,
+                    "firstName": "Syeda ",
+                    "lastName": "Mahmud",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134612,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169135,
+                    "firstName": "Mariam",
+                    "lastName": "Bidery",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3134617": 6,
+                "3134618": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3134617": 7,
+                "3134618": 5,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1567344,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3134618,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134617,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163391,
+                    "firstName": "Adiba",
+                    "lastName": "Hossain",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134618,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169133,
+                    "firstName": "Zahraa",
+                    "lastName": "Ridha",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3134650": 6,
+                "3134652": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3134650": 5,
+                "3134652": 7,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3134650": 10,
+                "3134652": 2,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1567361,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3134650,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134650,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163384,
+                    "firstName": "Sadia ",
+                    "lastName": "Aziz ",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 190104,
+                    "firstName": "Fahamida",
+                    "lastName": "Sneha",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2026-03-17T12:43:10.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134652,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3134659": 6,
+                "3134660": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3134659": 4,
+                "3134660": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3134659": 10,
+                "3134660": 5,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1567365,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3134659,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134659,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 190107,
+                    "firstName": "Annamaria",
+                    "lastName": "Premcesici",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2026-03-17T12:48:05.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 190108,
+                    "firstName": "Iefad",
+                    "lastName": "Rimu",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2026-03-17T12:50:34.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134660,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195272,
+                    "firstName": "Layal",
+                    "lastName": "Jamalaldin",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:52:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:58:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3134667": 6,
+                "3134668": 4,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1567369,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3134667,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134667,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 190106,
+                    "firstName": "Sayon",
+                    "lastName": "Chowdhurry",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2026-03-17T12:42:38.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 197093,
+                    "firstName": "Naficha ",
+                    "lastName": "Jahan",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4363,
+                    "updatedAt": "2026-04-14T17:29:11.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Hamtramck",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134668,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172352,
+                    "firstName": "Aneesa",
+                    "lastName": "Alshohatee",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195270,
+                    "firstName": "Aya",
+                    "lastName": "Hammoud",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:50:10.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 220013,
+      "title": "Fordson vs. Churchill",
+      "meetDateTime": "2026-04-28T08:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4465,
+        "firstName": "Hayat ",
+        "lastName": "Taleb",
+        "genderId": 2,
+        "email": "talebh@dearbornschools.org",
+        "phone": "(313) 247-3989",
+        "school": {
+          "name": "Dearborn Fordson",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4210,
+            "name": "Livonia Churchill",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3074373": 1,
+                "3074374": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3074373": 0,
+                "3074374": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1537222,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3074374,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3074373,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3074374,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 165442,
+                    "firstName": "Nora",
+                    "lastName": "Stimac",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3074377": 2,
+                "3074378": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3074377": 1,
+                "3074378": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1537224,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3074378,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3074377,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195272,
+                    "firstName": "Layal",
+                    "lastName": "Jamalaldin",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:52:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3074378,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124099,
+                    "firstName": "Melanie",
+                    "lastName": "Delphia",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3074383": 1,
+                "3074384": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3074383": 1,
+                "3074384": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1537227,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3074384,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3074383,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:46:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3074384,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144929,
+                    "firstName": "Valentina",
+                    "lastName": "Morelli",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3074391": 0,
+                "3074392": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3074391": 0,
+                "3074392": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1537231,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3074392,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3074391,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3074392,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144934,
+                    "firstName": "Anika",
+                    "lastName": "Nielsen",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 165427,
+                    "firstName": "Lauren ",
+                    "lastName": "Svoboda",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3074397": 2,
+                "3074398": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3074397": 0,
+                "3074398": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1537234,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3074398,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3074397,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195268,
+                    "firstName": "Mariam",
+                    "lastName": "Ayul",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:47:48.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:58:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3074398,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144928,
+                    "firstName": "Reagan",
+                    "lastName": "Spurlock",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 165664,
+                    "firstName": "Melia",
+                    "lastName": "Gothro",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2026-05-03T10:37:55.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3074399": 0,
+                "3074400": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3074399": 0,
+                "3074400": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1537235,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3074400,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3074399,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172345,
+                    "firstName": "Laya",
+                    "lastName": "Hachmich",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195270,
+                    "firstName": "Aya",
+                    "lastName": "Hammoud",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:50:10.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3074400,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144932,
+                    "firstName": "Mauie",
+                    "lastName": "Baroro",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 165379,
+                    "firstName": "Chloe",
+                    "lastName": "McDade",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 218235,
+      "title": "Fordson",
+      "meetDateTime": "2026-04-22T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4502,
+        "firstName": "James",
+        "lastName": "Carter",
+        "genderId": 2,
+        "email": "DearbornTennis@aol.com",
+        "phone": "(313) 827-1600",
+        "school": {
+          "name": "Dearborn",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4502,
+            "name": "Dearborn",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3039633": 6,
+                "3039634": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3039633": 6,
+                "3039634": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1519852,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3039633,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3039633,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143471,
+                    "firstName": "Zahraa",
+                    "lastName": "Salmassi",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3039634,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195268,
+                    "firstName": "Mariam",
+                    "lastName": "Ayul",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:47:48.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3039635": 6,
+                "3039636": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3039635": 6,
+                "3039636": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1519853,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3039635,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3039635,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 129199,
+                    "firstName": "Medina",
+                    "lastName": "Faraj",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3039636,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169135,
+                    "firstName": "Mariam",
+                    "lastName": "Bidery",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3039641": 6,
+                "3039642": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3039641": 6,
+                "3039642": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1519856,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3039641,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3039641,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146735,
+                    "firstName": "Zahraa",
+                    "lastName": "Marji",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3039642,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3039655": 6,
+                "3039656": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3039655": 6,
+                "3039656": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1519863,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3039655,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3039655,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143956,
+                    "firstName": "Alora",
+                    "lastName": "Bazzi",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 143958,
+                    "firstName": "Giada",
+                    "lastName": "Gallina",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3039656,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195270,
+                    "firstName": "Aya",
+                    "lastName": "Hammoud",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:50:10.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195271,
+                    "firstName": "Zaineb",
+                    "lastName": "Alshabany",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:51:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3039657": 6,
+                "3039658": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3039657": 6,
+                "3039658": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1519864,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3039657,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3039657,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 165642,
+                    "firstName": "Maha",
+                    "lastName": "Bazzy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 194848,
+                    "firstName": "Julia",
+                    "lastName": "Elzein",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2026-04-04T22:12:58.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3039658,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171050,
+                    "firstName": "Heya ",
+                    "lastName": "Alzayadi",
+                    "grade": "7",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 171051,
+                    "firstName": "Lanzi",
+                    "lastName": "Alzayadi",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3039659": 6,
+                "3039660": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3039659": 6,
+                "3039660": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1519865,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3039659,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3039659,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171448,
+                    "firstName": "Heba",
+                    "lastName": "Mezidawy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 194853,
+                    "firstName": "Sara",
+                    "lastName": "Bazzi",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2026-04-04T22:16:59.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3039660,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195272,
+                    "firstName": "Layal",
+                    "lastName": "Jamalaldin",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:52:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:58:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 219616,
+      "title": "Dearborn Fordson vs. Stevenson",
+      "meetDateTime": "2026-04-21T08:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4465,
+        "firstName": "Hayat ",
+        "lastName": "Taleb",
+        "genderId": 2,
+        "email": "talebh@dearbornschools.org",
+        "phone": "(313) 247-3989",
+        "school": {
+          "name": "Dearborn Fordson",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4388,
+            "name": "Livonia Stevenson",
+            "logo": "school_4388.jpg",
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3067437": 0,
+                "3067438": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3067437": 0,
+                "3067438": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1533754,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3067438,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3067437,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151039,
+                    "firstName": "Aya",
+                    "lastName": "Saad",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3067438,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169052,
+                    "firstName": "Charley",
+                    "lastName": "Lamarand",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:24:43.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3067441": 0,
+                "3067442": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3067441": 1,
+                "3067442": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1533756,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3067442,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3067441,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169133,
+                    "firstName": "Zahraa",
+                    "lastName": "Ridha",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3067442,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 165701,
+                    "firstName": "Camila (Max)",
+                    "lastName": "Gord",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-12T15:49:24.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3067449": 2,
+                "3067450": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3067449": 2,
+                "3067450": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1533760,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3067450,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3067449,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3067450,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195039,
+                    "firstName": "Jocelyn",
+                    "lastName": "Letts",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:25:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3067457": 0,
+                "3067458": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3067457": 0,
+                "3067458": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1533764,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3067458,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3067457,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169135,
+                    "firstName": "Mariam",
+                    "lastName": "Bidery",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195271,
+                    "firstName": "Zaineb",
+                    "lastName": "Alshabany",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:51:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3067458,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 152164,
+                    "firstName": "Olivia",
+                    "lastName": "Lind",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-07T16:39:54.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 172861,
+                    "firstName": "Layla",
+                    "lastName": "Rivera",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-07T16:58:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3067463": 1,
+                "3067464": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3067463": 0,
+                "3067464": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1533767,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3067464,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3067463,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195268,
+                    "firstName": "Mariam",
+                    "lastName": "Ayul",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:47:48.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:58:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3067464,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195036,
+                    "firstName": "Jalyse-Marie \"Jalyse\" ",
+                    "lastName": " \tBest",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:25:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195043,
+                    "firstName": "Abigayle Virginia \"Abby\"",
+                    "lastName": "Rausch",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:26:03.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3067469": 1,
+                "3067470": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3067469": 2,
+                "3067470": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1533770,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3067470,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3067469,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195270,
+                    "firstName": "Aya",
+                    "lastName": "Hammoud",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:50:10.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195272,
+                    "firstName": "Layal",
+                    "lastName": "Jamalaldin",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:52:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3067470,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195042,
+                    "firstName": "Diarra",
+                    "lastName": "Mbow",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:25:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195046,
+                    "firstName": "Amiah Marie \"Miah\"",
+                    "lastName": "Washington",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:26:25.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 216825,
+      "title": "Franklin vs. Fordson",
+      "meetDateTime": "2026-04-14T08:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4465,
+        "firstName": "Hayat ",
+        "lastName": "Taleb",
+        "genderId": 2,
+        "email": "talebh@dearbornschools.org",
+        "phone": "(313) 247-3989",
+        "school": {
+          "name": "Dearborn Fordson",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4115,
+            "name": "Livonia Franklin",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3064587": 0,
+                "3064588": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3064587": 0,
+                "3064588": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1532329,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3064588,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3064587,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151039,
+                    "firstName": "Aya",
+                    "lastName": "Saad",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3064588,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130893,
+                    "firstName": "Sara",
+                    "lastName": "Teodor",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3064591": 3,
+                "3064592": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3064591": 2,
+                "3064592": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1532331,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3064592,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3064591,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3064592,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130939,
+                    "firstName": "Aaliyah ",
+                    "lastName": "Scott",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3064593": 0,
+                "3064594": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3064593": 0,
+                "3064594": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1532332,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3064594,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3064593,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:46:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3064594,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147466,
+                    "firstName": "Aspen",
+                    "lastName": "Fabian",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3064597": 0,
+                "3064598": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3064597": 0,
+                "3064598": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1532334,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3064598,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3064597,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195271,
+                    "firstName": "Zaineb",
+                    "lastName": "Alshabany",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:51:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:58:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3064598,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 131755,
+                    "firstName": "Ayda",
+                    "lastName": "Gharibi",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 152807,
+                    "firstName": "Megan",
+                    "lastName": "Madden",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3064599": 2,
+                "3064600": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3064599": 0,
+                "3064600": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1532335,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3064600,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3064599,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3064600,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170505,
+                    "firstName": "Olivia ",
+                    "lastName": "Heitzman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195160,
+                    "firstName": "Carlin",
+                    "lastName": "Madison",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2026-04-06T21:32:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3064601": 0,
+                "3064602": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3064601": 0,
+                "3064602": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1532336,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3064602,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3064601,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172345,
+                    "firstName": "Laya",
+                    "lastName": "Hachmich",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 198573,
+                    "firstName": "Salma",
+                    "lastName": "Tabaja",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-22T22:31:43.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3064602,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169852,
+                    "firstName": "Selena",
+                    "lastName": "Yzo",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195159,
+                    "firstName": "Jillian",
+                    "lastName": "Friedman",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2026-04-06T21:27:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 216080,
+      "title": "Fordson Vs. Garden City",
+      "meetDateTime": "2026-04-13T08:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4465,
+        "firstName": "Hayat ",
+        "lastName": "Taleb",
+        "genderId": 2,
+        "email": "talebh@dearbornschools.org",
+        "phone": "(313) 247-3989",
+        "school": {
+          "name": "Dearborn Fordson",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4529,
+            "name": "Garden City",
+            "logo": null,
+            "score": 6,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 3,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2996653": 0,
+                "2996654": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2996653": 0,
+                "2996654": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1498362,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2996654,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2996653,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195271,
+                    "firstName": "Zaineb",
+                    "lastName": "Alshabany",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:51:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2996654,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147228,
+                    "firstName": "Nour",
+                    "lastName": "El-Moussawi",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2996655": 0,
+                "2996656": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2996655": 0,
+                "2996656": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1498363,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2996656,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2996655,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:46:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2996656,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147224,
+                    "firstName": "Kaleigh",
+                    "lastName": "Hogan",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3012493": 1,
+                "3012494": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3012493": 1,
+                "3012494": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1506282,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3012494,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3012493,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169133,
+                    "firstName": "Zahraa",
+                    "lastName": "Ridha",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3012494,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 197617,
+                    "firstName": "Meriam",
+                    "lastName": "El Moussawi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2026-05-13T23:31:55.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3012505": 4,
+                "3012506": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3012505": 3,
+                "3012506": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1506288,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3012506,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3012505,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195272,
+                    "firstName": "Layal",
+                    "lastName": "Jamalaldin",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:52:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:58:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3012506,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164045,
+                    "firstName": "Marissa",
+                    "lastName": "Kane",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 164046,
+                    "firstName": "Kailyn",
+                    "lastName": "Schubring",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3012509": 3,
+                "3012510": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3012509": 2,
+                "3012510": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1506290,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3012510,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3012509,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3012510,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147225,
+                    "firstName": "Lisseth",
+                    "lastName": "Argueta Segovia",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 197626,
+                    "firstName": "Kendell",
+                    "lastName": "King",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2026-04-14T22:35:40.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3012515": 2,
+                "3012516": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3012515": 2,
+                "3012516": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1506293,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3012516,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3012515,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169138,
+                    "firstName": "Lana",
+                    "lastName": "Jawhar",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 171050,
+                    "firstName": "Heya ",
+                    "lastName": "Alzayadi",
+                    "grade": "7",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3012516,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147231,
+                    "firstName": "Rana",
+                    "lastName": "Dbouk",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 164043,
+                    "firstName": "Vivian ",
+                    "lastName": "Egop",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4529,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Garden City",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 214865,
+      "title": "Fordson vs Wayne Memorial",
+      "meetDateTime": "2026-04-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 3884,
+        "firstName": "Gwen",
+        "lastName": "Fretenborough",
+        "genderId": 2,
+        "email": "fretenboroughg@wwcsd.net",
+        "phone": "(313) 247-9785",
+        "school": {
+          "name": "Wayne Memorial",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 7,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 2,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2974775": 6,
+                "2974776": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974775": 6,
+                "2974776": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487423,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2974775,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974775,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974776,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195271,
+                    "firstName": "Zaineb",
+                    "lastName": "Alshabany",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:51:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2974783": 6,
+                "2974784": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974783": 6,
+                "2974784": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487427,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2974783,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974783,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974784,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195268,
+                    "firstName": "Mariam",
+                    "lastName": "Ayul",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:47:48.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2974787": 6,
+                "2974788": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974787": 6,
+                "2974788": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487429,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2974787,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974787,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126965,
+                    "firstName": "Makenna",
+                    "lastName": "Painter",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974788,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:46:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2974795": 7,
+                "2974796": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974795": 7,
+                "2974796": 5,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "2974795": 10,
+                "2974796": 7,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1487433,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2974795,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974795,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974796,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169135,
+                    "firstName": "Mariam",
+                    "lastName": "Bidery",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2974817": 1,
+                "2974818": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974817": 3,
+                "2974818": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487444,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2974818,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974817,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169426,
+                    "firstName": "Tonya ",
+                    "lastName": "Edwards",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974818,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2974825": 6,
+                "2974826": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974825": 6,
+                "2974826": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487448,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2974825,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974825,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974826,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195272,
+                    "firstName": "Layal",
+                    "lastName": "Jamalaldin",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:52:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:58:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 215884,
+      "title": "Fordson at Belleville",
+      "meetDateTime": "2026-04-07T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4538,
+        "firstName": "Andrea",
+        "lastName": "Sprague",
+        "genderId": 2,
+        "email": "asprague@vanburenschools.net",
+        "phone": "(734) 223-0263",
+        "school": {
+          "name": "Belleville",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4538,
+            "name": "Belleville",
+            "logo": null,
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2991805": 6,
+                "2991806": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2991805": 6,
+                "2991806": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1495938,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2991805,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2991805,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 129196,
+                    "firstName": "Lydia",
+                    "lastName": "Roberts",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2991806,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151039,
+                    "firstName": "Aya",
+                    "lastName": "Saad",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2991807": 6,
+                "2991808": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2991807": 6,
+                "2991808": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1495939,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2991807,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2991807,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147288,
+                    "firstName": "Sarah",
+                    "lastName": "Alrawas",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2991808,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:46:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2991809": 6,
+                "2991810": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2991809": 6,
+                "2991810": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1495940,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2991809,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2991809,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164313,
+                    "firstName": "Matea",
+                    "lastName": "Murray",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2991810,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2991825": 6,
+                "2991826": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2991825": 6,
+                "2991826": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1495948,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2991825,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2991825,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147289,
+                    "firstName": "Emma",
+                    "lastName": "Garcia",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 164303,
+                    "firstName": "Angel ",
+                    "lastName": "Field Laster",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2991826,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2991827": 6,
+                "2991828": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2991827": 6,
+                "2991828": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1495949,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2991827,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2991827,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168503,
+                    "firstName": "Khloe",
+                    "lastName": "Krueger",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195282,
+                    "firstName": "Zoe",
+                    "lastName": "Grullon",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2026-04-07T12:11:12.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2991828,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169135,
+                    "firstName": "Mariam",
+                    "lastName": "Bidery",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195271,
+                    "firstName": "Zaineb",
+                    "lastName": "Alshabany",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:51:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2991829": 6,
+                "2991830": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2991829": 6,
+                "2991830": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1495950,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2991829,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2991829,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 151395,
+                    "firstName": "Rylee",
+                    "lastName": "Ayrhart",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 168505,
+                    "firstName": "Nidianny",
+                    "lastName": "Grullon",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2026-04-07T12:14:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2991830,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171050,
+                    "firstName": "Heya ",
+                    "lastName": "Alzayadi",
+                    "grade": "7",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 171051,
+                    "firstName": "Lanzi",
+                    "lastName": "Alzayadi",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    }
+  ]
+}

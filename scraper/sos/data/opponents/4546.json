@@ -1,0 +1,4153 @@
+{
+  "school": {
+    "id": 4546,
+    "name": "Lansing Sexton",
+    "address": "102 S. MCPHERSON AVENUE",
+    "zipCode": "48915",
+    "lowestGrade": "9",
+    "highestGrade": "12",
+    "encryptedUri": null,
+    "expireDate": null,
+    "logo": null,
+    "createdAt": "2020-02-11T06:37:46.000Z",
+    "updatedAt": "2022-09-21T12:01:35.000Z",
+    "deletedAt": null,
+    "cityId": 9887,
+    "city": {
+      "id": 9887,
+      "name": "Lansing",
+      "stateId": 30,
+      "state": {
+        "name": "Michigan",
+        "abbr": "MI"
+      }
+    }
+  },
+  "coaches": [
+    {
+      "id": 4728,
+      "firstName": "Michelle",
+      "lastName": "Dorshimer",
+      "address": "10568 Pryor rd",
+      "phone": "(517) 614-6512",
+      "email": "michelle.dorsh@gmail.com",
+      "division": "Blue",
+      "schoolId": 4546,
+      "genderId": 2
+    }
+  ],
+  "overallRecord": {
+    "win": 0,
+    "loss": 5,
+    "tie": 0
+  },
+  "meets": [
+    {
+      "id": 223701,
+      "title": "Event (MHSAA Regional-2026). Regional 8-Holt  ",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": true,
+      "approveMeet": true,
+      "eventId": 786,
+      "winnerSchoolId": null,
+      "coach": null,
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 3887,
+            "name": "Portage Central",
+            "logo": null,
+            "score": 19,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4371,
+            "name": "Okemos",
+            "logo": null,
+            "score": 16,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4527,
+            "name": "Holt",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4165,
+            "name": "Kalamazoo Central",
+            "logo": null,
+            "score": 8,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 3980,
+            "name": "Grand Blanc",
+            "logo": "school_3980.png",
+            "score": 6,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4229,
+            "name": "Saginaw Heritage",
+            "logo": null,
+            "score": 4,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4424,
+            "name": "Kalamazoo Loy Norrix",
+            "logo": null,
+            "score": 2,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4391,
+            "name": "Grand Ledge",
+            "logo": "school_4391.png",
+            "score": 0,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4546,
+            "name": "Lansing Sexton",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3154459": 2,
+                "3154460": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154459": 2,
+                "3154460": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577265,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 3154459,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154459,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125032,
+                    "firstName": "Lillyana",
+                    "lastName": "Lawler",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4229,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Saginaw Heritage",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154460,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149435,
+                    "firstName": "LoRenya",
+                    "lastName": "Estrada-Robles",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154467": 6,
+                "3154468": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154467": 6,
+                "3154468": 0,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3154467": null,
+                "3154468": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1577269,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154467,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154467,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146970,
+                    "firstName": "Isabella",
+                    "lastName": "Portnoy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4371,
+                    "updatedAt": "2026-04-30T17:59:38.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154468,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 125032,
+                    "firstName": "Lillyana",
+                    "lastName": "Lawler",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4229,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Saginaw Heritage",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154471": 6,
+                "3154472": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154471": 6,
+                "3154472": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577271,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154471,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154471,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163141,
+                    "firstName": "Jenna",
+                    "lastName": "Itawi",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4424,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Kalamazoo Loy Norrix",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154472,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 146446,
+                    "firstName": "Jay",
+                    "lastName": "Sandu",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3154639": 2,
+                "3154640": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154639": 2,
+                "3154640": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3154639": null,
+                "3154640": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1577355,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154640,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154639,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 168239,
+                    "firstName": "Anaya",
+                    "lastName": "Patel",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4371,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 168240,
+                    "firstName": "Nishika",
+                    "lastName": "Subesh",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4371,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154640,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169911,
+                    "firstName": "Genevieve",
+                    "lastName": "Carroll",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4165,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169917,
+                    "firstName": "Leah",
+                    "lastName": "Kucharzyk",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4165,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154647": 2,
+                "3154648": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154647": 3,
+                "3154648": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3154647": null,
+                "3154648": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1577359,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154648,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154647,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 125034,
+                    "firstName": "Maggie ",
+                    "lastName": "Lelo",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4229,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Saginaw Heritage",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 167504,
+                    "firstName": "Tarynn",
+                    "lastName": "Sierocki",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4229,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Saginaw Heritage",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154648,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169911,
+                    "firstName": "Genevieve",
+                    "lastName": "Carroll",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4165,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169917,
+                    "firstName": "Leah",
+                    "lastName": "Kucharzyk",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4165,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154649": 6,
+                "3154650": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154649": 6,
+                "3154650": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577360,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154649,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154649,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143560,
+                    "firstName": "Maya",
+                    "lastName": "Gutshall",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3887,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 143567,
+                    "firstName": "Julia",
+                    "lastName": "Rypma",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3887,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154650,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197025,
+                    "firstName": "Martalaynar",
+                    "lastName": "Meh",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:55:12.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 197027,
+                    "firstName": "Esther",
+                    "lastName": "Cim",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T17:01:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": {
+        "id": 786,
+        "bracketType": 16,
+        "name": "MHSAA Regional-2026",
+        "logo": "event_786.png",
+        "eventTypeId": 1
+      }
+    },
+    {
+      "id": 222251,
+      "title": "CAAC Blue Tournament ",
+      "meetDateTime": "2026-05-06T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4391,
+        "firstName": "Jeff",
+        "lastName": "Darden",
+        "genderId": 2,
+        "email": "dardenj@glcomets.net",
+        "phone": "(517) 331-2373",
+        "school": {
+          "name": "Grand Ledge",
+          "logo": "school_4391.png"
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4371,
+            "name": "Okemos",
+            "logo": null,
+            "score": 16,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4163,
+            "name": "East Lansing",
+            "logo": null,
+            "score": 15,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 3878,
+            "name": "Dewitt",
+            "logo": null,
+            "score": 13,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4527,
+            "name": "Holt",
+            "logo": null,
+            "score": 12,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4391,
+            "name": "Grand Ledge",
+            "logo": "school_4391.png",
+            "score": 8,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4011,
+            "name": "Lansing Waverly",
+            "logo": null,
+            "score": 5,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4546,
+            "name": "Lansing Sexton",
+            "logo": null,
+            "score": 2,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3117687": 6,
+                "3117688": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3117687": 6,
+                "3117688": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558879,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3117687,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3117687,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146446,
+                    "firstName": "Jay",
+                    "lastName": "Sandu",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3117688,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126525,
+                    "firstName": "Taylor",
+                    "lastName": "Pung",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:28:11.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3117697": 6,
+                "3117698": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3117697": 6,
+                "3117698": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558884,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3117697,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3117697,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 140621,
+                    "firstName": "Maddie",
+                    "lastName": "Utrup",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3117698,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149054,
+                    "firstName": "Charisse",
+                    "lastName": "Wolfe",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3117727": 6,
+                "3117728": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3117727": 6,
+                "3117728": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558899,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3117727,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3117727,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146970,
+                    "firstName": "Isabella",
+                    "lastName": "Portnoy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4371,
+                    "updatedAt": "2026-04-30T17:59:38.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3117728,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149435,
+                    "firstName": "LoRenya",
+                    "lastName": "Estrada-Robles",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3118395": 3,
+                "3118396": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3118395": 2,
+                "3118396": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1559233,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3118396,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3118395,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150802,
+                    "firstName": "Emmerson",
+                    "lastName": "Martin",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:26:40.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 167188,
+                    "firstName": "Mia",
+                    "lastName": "Grass",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3118396,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130076,
+                    "firstName": "Maddy",
+                    "lastName": "Gleason",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195533,
+                    "firstName": "Celia",
+                    "lastName": "Hardy ",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2026-04-09T13:46:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3118419": 6,
+                "3118420": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3118419": 6,
+                "3118420": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1559245,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3118419,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3118419,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 140620,
+                    "firstName": "Amanda",
+                    "lastName": "Mickelson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 162412,
+                    "firstName": "Natalie",
+                    "lastName": "Clacko",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3118420,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197025,
+                    "firstName": "Martalaynar",
+                    "lastName": "Meh",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:55:12.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 197027,
+                    "firstName": "Esther",
+                    "lastName": "Cim",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T17:01:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3118435": 0,
+                "3118436": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3118435": 0,
+                "3118436": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1559253,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3118436,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3118435,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151902,
+                    "firstName": "Isenadine",
+                    "lastName": "Justin",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2026-03-26T02:54:07.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 164994,
+                    "firstName": "Katherine",
+                    "lastName": "Quirch-Mendoza",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3118436,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168239,
+                    "firstName": "Anaya",
+                    "lastName": "Patel",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4371,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 168240,
+                    "firstName": "Nishika",
+                    "lastName": "Subesh",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4371,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 220297,
+      "title": "Lansing @ DeWitt",
+      "meetDateTime": "2026-04-30T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 3878,
+        "firstName": "Michael",
+        "lastName": "Hitchcock",
+        "genderId": 2,
+        "email": "mhitchcock101@yahoo.com",
+        "phone": "(810) 348-6641",
+        "school": {
+          "name": "Dewitt",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 3878,
+            "name": "Dewitt",
+            "logo": null,
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4546,
+            "name": "Lansing Sexton",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3079875": 6,
+                "3079876": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3079875": 6,
+                "3079876": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1539973,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3079875,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3079875,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 140621,
+                    "firstName": "Maddie",
+                    "lastName": "Utrup",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3079876,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149435,
+                    "firstName": "LoRenya",
+                    "lastName": "Estrada-Robles",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3079877": 6,
+                "3079878": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3079877": 6,
+                "3079878": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1539974,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3079877,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3079877,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 173170,
+                    "firstName": "Avery",
+                    "lastName": "Linton",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3079878,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149436,
+                    "firstName": "Madison",
+                    "lastName": "Major",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3079879": 6,
+                "3079880": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3079879": 6,
+                "3079880": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1539975,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3079879,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3079879,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191755,
+                    "firstName": "Kendal ",
+                    "lastName": "Bennett",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2026-03-22T00:44:25.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3079880,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171495,
+                    "firstName": "Arely",
+                    "lastName": "Hernandez",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3079923": 6,
+                "3079924": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3079923": 6,
+                "3079924": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1539997,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3079923,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3079923,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 140620,
+                    "firstName": "Amanda",
+                    "lastName": "Mickelson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 162412,
+                    "firstName": "Natalie",
+                    "lastName": "Clacko",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3079924,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197025,
+                    "firstName": "Martalaynar",
+                    "lastName": "Meh",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:55:12.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 197027,
+                    "firstName": "Esther",
+                    "lastName": "Cim",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T17:01:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3079925": 6,
+                "3079926": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3079925": 6,
+                "3079926": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1539998,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3079925,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3079925,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 140617,
+                    "firstName": "Adolie",
+                    "lastName": "Holt",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 140619,
+                    "firstName": "Cassity",
+                    "lastName": "Kirkham",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3079926,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171494,
+                    "firstName": "Elizabeth ",
+                    "lastName": "Dim",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 197026,
+                    "firstName": "Palesa",
+                    "lastName": "Makawa ",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:56:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3079927": 6,
+                "3079928": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3079927": 6,
+                "3079928": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1539999,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3079927,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3079927,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 162414,
+                    "firstName": "Claire ",
+                    "lastName": "Thomas",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 199275,
+                    "firstName": "Zoe",
+                    "lastName": "Christodoulus",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3878,
+                    "updatedAt": "2026-04-30T21:17:01.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dewitt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3079928,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149446,
+                    "firstName": "Manjila",
+                    "lastName": "Gurung",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 171489,
+                    "firstName": "Rebecca",
+                    "lastName": "Estrada-Orta",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 219902,
+      "title": "Lansing Sexton @ Holt ",
+      "meetDateTime": "2026-04-28T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4527,
+        "firstName": "Russell",
+        "lastName": "Olcheske",
+        "genderId": 2,
+        "email": "rolchesk@hpsk12.net",
+        "phone": "(616) 780-0650",
+        "school": {
+          "name": "Holt",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4527,
+            "name": "Holt",
+            "logo": null,
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4546,
+            "name": "Lansing Sexton",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3072295": 6,
+                "3072296": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3072295": 6,
+                "3072296": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1536183,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3072295,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3072295,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146446,
+                    "firstName": "Jay",
+                    "lastName": "Sandu",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3072296,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149435,
+                    "firstName": "LoRenya",
+                    "lastName": "Estrada-Robles",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3072305": 6,
+                "3072306": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3072305": 6,
+                "3072306": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1536188,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3072305,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3072305,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146447,
+                    "firstName": "Maddie",
+                    "lastName": "Brady",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3072306,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149436,
+                    "firstName": "Madison",
+                    "lastName": "Major",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3072311": 2,
+                "3072312": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3072311": 2,
+                "3072312": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1536191,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3072311,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3072311,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195532,
+                    "firstName": "Lydia",
+                    "lastName": "George",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2026-04-09T13:46:20.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3072312,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 199114,
+                    "firstName": "default",
+                    "lastName": "default",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-29T11:30:57.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3072315": 6,
+                "3072316": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3072315": 6,
+                "3072316": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1536193,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3072315,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3072315,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130076,
+                    "firstName": "Maddy",
+                    "lastName": "Gleason",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195533,
+                    "firstName": "Celia",
+                    "lastName": "Hardy ",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2026-04-09T13:46:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3072316,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171489,
+                    "firstName": "Rebecca",
+                    "lastName": "Estrada-Orta",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 197027,
+                    "firstName": "Esther",
+                    "lastName": "Cim",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T17:01:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3072329": 6,
+                "3072330": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3072329": 6,
+                "3072330": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1536200,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3072329,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3072329,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130074,
+                    "firstName": "Amelia",
+                    "lastName": "Ernst",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 146451,
+                    "firstName": "Gabrielle",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3072330,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197026,
+                    "firstName": "Palesa",
+                    "lastName": "Makawa ",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:56:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 199115,
+                    "firstName": "Sara ",
+                    "lastName": "??",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-29T11:33:31.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3072333": 2,
+                "3072334": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3072333": 2,
+                "3072334": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1536202,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3072333,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3072333,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170457,
+                    "firstName": "Ema",
+                    "lastName": "Cadwell",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 170459,
+                    "firstName": "Jocelyn",
+                    "lastName": "Wilson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4527,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3072334,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 199114,
+                    "firstName": "default",
+                    "lastName": "default",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-29T11:30:57.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 199116,
+                    "firstName": "default",
+                    "lastName": "default",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-29T11:34:41.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 218461,
+      "title": "Waverly @ Sexton/Everett",
+      "meetDateTime": "2026-04-21T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4546,
+        "firstName": "Michelle",
+        "lastName": "Dorshimer",
+        "genderId": 2,
+        "email": "michelle.dorsh@gmail.com",
+        "phone": "(517) 614-6512",
+        "school": {
+          "name": "Lansing Sexton",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4011,
+            "name": "Lansing Waverly",
+            "logo": null,
+            "score": 5,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4546,
+            "name": "Lansing Sexton",
+            "logo": null,
+            "score": 2,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3043709": 0,
+                "3043710": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3043709": 0,
+                "3043710": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1521890,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 3043710,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3043709,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197024,
+                    "firstName": "Victoria",
+                    "lastName": "Smith",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:49:34.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3043710,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164993,
+                    "firstName": "Camryn",
+                    "lastName": "Murray",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3044535": 0,
+                "3044536": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3044535": 2,
+                "3044536": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1522303,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3044536,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3044535,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171495,
+                    "firstName": "Arely",
+                    "lastName": "Hernandez",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3044536,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164984,
+                    "firstName": "Kali",
+                    "lastName": "Vang",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3044539": 4,
+                "3044540": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3044539": 6,
+                "3044540": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3044539": 3,
+                "3044540": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1522305,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3044540,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3044539,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149435,
+                    "firstName": "LoRenya",
+                    "lastName": "Estrada-Robles",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3044540,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149054,
+                    "firstName": "Charisse",
+                    "lastName": "Wolfe",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3044547": 6,
+                "3044548": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3044547": 6,
+                "3044548": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1522309,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3044547,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3044547,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 197025,
+                    "firstName": "Martalaynar",
+                    "lastName": "Meh",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:55:12.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 197027,
+                    "firstName": "Esther",
+                    "lastName": "Cim",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T17:01:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3044548,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151393,
+                    "firstName": "Mia",
+                    "lastName": "Hood",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 197641,
+                    "firstName": "Sophia ",
+                    "lastName": "Mukambilwa ",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2026-04-15T00:11:41.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3044553": 6,
+                "3044554": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3044553": 7,
+                "3044554": 5,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1522312,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3044553,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3044553,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171494,
+                    "firstName": "Elizabeth ",
+                    "lastName": "Dim",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 197026,
+                    "firstName": "Palesa",
+                    "lastName": "Makawa ",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:56:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3044554,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151393,
+                    "firstName": "Mia",
+                    "lastName": "Hood",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 197641,
+                    "firstName": "Sophia ",
+                    "lastName": "Mukambilwa ",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2026-04-15T00:11:41.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3044561": 3,
+                "3044562": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3044561": 1,
+                "3044562": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1522316,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3044562,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3044561,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149446,
+                    "firstName": "Manjila",
+                    "lastName": "Gurung",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 171489,
+                    "firstName": "Rebecca",
+                    "lastName": "Estrada-Orta",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3044562,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126423,
+                    "firstName": "Amya",
+                    "lastName": "Olds",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 164989,
+                    "firstName": "Brooklyn",
+                    "lastName": "Osiuex-Jackson",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4011,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Waverly",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 216465,
+      "title": "Sexton/Everett",
+      "meetDateTime": "2026-04-14T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4391,
+        "firstName": "Jeff",
+        "lastName": "Darden",
+        "genderId": 2,
+        "email": "dardenj@glcomets.net",
+        "phone": "(517) 331-2373",
+        "school": {
+          "name": "Grand Ledge",
+          "logo": "school_4391.png"
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4391,
+            "name": "Grand Ledge",
+            "logo": "school_4391.png",
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4546,
+            "name": "Lansing Sexton",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3005391": 6,
+                "3005392": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3005391": 6,
+                "3005392": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1502731,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3005391,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3005391,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126522,
+                    "firstName": "Allison",
+                    "lastName": "Mead",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:28:44.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3005392,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149435,
+                    "firstName": "LoRenya",
+                    "lastName": "Estrada-Robles",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3005395": 6,
+                "3005396": 0,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3005395": 6,
+                "3005396": 0,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1502733,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3005395,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3005395,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146424,
+                    "firstName": "Harshini",
+                    "lastName": "Meenakshi Sundarum",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:27:25.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3005396,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149436,
+                    "firstName": "Madison",
+                    "lastName": "Major",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3005399": 6,
+                "3005400": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3005399": 6,
+                "3005400": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1502735,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3005399,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3005399,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150799,
+                    "firstName": "Audrey",
+                    "lastName": "Tokar",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:26:53.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3005400,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171495,
+                    "firstName": "Arely",
+                    "lastName": "Hernandez",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3005457": 2,
+                "3005458": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3005457": 2,
+                "3005458": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1502764,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": "Default",
+            "winnerTeamId": 3005457,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3005457,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150802,
+                    "firstName": "Emmerson",
+                    "lastName": "Martin",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:26:40.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 167188,
+                    "firstName": "Mia",
+                    "lastName": "Grass",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3005458,
+                "isWinner": false,
+                "players": []
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3005467": 6,
+                "3005468": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3005467": 6,
+                "3005468": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1502769,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3005467,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3005467,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191806,
+                    "firstName": "Anushka",
+                    "lastName": "Zinzuvadia",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:20:29.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 191808,
+                    "firstName": "Aundrea",
+                    "lastName": "Ries",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:22:34.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3005468,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171494,
+                    "firstName": "Elizabeth ",
+                    "lastName": "Dim",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 197026,
+                    "firstName": "Palesa",
+                    "lastName": "Makawa ",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:56:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3005473": 6,
+                "3005474": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3005473": 6,
+                "3005474": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1502772,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3005473,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3005473,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126520,
+                    "firstName": "Erin",
+                    "lastName": "McGinnis",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:29:13.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 149253,
+                    "firstName": "Emmeleigh",
+                    "lastName": "Whiddon",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4391,
+                    "updatedAt": "2026-03-22T15:27:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3005474,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149446,
+                    "firstName": "Manjila",
+                    "lastName": "Gurung",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 171489,
+                    "firstName": "Rebecca",
+                    "lastName": "Estrada-Orta",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 214943,
+      "title": "East Lansing vs. Lansing Everett",
+      "meetDateTime": "2026-04-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4163,
+        "firstName": "Cosette",
+        "lastName": "Buckberry",
+        "genderId": 2,
+        "email": "cbuckberry1@gmail.com",
+        "phone": "(517) 648-4868",
+        "school": {
+          "name": "East Lansing",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4163,
+            "name": "East Lansing",
+            "logo": null,
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4546,
+            "name": "Lansing Sexton",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2976759": 6,
+                "2976760": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2976759": 6,
+                "2976760": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1488415,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2976759,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2976759,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170902,
+                    "firstName": "Ani",
+                    "lastName": "Meghea",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2976760,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149435,
+                    "firstName": "LoRenya",
+                    "lastName": "Estrada-Robles",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2976765": 2,
+                "2976766": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2976765": 2,
+                "2976766": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1488418,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 2976765,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2976765,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 192572,
+                    "firstName": "Sonja",
+                    "lastName": "Stokstad",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2026-04-04T20:17:20.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2976766,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149436,
+                    "firstName": "Madison",
+                    "lastName": "Major",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2976777": 6,
+                "2976778": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2976777": 6,
+                "2976778": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1488424,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2976777,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2976777,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170911,
+                    "firstName": "Eleanna",
+                    "lastName": "Kimbouris",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2976778,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171495,
+                    "firstName": "Arely",
+                    "lastName": "Hernandez",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2988261": 6,
+                "2988262": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2988261": 6,
+                "2988262": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1494166,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2988261,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2988261,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 127249,
+                    "firstName": "Maia",
+                    "lastName": "Meghea",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 149787,
+                    "firstName": "Evie",
+                    "lastName": "Laxton",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2988262,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197025,
+                    "firstName": "Martalaynar",
+                    "lastName": "Meh",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:55:12.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 197027,
+                    "firstName": "Esther",
+                    "lastName": "Cim",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T17:01:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2988263": 6,
+                "2988264": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2988263": 6,
+                "2988264": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1494167,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2988263,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2988263,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149789,
+                    "firstName": "Stella",
+                    "lastName": "Alfredson",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 170901,
+                    "firstName": "Zoe",
+                    "lastName": "Van Dorn",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2988264,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171494,
+                    "firstName": "Elizabeth ",
+                    "lastName": "Dim",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 197026,
+                    "firstName": "Palesa",
+                    "lastName": "Makawa ",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2026-04-11T16:56:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2988267": 6,
+                "2988268": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2988267": 6,
+                "2988268": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1494169,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2988267,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2988267,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 127251,
+                    "firstName": "Grace",
+                    "lastName": "Knake",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 171611,
+                    "firstName": "Addy",
+                    "lastName": "Louagie",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4163,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "East Lansing",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2988268,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149446,
+                    "firstName": "Manjila",
+                    "lastName": "Gurung",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 171489,
+                    "firstName": "Rebecca",
+                    "lastName": "Estrada-Orta",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4546,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    }
+  ]
+}

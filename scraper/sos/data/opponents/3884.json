@@ -1,0 +1,5820 @@
+{
+  "school": {
+    "id": 3884,
+    "name": "Wayne Memorial",
+    "address": "3001 4TH STREET",
+    "zipCode": "48184",
+    "lowestGrade": "9",
+    "highestGrade": "12",
+    "encryptedUri": null,
+    "expireDate": null,
+    "logo": null,
+    "createdAt": "2020-02-11T06:37:41.000Z",
+    "updatedAt": "2023-02-10T17:21:09.000Z",
+    "deletedAt": null,
+    "cityId": 19293,
+    "city": {
+      "id": 19293,
+      "name": "Wayne",
+      "stateId": 30,
+      "state": {
+        "name": "Michigan",
+        "abbr": "MI"
+      }
+    }
+  },
+  "coaches": [
+    {
+      "id": 994,
+      "firstName": "Gwen",
+      "lastName": "Fretenborough",
+      "address": "MI G",
+      "phone": "(313) 247-9785",
+      "email": "fretenboroughg@wwcsd.net",
+      "division": "A",
+      "schoolId": 3884,
+      "genderId": 2
+    }
+  ],
+  "overallRecord": {
+    "win": 1,
+    "loss": 7,
+    "tie": 0
+  },
+  "meets": [
+    {
+      "id": 223561,
+      "title": "Event (MHSAA Regional-2026). Regional 4-West Bloomfield  ",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": true,
+      "approveMeet": true,
+      "eventId": 786,
+      "winnerSchoolId": null,
+      "coach": null,
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 9195,
+            "name": "Bloomfield Hills",
+            "logo": null,
+            "score": 24,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4287,
+            "name": "West Bloomfield",
+            "logo": null,
+            "score": 12,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4350,
+            "name": "Farmington",
+            "logo": null,
+            "score": 10,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4502,
+            "name": "Dearborn",
+            "logo": null,
+            "score": 7,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4388,
+            "name": "Livonia Stevenson",
+            "logo": "school_4388.jpg",
+            "score": 3,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4209,
+            "name": "Dearborn Edsel Ford",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4235,
+            "name": "Westland John Glenn",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3150611": 6,
+                "3150612": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150611": 6,
+                "3150612": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575341,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150611,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150611,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191237,
+                    "firstName": "Alexandra",
+                    "lastName": "Pascarella",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 9195,
+                    "updatedAt": "2026-03-19T21:08:55.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150612,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:46:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150623": 2,
+                "3150624": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150623": 1,
+                "3150624": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575347,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150624,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150623,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150624,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195045,
+                    "firstName": "Kaitlyn \"Kay\"",
+                    "lastName": "Thomas",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:26:17.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150629": 6,
+                "3150630": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150629": 6,
+                "3150630": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575350,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150629,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150629,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146735,
+                    "firstName": "Zahraa",
+                    "lastName": "Marji",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150630,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 130012,
+                    "firstName": "Tori",
+                    "lastName": "Scott",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3150765": 2,
+                "3150766": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150765": 2,
+                "3150766": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575418,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": "Default",
+            "winnerTeamId": 3150765,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150765,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168333,
+                    "firstName": "Ruhi",
+                    "lastName": "Balaji",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 9195,
+                    "updatedAt": "2026-03-19T16:33:18.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 168341,
+                    "firstName": "Madeline",
+                    "lastName": "Baker",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 9195,
+                    "updatedAt": "2026-03-19T16:33:54.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150766,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 152164,
+                    "firstName": "Olivia",
+                    "lastName": "Lind",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-07T16:39:54.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172861,
+                    "firstName": "Layla",
+                    "lastName": "Rivera",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-07T16:58:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150775": 0,
+                "3150776": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150775": 0,
+                "3150776": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575423,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150776,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150775,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150776,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124789,
+                    "firstName": "Gabriela",
+                    "lastName": "Stakvel",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4350,
+                    "updatedAt": "2026-05-03T21:49:17.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 170771,
+                    "firstName": "Aubrey",
+                    "lastName": "Wods",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4350,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150781": 6,
+                "3150782": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150781": 6,
+                "3150782": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575426,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150781,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150781,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 148809,
+                    "firstName": "Sara",
+                    "lastName": "Joyce",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4287,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 170923,
+                    "firstName": "Delaney",
+                    "lastName": "Brager",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4287,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150782,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 128527,
+                    "firstName": "Noelle",
+                    "lastName": "West",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 152368,
+                    "firstName": "Fallynn",
+                    "lastName": "Ellison",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": {
+        "id": 786,
+        "bracketType": 16,
+        "name": "MHSAA Regional-2026",
+        "logo": "event_786.png",
+        "eventTypeId": 1
+      }
+    },
+    {
+      "id": 222958,
+      "title": "KLAA B",
+      "meetDateTime": "2026-05-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4142,
+        "firstName": "Jennifer",
+        "lastName": "Wells",
+        "genderId": 2,
+        "email": "salemgirlstennis@pccsk12.com",
+        "phone": "(248) 884-5972",
+        "school": {
+          "name": "Salem",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4284,
+            "name": "Canton",
+            "logo": "school_4284.jpeg",
+            "score": 16,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4142,
+            "name": "Salem",
+            "logo": null,
+            "score": 13,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4050,
+            "name": "Plymouth",
+            "logo": null,
+            "score": 12,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4538,
+            "name": "Belleville",
+            "logo": null,
+            "score": 6,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4280,
+            "name": "Howell",
+            "logo": null,
+            "score": 5,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          },
+          {
+            "id": 4235,
+            "name": "Westland John Glenn",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3130151": 6,
+                "3130152": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130151": 2,
+                "3130152": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3130151": 4,
+                "3130152": 10,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1565111,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130152,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130151,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 129196,
+                    "firstName": "Lydia",
+                    "lastName": "Roberts",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130152,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170050,
+                    "firstName": "Kavya",
+                    "lastName": "Jhaveri",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4142,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130157": 6,
+                "3130158": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130157": 6,
+                "3130158": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565114,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130157,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130157,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126436,
+                    "firstName": "Shloka ",
+                    "lastName": "Patel",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130158,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196312,
+                    "firstName": "Eliana",
+                    "lastName": "Hutson",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2026-04-09T14:29:00.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130159": 6,
+                "3130160": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130159": 6,
+                "3130160": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565115,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130159,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130159,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164245,
+                    "firstName": "Presley",
+                    "lastName": "Clow",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130160,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3130379": 2,
+                "3130380": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130379": 2,
+                "3130380": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565225,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3130379,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130379,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149567,
+                    "firstName": "Lyric",
+                    "lastName": "Kindred",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169435,
+                    "firstName": "Sasha Rose",
+                    "lastName": "Sharper",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130380,
+                "isWinner": false,
+                "players": []
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130389": 2,
+                "3130390": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130389": 2,
+                "3130390": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565230,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3130389,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130389,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195205,
+                    "firstName": "Gianna",
+                    "lastName": "Curd",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T01:09:11.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195207,
+                    "firstName": "LIly",
+                    "lastName": "Brown",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4280,
+                    "updatedAt": "2026-04-07T01:10:17.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Howell",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130390,
+                "isWinner": false,
+                "players": []
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130397": 2,
+                "3130398": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130397": 2,
+                "3130398": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565234,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3130397,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130397,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171528,
+                    "firstName": "Zaeba ",
+                    "lastName": "Zahid",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195892,
+                    "firstName": "Paige",
+                    "lastName": "Cooper",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2026-04-08T14:59:05.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130398,
+                "isWinner": false,
+                "players": []
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 222016,
+      "title": "Plymouth vs WMHS",
+      "meetDateTime": "2026-05-06T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 3884,
+        "firstName": "Gwen",
+        "lastName": "Fretenborough",
+        "genderId": 2,
+        "email": "fretenboroughg@wwcsd.net",
+        "phone": "(313) 247-9785",
+        "school": {
+          "name": "Wayne Memorial",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4050,
+            "name": "Plymouth",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3111729": 0,
+                "3111730": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3111729": 2,
+                "3111730": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1555900,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3111730,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3111729,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3111730,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126436,
+                    "firstName": "Shloka ",
+                    "lastName": "Patel",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3111749": 0,
+                "3111750": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3111749": 0,
+                "3111750": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1555910,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3111750,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3111749,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3111750,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149547,
+                    "firstName": "Lauren",
+                    "lastName": "Bunch",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3111755": 0,
+                "3111756": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3111755": 0,
+                "3111756": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1555913,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 3111756,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3111755,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 110811,
+                    "firstName": "3 ",
+                    "lastName": "singles",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3111756,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169090,
+                    "firstName": "Anna ",
+                    "lastName": "Austermann",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3111761": 1,
+                "3111762": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3111761": 1,
+                "3111762": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1555916,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3111762,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3111761,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3111762,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149546,
+                    "firstName": "Harmony",
+                    "lastName": "Purwadihardja",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169091,
+                    "firstName": "Hope",
+                    "lastName": "Purwadihardja",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3111767": 0,
+                "3111768": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3111767": 1,
+                "3111768": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1555919,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3111768,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3111767,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169426,
+                    "firstName": "Tonya ",
+                    "lastName": "Edwards",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3111768,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 131140,
+                    "firstName": "Savannah",
+                    "lastName": "Souidan",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 152819,
+                    "firstName": "Kiersten",
+                    "lastName": "Floyd",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3111777": 0,
+                "3111778": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3111777": 1,
+                "3111778": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1555924,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3111778,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3111777,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3111778,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169095,
+                    "firstName": "Elena",
+                    "lastName": "Sekula",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169096,
+                    "firstName": "Samaera",
+                    "lastName": "Jassar",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4050,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 219744,
+      "title": "JG vs WMHS",
+      "meetDateTime": "2026-04-28T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 3884,
+        "firstName": "Gwen",
+        "lastName": "Fretenborough",
+        "genderId": 2,
+        "email": "fretenboroughg@wwcsd.net",
+        "phone": "(313) 247-9785",
+        "school": {
+          "name": "Wayne Memorial",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4235,
+            "name": "Westland John Glenn",
+            "logo": null,
+            "score": 5,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 4,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3069713": 2,
+                "3069714": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069713": 3,
+                "3069714": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3069713": 0,
+                "3069714": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1534892,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3069714,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069713,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069714,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196312,
+                    "firstName": "Eliana",
+                    "lastName": "Hutson",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2026-04-09T14:29:00.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3069717": 0,
+                "3069718": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069717": 3,
+                "3069718": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534894,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3069718,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069717,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069718,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 128528,
+                    "firstName": "Jennifer",
+                    "lastName": "Leigh",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3069821": 6,
+                "3069822": 7,
+                "number": 1,
+                "tie": 8
+              },
+              {
+                "3069821": 4,
+                "3069822": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3069821": 2,
+                "3069822": 10,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1534946,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3069822,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069821,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126965,
+                    "firstName": "Makenna",
+                    "lastName": "Painter",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069822,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 128531,
+                    "firstName": "Riley",
+                    "lastName": "Vargas",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3069867": 6,
+                "3069868": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069867": 6,
+                "3069868": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534969,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3069867,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069867,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069868,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 167314,
+                    "firstName": "Taranpreet",
+                    "lastName": "Kaur",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 167333,
+                    "firstName": "Kaylee",
+                    "lastName": "Wilcox",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3069891": 1,
+                "3069892": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069891": 1,
+                "3069892": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1534981,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3069892,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069891,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169426,
+                    "firstName": "Tonya ",
+                    "lastName": "Edwards",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069892,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 167309,
+                    "firstName": "Aarionna",
+                    "lastName": "Hampton",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 167331,
+                    "firstName": "Hailey",
+                    "lastName": "Vo",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3069929": 6,
+                "3069930": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3069929": 6,
+                "3069930": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1535000,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3069929,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3069929,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3069930,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 152365,
+                    "firstName": "Ange",
+                    "lastName": "Kenne",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 152368,
+                    "firstName": "Fallynn",
+                    "lastName": "Ellison",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4235,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 218581,
+      "title": "Stevenson Vs. Wayne Memorial",
+      "meetDateTime": "2026-04-23T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4388,
+        "firstName": "Patrick",
+        "lastName": "Bowers",
+        "genderId": 2,
+        "email": "Eh5151@wayne.edu",
+        "phone": "(313) 330-0936",
+        "school": {
+          "name": "Livonia Stevenson",
+          "logo": "school_4388.jpg"
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4388,
+            "name": "Livonia Stevenson",
+            "logo": "school_4388.jpg",
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3046537": 6,
+                "3046538": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3046537": 6,
+                "3046538": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1523304,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3046537,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3046537,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 172864,
+                    "firstName": "Charley",
+                    "lastName": "Lamarand",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-03T14:22:57.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3046538,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3046539": 6,
+                "3046540": 0,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3046539": 6,
+                "3046540": 1,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1523305,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3046539,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3046539,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 165701,
+                    "firstName": "Camila (Max)",
+                    "lastName": "Gord",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-12T15:49:24.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3046540,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3046541": 0,
+                "3046542": 0,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1523306,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": "Medical Default",
+            "winnerTeamId": 3046541,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3046541,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195039,
+                    "firstName": "Jocelyn",
+                    "lastName": "Letts",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:25:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3046542,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126965,
+                    "firstName": "Makenna",
+                    "lastName": "Painter",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3046545": 6,
+                "3046546": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3046545": 6,
+                "3046546": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1523308,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3046545,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3046545,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 152164,
+                    "firstName": "Olivia",
+                    "lastName": "Lind",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-07T16:39:54.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172861,
+                    "firstName": "Layla",
+                    "lastName": "Rivera",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-05-07T16:58:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3046546,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3046547": 6,
+                "3046548": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3046547": 6,
+                "3046548": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1523309,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3046547,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3046547,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 172862,
+                    "firstName": "Jalyce",
+                    "lastName": "Best",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:24:49.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195043,
+                    "firstName": "Abigayle Virginia \"Abby\"",
+                    "lastName": "Rausch",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:26:03.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3046548,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169426,
+                    "firstName": "Tonya ",
+                    "lastName": "Edwards",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3046549": 6,
+                "3046550": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3046549": 6,
+                "3046550": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1523310,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3046549,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3046549,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195042,
+                    "firstName": "Diarra",
+                    "lastName": "Mbow",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:25:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195046,
+                    "firstName": "Amiah Marie \"Miah\"",
+                    "lastName": "Washington",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4388,
+                    "updatedAt": "2026-04-06T15:26:25.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3046550,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 218097,
+      "title": "Wayne Memorial at Belleville",
+      "meetDateTime": "2026-04-21T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4538,
+        "firstName": "Andrea",
+        "lastName": "Sprague",
+        "genderId": 2,
+        "email": "asprague@vanburenschools.net",
+        "phone": "(734) 223-0263",
+        "school": {
+          "name": "Belleville",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4538,
+            "name": "Belleville",
+            "logo": null,
+            "score": 8,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 1,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3036935": 6,
+                "3036936": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3036935": 6,
+                "3036936": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1518503,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3036935,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3036935,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 129196,
+                    "firstName": "Lydia",
+                    "lastName": "Roberts",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3036936,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3036937": 6,
+                "3036938": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3036937": 6,
+                "3036938": 4,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1518504,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3036937,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3036937,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147288,
+                    "firstName": "Sarah",
+                    "lastName": "Alrawas",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3036938,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3036939": 6,
+                "3036940": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3036939": 6,
+                "3036940": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1518505,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3036939,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3036939,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164313,
+                    "firstName": "Matea",
+                    "lastName": "Murray",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3036940,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126965,
+                    "firstName": "Makenna",
+                    "lastName": "Painter",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3036965": 6,
+                "3036966": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3036965": 4,
+                "3036966": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3036965": 7,
+                "3036966": 10,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1518518,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3036966,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3036965,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147289,
+                    "firstName": "Emma",
+                    "lastName": "Garcia",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 164303,
+                    "firstName": "Angel ",
+                    "lastName": "Field Laster",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3036966,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3036967": 6,
+                "3036968": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3036967": 6,
+                "3036968": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1518519,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3036967,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3036967,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168503,
+                    "firstName": "Khloe",
+                    "lastName": "Krueger",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195282,
+                    "firstName": "Zoe",
+                    "lastName": "Grullon",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2026-04-07T12:11:12.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3036968,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169426,
+                    "firstName": "Tonya ",
+                    "lastName": "Edwards",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3036969": 6,
+                "3036970": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3036969": 7,
+                "3036970": 6,
+                "number": 2,
+                "tie": 3
+              }
+            ],
+            "id": 1518520,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3036969,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3036969,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 151395,
+                    "firstName": "Rylee",
+                    "lastName": "Ayrhart",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 168505,
+                    "firstName": "Nidianny",
+                    "lastName": "Grullon",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4538,
+                    "updatedAt": "2026-04-07T12:14:45.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Belleville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3036970,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 217618,
+      "title": "Churchill vs Wayne",
+      "meetDateTime": "2026-04-20T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 3884,
+        "firstName": "Gwen",
+        "lastName": "Fretenborough",
+        "genderId": 2,
+        "email": "fretenboroughg@wwcsd.net",
+        "phone": "(313) 247-9785",
+        "school": {
+          "name": "Wayne Memorial",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4210,
+            "name": "Livonia Churchill",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3027989": 0,
+                "3027990": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3027989": 0,
+                "3027990": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1514030,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3027990,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3027989,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3027990,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 165442,
+                    "firstName": "Nora",
+                    "lastName": "Stimac",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3027995": 3,
+                "3027996": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3027995": 2,
+                "3027996": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1514033,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3027996,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3027995,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3027996,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124099,
+                    "firstName": "Melanie",
+                    "lastName": "Delphia",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3027999": 1,
+                "3028000": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3027999": 0,
+                "3028000": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1514035,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3028000,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3027999,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126965,
+                    "firstName": "Makenna",
+                    "lastName": "Painter",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3028000,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144929,
+                    "firstName": "Valentina",
+                    "lastName": "Morelli",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3028023": 0,
+                "3028024": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3028023": 1,
+                "3028024": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1514047,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3028024,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3028023,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3028024,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144934,
+                    "firstName": "Anika",
+                    "lastName": "Nielsen",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 165427,
+                    "firstName": "Lauren ",
+                    "lastName": "Svoboda",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3028029": 2,
+                "3028030": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3028029": 0,
+                "3028030": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1514050,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3028030,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3028029,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169422,
+                    "firstName": "Kamaree",
+                    "lastName": "Blake",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3028030,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144928,
+                    "firstName": "Reagan",
+                    "lastName": "Spurlock",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 165664,
+                    "firstName": "Melia",
+                    "lastName": "Gothro",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2026-05-03T10:37:55.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3028033": 3,
+                "3028034": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3028033": 4,
+                "3028034": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1514052,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3028034,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3028033,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3028034,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144932,
+                    "firstName": "Mauie",
+                    "lastName": "Baroro",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 165379,
+                    "firstName": "Chloe",
+                    "lastName": "McDade",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4210,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 216194,
+      "title": "Wayne",
+      "meetDateTime": "2026-04-14T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4502,
+        "firstName": "James",
+        "lastName": "Carter",
+        "genderId": 2,
+        "email": "DearbornTennis@aol.com",
+        "phone": "(313) 827-1600",
+        "school": {
+          "name": "Dearborn",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4502,
+            "name": "Dearborn",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2999767": 6,
+                "2999768": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2999767": 6,
+                "2999768": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1499919,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2999767,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2999767,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143471,
+                    "firstName": "Zahraa",
+                    "lastName": "Salmassi",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2999768,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2999773": 6,
+                "2999774": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2999773": 6,
+                "2999774": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1499922,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2999773,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2999773,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 129199,
+                    "firstName": "Medina",
+                    "lastName": "Faraj",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2999774,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2999781": 6,
+                "2999782": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2999781": 6,
+                "2999782": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1499926,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2999781,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2999781,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163044,
+                    "firstName": "Juliette",
+                    "lastName": "Giedeman",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2999782,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126965,
+                    "firstName": "Makenna",
+                    "lastName": "Painter",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2999799": 6,
+                "2999800": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2999799": 6,
+                "2999800": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1499935,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2999799,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2999799,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143958,
+                    "firstName": "Giada",
+                    "lastName": "Gallina",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 165644,
+                    "firstName": "Rihanna",
+                    "lastName": "Chamas",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2999800,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2999823": 6,
+                "2999824": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2999823": 6,
+                "2999824": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1499947,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2999823,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2999823,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143956,
+                    "firstName": "Alora",
+                    "lastName": "Bazzi",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 194853,
+                    "firstName": "Sara",
+                    "lastName": "Bazzi",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2026-04-04T22:16:59.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2999824,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169426,
+                    "firstName": "Tonya ",
+                    "lastName": "Edwards",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2999847": 6,
+                "2999848": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2999847": 6,
+                "2999848": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1499959,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2999847,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2999847,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171448,
+                    "firstName": "Heba",
+                    "lastName": "Mezidawy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 194848,
+                    "firstName": "Julia",
+                    "lastName": "Elzein",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4502,
+                    "updatedAt": "2026-04-04T22:12:58.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2999848,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 214865,
+      "title": "Fordson vs Wayne Memorial",
+      "meetDateTime": "2026-04-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 3884,
+        "firstName": "Gwen",
+        "lastName": "Fretenborough",
+        "genderId": 2,
+        "email": "fretenboroughg@wwcsd.net",
+        "phone": "(313) 247-9785",
+        "school": {
+          "name": "Wayne Memorial",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 7,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 4465,
+            "name": "Dearborn Fordson",
+            "logo": null,
+            "score": 2,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2974775": 6,
+                "2974776": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974775": 6,
+                "2974776": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487423,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2974775,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974775,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149463,
+                    "firstName": "Layla",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974776,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195271,
+                    "firstName": "Zaineb",
+                    "lastName": "Alshabany",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:51:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2974783": 6,
+                "2974784": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974783": 6,
+                "2974784": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487427,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2974783,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974783,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974784,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195268,
+                    "firstName": "Mariam",
+                    "lastName": "Ayul",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:47:48.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2974787": 6,
+                "2974788": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974787": 6,
+                "2974788": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487429,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2974787,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974787,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126965,
+                    "firstName": "Makenna",
+                    "lastName": "Painter",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974788,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:46:26.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2974795": 7,
+                "2974796": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974795": 7,
+                "2974796": 5,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "2974795": 10,
+                "2974796": 7,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1487433,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2974795,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974795,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974796,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169135,
+                    "firstName": "Mariam",
+                    "lastName": "Bidery",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2974817": 1,
+                "2974818": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974817": 3,
+                "2974818": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487444,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2974818,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974817,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169426,
+                    "firstName": "Tonya ",
+                    "lastName": "Edwards",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974818,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2974825": 6,
+                "2974826": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2974825": 6,
+                "2974826": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1487448,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2974825,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2974825,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2974826,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195272,
+                    "firstName": "Layal",
+                    "lastName": "Jamalaldin",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:52:08.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "genderId": 2,
+                    "schoolId": 4465,
+                    "updatedAt": "2026-04-07T11:58:32.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    },
+    {
+      "id": 214061,
+      "title": "Wayne Memorial - Livonia Franklin",
+      "meetDateTime": "2026-04-07T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "winnerSchoolId": null,
+      "coach": {
+        "schoolId": 4115,
+        "firstName": "Dan ",
+        "lastName": "Teodor",
+        "genderId": 2,
+        "email": "dan.teodor@icloud.com",
+        "phone": "(313) 817-2566",
+        "school": {
+          "name": "Livonia Franklin",
+          "logo": null
+        }
+      },
+      "meetRecap": null,
+      "schools": {
+        "winners": [
+          {
+            "id": 4115,
+            "name": "Livonia Franklin",
+            "logo": null,
+            "score": 9,
+            "winnerSchoolId": null
+          }
+        ],
+        "losers": [
+          {
+            "id": 3884,
+            "name": "Wayne Memorial",
+            "logo": null,
+            "score": 0,
+            "winnerSchoolId": null
+          }
+        ]
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2959133": 0,
+                "2959134": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2959133": 0,
+                "2959134": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1479602,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 2959133,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2959133,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130893,
+                    "firstName": "Sara",
+                    "lastName": "Teodor",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2959134,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 85508,
+                    "firstName": "Non",
+                    "lastName": "Player",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2959135": null,
+                "2959136": null,
+                "number": 3,
+                "tie": null
+              },
+              {
+                "2959135": 6,
+                "2959136": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2959135": 6,
+                "2959136": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1479603,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2959135,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2959135,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130939,
+                    "firstName": "Aaliyah ",
+                    "lastName": "Scott",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2959136,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126957,
+                    "firstName": "Gabrielle",
+                    "lastName": "Doss",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2959137": 6,
+                "2959138": 0,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "2959137": 6,
+                "2959138": 0,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1479604,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2959137,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2959137,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147466,
+                    "firstName": "Aspen",
+                    "lastName": "Fabian",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2959138,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126965,
+                    "firstName": "Makenna",
+                    "lastName": "Painter",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2959141": 6,
+                "2959142": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2959141": 6,
+                "2959142": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1479606,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2959141,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2959141,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 131755,
+                    "firstName": "Ayda",
+                    "lastName": "Gharibi",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 152807,
+                    "firstName": "Megan",
+                    "lastName": "Madden",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2959142,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169425,
+                    "firstName": "Ava",
+                    "lastName": "Clawson",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169436,
+                    "firstName": "Cherish",
+                    "lastName": "Smith",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2959143": 6,
+                "2959144": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2959143": 6,
+                "2959144": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1479607,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2959143,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2959143,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169852,
+                    "firstName": "Selena",
+                    "lastName": "Yzo",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 195159,
+                    "firstName": "Jillian",
+                    "lastName": "Friedman",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2026-04-06T21:27:56.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2959144,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169426,
+                    "firstName": "Tonya ",
+                    "lastName": "Edwards",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  },
+                  {
+                    "id": 169430,
+                    "firstName": "Serenity",
+                    "lastName": "Love",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2026-04-05T16:35:09.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "2959145": 6,
+                "2959146": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2959145": 6,
+                "2959146": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1479608,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2959145,
+            "genderId": 2,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2959145,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170505,
+                    "firstName": "Olivia ",
+                    "lastName": "Heitzman",
+                    "grade": "11",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 195160,
+                    "firstName": "Carlin",
+                    "lastName": "Madison",
+                    "grade": "12",
+                    "genderId": 2,
+                    "schoolId": 4115,
+                    "updatedAt": "2026-04-06T21:32:19.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Livonia Franklin",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2959146,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169432,
+                    "firstName": "Victoria",
+                    "lastName": "Pierce",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2
+                    }
+                  },
+                  {
+                    "id": 169433,
+                    "firstName": "Amiya",
+                    "lastName": "Porter",
+                    "grade": "10",
+                    "genderId": 2,
+                    "schoolId": 3884,
+                    "updatedAt": "2025-06-18T18:37:50.000Z",
+                    "graduatedDate": null,
+                    "school": {
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "event": null
+    }
+  ]
+}

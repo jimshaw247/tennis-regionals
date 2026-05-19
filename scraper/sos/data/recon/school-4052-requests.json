@@ -1,0 +1,37 @@
+[
+  {
+    "method": "GET",
+    "url": "https://api.tennisreporting.com/states",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://api.tennisreporting.com/report/school/4052?year=2026&isNotVarsity=0",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://api.tennisreporting.com/public/event/event_786.png",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://api.tennisreporting.com/public/school/school_3923.jpeg",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://api.tennisreporting.com/public/school/school_4337.jpg",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://api.tennisreporting.com/public/school/school_4417.jpg",
+    "postData": null
+  },
+  {
+    "method": "GET",
+    "url": "https://api.tennisreporting.com/public/school/school_4071.png",
+    "postData": null
+  }
+]
