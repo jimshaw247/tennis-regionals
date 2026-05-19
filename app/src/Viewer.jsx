@@ -42,7 +42,7 @@ export default function Viewer() {
       <header className="sticky top-0 z-10 bg-slate-950/95 border-b border-slate-800 backdrop-blur">
         <div className="px-3 py-2 flex items-center justify-between">
           <div>
-            <div className="text-sm font-bold tracking-tight">MHSAA D1 Girls Regional — Live</div>
+            <div className="text-sm font-bold tracking-tight">MHSAA D1 Girls State Finals — Live</div>
             <div className="text-[10px] text-slate-400">
               {status === 'live' && updatedAt && `Updated ${new Date(updatedAt).toLocaleTimeString()}`}
               {status === 'loading' && 'Connecting…'}
