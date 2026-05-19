@@ -1,0 +1,1259 @@
+{
+  "regional": {
+    "eventId": 786,
+    "eventName": "MHSAA Regional-2026",
+    "bracketType": 16,
+    "dateEventStart": "2026-05-13T05:01:00.000Z",
+    "dateBracketView": "2026-05-10T13:02:00.000Z",
+    "divisionId": 1262,
+    "divisionName": "1",
+    "hostId": 3596,
+    "hostName": "Regional 5-Troy"
+  },
+  "flight": {
+    "id": "1S",
+    "matchType": "Singles",
+    "flight": 1
+  },
+  "bracket": {
+    "configuration": {
+      "meetId": 223420,
+      "eventTypeId": 1,
+      "maxSeed": 4,
+      "bracketType": 16,
+      "bracketItems": [
+        {
+          "id": "09699120-2b33-4cde-94a1-1b1341c041cc",
+          "round": 1,
+          "position": 1,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": null,
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 189390
+                }
+              ],
+              "isEmpty": false
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [],
+              "isEmpty": false
+            }
+          ]
+        },
+        {
+          "id": "526dadad-57b0-43df-91a4-1cf5664c16b3",
+          "round": 1,
+          "position": 2,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": [
+            "6 - 2",
+            "6 - 2"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 190721
+                }
+              ],
+              "isEmpty": false,
+              "points": 1
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 147074
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1573537
+        },
+        {
+          "id": "55864b30-74dc-4580-9a3c-738f6ec481fb",
+          "round": 1,
+          "position": 3,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": null,
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 150031
+                }
+              ],
+              "isEmpty": false
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [],
+              "isEmpty": false
+            }
+          ]
+        },
+        {
+          "id": "c839b345-7f0d-4578-af4a-e1ffed97550d",
+          "round": 1,
+          "position": 4,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": null,
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 147923
+                }
+              ],
+              "isEmpty": false
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [],
+              "isEmpty": false
+            }
+          ]
+        },
+        {
+          "id": "e78fbf33-c607-4eea-9700-45c072305fb7",
+          "round": 1,
+          "position": 5,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": null,
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 147964
+                }
+              ],
+              "isEmpty": false
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [],
+              "isEmpty": false
+            }
+          ]
+        },
+        {
+          "id": "70ba29c4-e2bd-4bcf-aa87-f0c0f8883de7",
+          "round": 1,
+          "position": 6,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": null,
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 148434
+                }
+              ],
+              "isEmpty": false
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [],
+              "isEmpty": false
+            }
+          ]
+        },
+        {
+          "id": "c1174cb8-a9a3-4b82-a25b-6971bd84e156",
+          "round": 1,
+          "position": 7,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": null,
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 123853
+                }
+              ],
+              "isEmpty": false
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [],
+              "isEmpty": false
+            }
+          ]
+        },
+        {
+          "id": "05e292e7-9df4-441d-a1c4-77e8869fc49a",
+          "round": 1,
+          "position": 8,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": null,
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 149175
+                }
+              ],
+              "isEmpty": false
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [],
+              "isEmpty": false
+            }
+          ]
+        },
+        {
+          "id": "061cc3a2-afc5-4651-990c-afaa6d485f8c",
+          "round": 2,
+          "position": 1,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": [
+            "6 - 0",
+            "6 - 0"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 189390
+                }
+              ],
+              "isEmpty": false,
+              "points": 2
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 190721
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1573784
+        },
+        {
+          "id": "588b1b8c-e02d-47d7-97e9-471ec9a6a155",
+          "round": 2,
+          "position": 2,
+          "date": null,
+          "note": null,
+          "finish": "Default",
+          "score": [
+            "2 - 0",
+            "2 - 0"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 150031
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            },
+            {
+              "position": 2,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 147923
+                }
+              ],
+              "isEmpty": false,
+              "points": 2
+            }
+          ],
+          "matchId": 1573338
+        },
+        {
+          "id": "969128fd-40b3-4417-9b10-42cd5f57e203",
+          "round": 2,
+          "position": 3,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": [
+            "6 - 0",
+            "6 - 2"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 147964
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            },
+            {
+              "position": 2,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 148434
+                }
+              ],
+              "isEmpty": false,
+              "points": 2
+            }
+          ],
+          "matchId": 1573789
+        },
+        {
+          "id": "b7b547d0-b4bb-4a00-9000-1f915eedca5f",
+          "round": 2,
+          "position": 4,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": [
+            "6 - 0",
+            "6 - 0"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 123853
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            },
+            {
+              "position": 2,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 149175
+                }
+              ],
+              "isEmpty": false,
+              "points": 2
+            }
+          ],
+          "matchId": 1573791
+        },
+        {
+          "id": "65c01012-a18b-4498-878d-5ff42aa31a79",
+          "round": 3,
+          "position": 1,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": [
+            "6 - 0",
+            "6 - 1"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 189390
+                }
+              ],
+              "isEmpty": false,
+              "points": 1
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 147923
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1573786
+        },
+        {
+          "id": "ab7ba392-0fa4-4f44-acc8-df6e752f3f28",
+          "round": 3,
+          "position": 2,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": [
+            "7 - 6",
+            "6 - 3"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 148434
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            },
+            {
+              "position": 2,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 149175
+                }
+              ],
+              "isEmpty": false,
+              "points": 1
+            }
+          ],
+          "matchId": 1573849
+        },
+        {
+          "id": "162095d5-88cf-4617-8f8f-41fd77d566d4",
+          "round": 4,
+          "position": 1,
+          "date": null,
+          "note": null,
+          "finish": null,
+          "score": [
+            "6 - 3",
+            "4 - 6",
+            "6 - 1"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 189390
+                }
+              ],
+              "isEmpty": false,
+              "points": 1
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 149175
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1574221
+        }
+      ]
+    },
+    "id": 16337,
+    "eventId": 786,
+    "eventDivisionHostId": 3596,
+    "flight": 1,
+    "matchType": "Singles",
+    "isConsolation": false,
+    "createdAt": "2026-05-12T13:24:56.000Z",
+    "updatedAt": "2026-05-14T20:24:28.000Z",
+    "event": {
+      "consolationConfiguration": null,
+      "id": 786,
+      "bracketType": 16,
+      "name": "MHSAA Regional-2026",
+      "logo": "event_786.png",
+      "flightSinglesNumber": 4,
+      "flightDoublesNumber": 4,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateCoachSubmit": "2026-05-03T05:01:00.000Z",
+      "dateCoachInvitedOn": "2026-05-03T05:00:00.000Z",
+      "dateSubmitDeadline": "2026-05-10T13:00:00.000Z",
+      "dateEventView": null,
+      "dateSeedView": "2026-05-10T13:01:00.000Z",
+      "datePlayerSubmissionView": null,
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divideByFlight": true,
+      "numberLineUps": null,
+      "rosterSize": null,
+      "fullRoster": false,
+      "alternateSize": null,
+      "postSeason": true,
+      "hideBronze": false,
+      "consolation": false,
+      "teamPoints": true,
+      "show3": false,
+      "show5": false,
+      "show7": false,
+      "show9": false,
+      "show11": false,
+      "true2": false,
+      "doubleElimination": false,
+      "isStateTournament": false,
+      "isNotVarsity": false,
+      "createdAt": "2026-02-24T15:05:11.000Z",
+      "updatedAt": "2026-05-08T13:10:31.000Z",
+      "deletedAt": null,
+      "eventTypeId": 1,
+      "genderId": 2,
+      "stateId": 30,
+      "createdBy": 1186,
+      "state": {
+        "name": "Michigan",
+        "abbr": "MI"
+      },
+      "divisions": [
+        {
+          "id": 1262,
+          "name": "1",
+          "hosts": [
+            {
+              "id": 3592,
+              "name": "Regional 1-Holland West Ottawa"
+            },
+            {
+              "id": 3593,
+              "name": "Regional 2-Novi"
+            },
+            {
+              "id": 3594,
+              "name": "Regional 3-Ann Arbor Pioneer"
+            },
+            {
+              "id": 3595,
+              "name": "Regional 4-West Bloomfield"
+            },
+            {
+              "id": 3596,
+              "name": "Regional 5-Troy"
+            },
+            {
+              "id": 3597,
+              "name": "Regional 6-Utica Eisenhower"
+            },
+            {
+              "id": 3598,
+              "name": "Regional 7-Rochester Adams"
+            },
+            {
+              "id": 3599,
+              "name": "Regional 8-Holt"
+            }
+          ]
+        },
+        {
+          "id": 1263,
+          "name": "2",
+          "hosts": [
+            {
+              "id": 3600,
+              "name": "Regional 9-Portage Northern"
+            },
+            {
+              "id": 3601,
+              "name": "Regional 10-Southgate Anderson"
+            },
+            {
+              "id": 3602,
+              "name": "Regional 11-Dexter"
+            },
+            {
+              "id": 3603,
+              "name": "Regional 12-Birmingham Groves"
+            },
+            {
+              "id": 3604,
+              "name": "Regional 13-Grosse Pointe South"
+            },
+            {
+              "id": 3605,
+              "name": "Regional 14-Midland Dow"
+            },
+            {
+              "id": 3606,
+              "name": "Regional 15-Mason"
+            },
+            {
+              "id": 3607,
+              "name": "Regional 16-Forest Hills Northern"
+            }
+          ]
+        },
+        {
+          "id": 1264,
+          "name": "3",
+          "hosts": [
+            {
+              "id": 3608,
+              "name": "Regional 17-Paw Paw"
+            },
+            {
+              "id": 3609,
+              "name": "Regional 18-Sturgis"
+            },
+            {
+              "id": 3610,
+              "name": "Regional 19-Grosse Ile"
+            },
+            {
+              "id": 3611,
+              "name": "Regional 20-Detroit Country Day"
+            },
+            {
+              "id": 3612,
+              "name": "Regional 21-Ortonville Brandon"
+            },
+            {
+              "id": 3613,
+              "name": "Regional 22-Haslett"
+            },
+            {
+              "id": 3614,
+              "name": "Regional 23-Petoskey"
+            },
+            {
+              "id": 3615,
+              "name": "Regional 24-Holland Christian"
+            }
+          ]
+        },
+        {
+          "id": 1265,
+          "name": "4",
+          "hosts": [
+            {
+              "id": 3616,
+              "name": "Regional 25-Allegan"
+            },
+            {
+              "id": 3617,
+              "name": "Regional 26-Hillsdale"
+            },
+            {
+              "id": 3618,
+              "name": "Regional 27-Ann Arbor Greenhills"
+            },
+            {
+              "id": 3619,
+              "name": "Regional 28-Lansing Catholic"
+            },
+            {
+              "id": 3620,
+              "name": "Regional 29-Pontiac Notre Dame Prep"
+            },
+            {
+              "id": 3621,
+              "name": "Regional 30-Essexville Garber"
+            },
+            {
+              "id": 3622,
+              "name": "Regional 31-NorthPointe Christian"
+            },
+            {
+              "id": 3623,
+              "name": "Regional 32-Traverse St Francis"
+            }
+          ]
+        }
+      ]
+    },
+    "teamPoints": [
+      {
+        "key": "145429",
+        "points": 32,
+        "teamKey": "3923",
+        "teamName": "Troy",
+        "schools": [
+          {
+            "schoolId": 3923,
+            "schoolName": "Troy"
+          }
+        ]
+      },
+      {
+        "key": "149175",
+        "points": 22,
+        "teamKey": "3947",
+        "teamName": "Troy Athens",
+        "schools": [
+          {
+            "schoolId": 3947,
+            "schoolName": "Troy Athens"
+          }
+        ]
+      },
+      {
+        "key": "148434",
+        "points": 18,
+        "teamKey": "4420",
+        "teamName": "Utica Ford",
+        "schools": [
+          {
+            "schoolId": 4420,
+            "schoolName": "Utica Ford"
+          }
+        ]
+      },
+      {
+        "key": "130458",
+        "points": 8,
+        "teamKey": "4461",
+        "teamName": "Fraser",
+        "schools": [
+          {
+            "schoolId": 4461,
+            "schoolName": "Fraser"
+          }
+        ]
+      },
+      {
+        "key": "123853",
+        "points": 7,
+        "teamKey": "4456",
+        "teamName": "Royal Oak",
+        "schools": [
+          {
+            "schoolId": 4456,
+            "schoolName": "Royal Oak"
+          }
+        ]
+      },
+      {
+        "key": "129453",
+        "points": 4,
+        "teamKey": "3970",
+        "teamName": "St Clair Shores Lakeview",
+        "schools": [
+          {
+            "schoolId": 3970,
+            "schoolName": "St Clair Shores Lakeview"
+          }
+        ]
+      },
+      {
+        "key": "147964",
+        "points": 3,
+        "teamKey": "4264",
+        "teamName": "Detroit Cass Tech",
+        "schools": [
+          {
+            "schoolId": 4264,
+            "schoolName": "Detroit Cass Tech"
+          }
+        ]
+      },
+      {
+        "key": "172576",
+        "points": 1,
+        "teamKey": "4030",
+        "teamName": "Sterling Heights Stevenson",
+        "schools": [
+          {
+            "schoolId": 4030,
+            "schoolName": "Sterling Heights Stevenson"
+          }
+        ]
+      },
+      {
+        "key": "147074",
+        "points": 1,
+        "teamKey": "4080",
+        "teamName": "Warren Mott",
+        "schools": [
+          {
+            "schoolId": 4080,
+            "schoolName": "Warren Mott"
+          }
+        ]
+      }
+    ]
+  },
+  "seedList": [
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 1,
+      "note": "",
+      "createdAt": "2026-05-11T14:40:43.000Z",
+      "updatedAt": "2026-05-15T16:45:30.000Z",
+      "eventId": 786,
+      "eventCoachId": 37951,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 224872,
+          "playerId": 189390,
+          "position": 1,
+          "isQualified": true,
+          "winnerReportPlacement": 1,
+          "player": {
+            "id": 189390,
+            "firstName": "Julia",
+            "lastName": "Xiao",
+            "grade": "9",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 3923,
+              "name": "Troy",
+              "logo": "school_3923.jpeg",
+              "city": {
+                "id": 18377,
+                "name": "Troy",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1311.67,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 2,
+      "note": "",
+      "createdAt": "2026-05-03T14:02:14.000Z",
+      "updatedAt": "2026-05-15T16:45:40.000Z",
+      "eventId": 786,
+      "eventCoachId": 37952,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 216477,
+          "playerId": 149175,
+          "position": null,
+          "isQualified": true,
+          "winnerReportPlacement": 2,
+          "player": {
+            "id": 149175,
+            "firstName": "Jhana",
+            "lastName": "Todorova",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 3947,
+              "name": "Troy Athens",
+              "logo": null,
+              "city": {
+                "id": 18377,
+                "name": "Troy",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [
+              {
+                "eventId": 493,
+                "eventYear": "2024",
+                "eventName": "MHSAA Finals-2024"
+              },
+              {
+                "eventId": 611,
+                "eventYear": "2025",
+                "eventName": "MHSAA Finals Tournament-2025"
+              }
+            ],
+            "elos": [
+              {
+                "elo": 1303.59,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 3,
+      "note": "",
+      "createdAt": "2026-05-03T23:13:51.000Z",
+      "updatedAt": "2026-05-15T16:45:42.000Z",
+      "eventId": 786,
+      "eventCoachId": 37953,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 217209,
+          "playerId": 148434,
+          "position": null,
+          "isQualified": true,
+          "winnerReportPlacement": 3,
+          "player": {
+            "id": 148434,
+            "firstName": "Nikki",
+            "lastName": "Singh",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4420,
+              "name": "Utica Ford",
+              "logo": "school_4420.png",
+              "city": {
+                "id": 17498,
+                "name": "Sterling heights",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1271.22,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 4,
+      "note": "",
+      "createdAt": "2026-05-04T12:28:49.000Z",
+      "updatedAt": "2026-05-12T13:16:06.000Z",
+      "eventId": 786,
+      "eventCoachId": 37949,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 217639,
+          "playerId": 150031,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 150031,
+            "firstName": "Zoey",
+            "lastName": "Horrom",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 3970,
+              "name": "St Clair Shores Lakeview",
+              "logo": null,
+              "city": {
+                "id": 17279,
+                "name": "St clair shores",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1195.87,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 5,
+      "note": "",
+      "createdAt": "2026-05-04T22:33:31.000Z",
+      "updatedAt": "2026-05-12T13:16:06.000Z",
+      "eventId": 786,
+      "eventCoachId": 37947,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 218520,
+          "playerId": 147923,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 147923,
+            "firstName": "Kaia",
+            "lastName": "Kronemeyer",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4461,
+              "name": "Fraser",
+              "logo": null,
+              "city": {
+                "id": 6490,
+                "name": "Fraser",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1262.55,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 6,
+      "note": "",
+      "createdAt": "2026-05-05T15:36:31.000Z",
+      "updatedAt": "2026-05-12T13:16:06.000Z",
+      "eventId": 786,
+      "eventCoachId": 37948,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 219358,
+          "playerId": 123853,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 123853,
+            "firstName": "Penny",
+            "lastName": "Fessler",
+            "grade": "12",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4456,
+              "name": "Royal Oak",
+              "logo": "school_4456.png",
+              "city": {
+                "id": 15818,
+                "name": "Royal oak",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1133.76,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 7,
+      "note": "",
+      "createdAt": "2026-05-03T13:53:57.000Z",
+      "updatedAt": "2026-05-12T13:16:06.000Z",
+      "eventId": 786,
+      "eventCoachId": 37946,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 216465,
+          "playerId": 147964,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 147964,
+            "firstName": "Hanna",
+            "lastName": "Hendrix",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4264,
+              "name": "Detroit Cass Tech",
+              "logo": null,
+              "city": {
+                "id": 4754,
+                "name": "Detroit",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1124.17,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 8,
+      "note": "",
+      "createdAt": "2026-05-04T13:08:26.000Z",
+      "updatedAt": "2026-05-12T13:16:06.000Z",
+      "eventId": 786,
+      "eventCoachId": 37950,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 217722,
+          "playerId": 190721,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 190721,
+            "firstName": "Lisa Marie",
+            "lastName": "Siscu",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4030,
+              "name": "Sterling Heights Stevenson",
+              "logo": null,
+              "city": {
+                "id": 17498,
+                "name": "Sterling heights",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1034.87,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 9,
+      "note": "",
+      "createdAt": "2026-05-06T15:53:24.000Z",
+      "updatedAt": "2026-05-12T13:16:06.000Z",
+      "eventId": 786,
+      "eventCoachId": 37954,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 220463,
+          "playerId": 147074,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 147074,
+            "firstName": "Alyssa",
+            "lastName": "Sikorski",
+            "grade": "12",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4080,
+              "name": "Warren Mott",
+              "logo": null,
+              "city": {
+                "id": 19094,
+                "name": "Warren",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 995.95,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

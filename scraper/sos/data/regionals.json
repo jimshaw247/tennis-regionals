@@ -1,0 +1,102 @@
+{
+  "d1Regionals": [
+    {
+      "eventId": 786,
+      "eventName": "MHSAA Regional-2026",
+      "bracketType": 16,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divisionId": 1262,
+      "divisionName": "1",
+      "hostId": 3592,
+      "hostName": "Regional 1-Holland West Ottawa"
+    },
+    {
+      "eventId": 786,
+      "eventName": "MHSAA Regional-2026",
+      "bracketType": 16,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divisionId": 1262,
+      "divisionName": "1",
+      "hostId": 3593,
+      "hostName": "Regional 2-Novi"
+    },
+    {
+      "eventId": 786,
+      "eventName": "MHSAA Regional-2026",
+      "bracketType": 16,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divisionId": 1262,
+      "divisionName": "1",
+      "hostId": 3594,
+      "hostName": "Regional 3-Ann Arbor Pioneer"
+    },
+    {
+      "eventId": 786,
+      "eventName": "MHSAA Regional-2026",
+      "bracketType": 16,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divisionId": 1262,
+      "divisionName": "1",
+      "hostId": 3595,
+      "hostName": "Regional 4-West Bloomfield"
+    },
+    {
+      "eventId": 786,
+      "eventName": "MHSAA Regional-2026",
+      "bracketType": 16,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divisionId": 1262,
+      "divisionName": "1",
+      "hostId": 3596,
+      "hostName": "Regional 5-Troy"
+    },
+    {
+      "eventId": 786,
+      "eventName": "MHSAA Regional-2026",
+      "bracketType": 16,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divisionId": 1262,
+      "divisionName": "1",
+      "hostId": 3597,
+      "hostName": "Regional 6-Utica Eisenhower"
+    },
+    {
+      "eventId": 786,
+      "eventName": "MHSAA Regional-2026",
+      "bracketType": 16,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divisionId": 1262,
+      "divisionName": "1",
+      "hostId": 3598,
+      "hostName": "Regional 7-Rochester Adams"
+    },
+    {
+      "eventId": 786,
+      "eventName": "MHSAA Regional-2026",
+      "bracketType": 16,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divisionId": 1262,
+      "divisionName": "1",
+      "hostId": 3599,
+      "hostName": "Regional 8-Holt"
+    }
+  ],
+  "stateFinalsD1": {
+    "eventId": 787,
+    "eventName": "MHSAA Finals Tournament-2026",
+    "bracketType": 32,
+    "dateEventStart": "2026-05-27T05:01:00.000Z",
+    "divisionId": 1266,
+    "hostId": 3624,
+    "hostName": "State Finals-D1"
+  },
+  "generatedAt": "2026-05-19T16:32:37.067Z"
+}

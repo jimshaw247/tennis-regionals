@@ -1,0 +1,30 @@
+[
+  {
+    "method": "GET",
+    "url": "https://api.tennisreporting.com/states",
+    "postData": null,
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://tennisreporting.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "content-type": "application/json",
+      "token": "undefined",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "POST",
+    "url": "https://api.tennisreporting.com/events",
+    "postData": "{\"page\":0,\"pageSize\":20,\"sorted\":{\"dateEventStart\":\"DESC\"},\"filtered\":{\"year\":2026,\"genderId\":2,\"stateId\":30}}",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://tennisreporting.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "content-type": "application/json",
+      "token": "undefined",
+      "sec-ch-ua-mobile": "?0"
+    }
+  }
+]

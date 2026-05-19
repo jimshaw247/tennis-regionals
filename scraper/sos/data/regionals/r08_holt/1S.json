@@ -1,0 +1,1076 @@
+{
+  "regional": {
+    "eventId": 786,
+    "eventName": "MHSAA Regional-2026",
+    "bracketType": 16,
+    "dateEventStart": "2026-05-13T05:01:00.000Z",
+    "dateBracketView": "2026-05-10T13:02:00.000Z",
+    "divisionId": 1262,
+    "divisionName": "1",
+    "hostId": 3599,
+    "hostName": "Regional 8-Holt"
+  },
+  "flight": {
+    "id": "1S",
+    "matchType": "Singles",
+    "flight": 1
+  },
+  "bracket": {
+    "configuration": {
+      "meetId": 223701,
+      "eventTypeId": 1,
+      "maxSeed": 4,
+      "bracketType": 9,
+      "bracketItems": [
+        {
+          "id": "55e07e17-1f3f-4bf6-95ca-81321640670f",
+          "round": 1,
+          "position": 1,
+          "date": "2026-05-15T17:15:50.000Z",
+          "note": "at Holt HS - 8:30am",
+          "finish": "Default",
+          "score": [
+            "2 - 0",
+            "2 - 0"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 125032
+                }
+              ],
+              "isEmpty": false,
+              "points": 1
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 149435
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1577265
+        },
+        {
+          "id": "2c649ace-b1df-4965-869b-d1077ef48a0b",
+          "round": 2,
+          "position": 1,
+          "date": "2026-05-15T17:16:26.000Z",
+          "note": "at Holt HS - approx 11:00am",
+          "finish": null,
+          "score": [
+            "6 - 0",
+            "6 - 0"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 146970
+                }
+              ],
+              "isEmpty": false,
+              "points": 2
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 125032
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1577269
+        },
+        {
+          "id": "ce828644-cfff-4d87-b3c2-62a246859528",
+          "round": 2,
+          "position": 2,
+          "date": "2026-05-15T17:16:41.000Z",
+          "note": "at Holt HS - 8:30am ",
+          "finish": null,
+          "score": [
+            "6 - 3",
+            "6 - 2"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 163141
+                }
+              ],
+              "isEmpty": false,
+              "points": 2
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 146446
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1577271
+        },
+        {
+          "id": "bc440c8f-3c86-4b51-90c8-202ee1c2fbea",
+          "round": 2,
+          "position": 3,
+          "date": "2026-05-15T17:16:55.000Z",
+          "note": "at Holt HS - 8:30am ",
+          "finish": null,
+          "score": [
+            "6 - 0",
+            "6 - 0"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 144211
+                }
+              ],
+              "isEmpty": false,
+              "points": 2
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 147209
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1577276
+        },
+        {
+          "id": "91e1d259-df6a-4382-8b7c-9b25fe75d30d",
+          "round": 2,
+          "position": 4,
+          "date": "2026-05-15T17:17:14.000Z",
+          "note": "at Holt HS - 8:30am ",
+          "finish": null,
+          "score": [
+            "6 - 0",
+            "6 - 1"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 161712
+                }
+              ],
+              "isEmpty": false,
+              "points": 2
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 126525
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1577280
+        },
+        {
+          "id": "07e0c131-a7f8-4daf-84d5-55cc95da9c5a",
+          "round": 3,
+          "position": 1,
+          "date": "2026-05-15T17:17:25.000Z",
+          "note": "at Holt HS - approx 12:30pm ",
+          "finish": null,
+          "score": [
+            "6 - 0",
+            "6 - 0"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 146970
+                }
+              ],
+              "isEmpty": false,
+              "points": 1
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 163141
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1577281
+        },
+        {
+          "id": "9cf5a058-ff38-49e7-9952-f7a3a4e125e3",
+          "round": 3,
+          "position": 2,
+          "date": "2026-05-15T17:17:33.000Z",
+          "note": "at Holt HS - approx 11:30am ",
+          "finish": null,
+          "score": [
+            "6 - 1",
+            "6 - 3"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 144211
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            },
+            {
+              "position": 2,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 161712
+                }
+              ],
+              "isEmpty": false,
+              "points": 1
+            }
+          ],
+          "matchId": 1577284
+        },
+        {
+          "id": "213dd8db-024c-47e5-9fc3-ae4a893fb1ea",
+          "round": 4,
+          "position": 1,
+          "date": "2026-05-15T17:17:49.000Z",
+          "note": "at Holt HS - approx 2:30pm ",
+          "finish": null,
+          "score": [
+            "6 - 1",
+            "6 - 4"
+          ],
+          "teams": [
+            {
+              "position": 1,
+              "isWinner": true,
+              "items": [
+                {
+                  "id": 146970
+                }
+              ],
+              "isEmpty": false,
+              "points": 1
+            },
+            {
+              "position": 2,
+              "isWinner": false,
+              "items": [
+                {
+                  "id": 161712
+                }
+              ],
+              "isEmpty": false,
+              "points": 0
+            }
+          ],
+          "matchId": 1577286
+        }
+      ]
+    },
+    "id": 16494,
+    "eventId": 786,
+    "eventDivisionHostId": 3599,
+    "flight": 1,
+    "matchType": "Singles",
+    "isConsolation": false,
+    "createdAt": "2026-05-13T17:12:52.000Z",
+    "updatedAt": "2026-05-16T00:19:00.000Z",
+    "event": {
+      "consolationConfiguration": null,
+      "id": 786,
+      "bracketType": 16,
+      "name": "MHSAA Regional-2026",
+      "logo": "event_786.png",
+      "flightSinglesNumber": 4,
+      "flightDoublesNumber": 4,
+      "dateEventStart": "2026-05-13T05:01:00.000Z",
+      "dateCoachSubmit": "2026-05-03T05:01:00.000Z",
+      "dateCoachInvitedOn": "2026-05-03T05:00:00.000Z",
+      "dateSubmitDeadline": "2026-05-10T13:00:00.000Z",
+      "dateEventView": null,
+      "dateSeedView": "2026-05-10T13:01:00.000Z",
+      "datePlayerSubmissionView": null,
+      "dateBracketView": "2026-05-10T13:02:00.000Z",
+      "divideByFlight": true,
+      "numberLineUps": null,
+      "rosterSize": null,
+      "fullRoster": false,
+      "alternateSize": null,
+      "postSeason": true,
+      "hideBronze": false,
+      "consolation": false,
+      "teamPoints": true,
+      "show3": false,
+      "show5": false,
+      "show7": false,
+      "show9": false,
+      "show11": false,
+      "true2": false,
+      "doubleElimination": false,
+      "isStateTournament": false,
+      "isNotVarsity": false,
+      "createdAt": "2026-02-24T15:05:11.000Z",
+      "updatedAt": "2026-05-08T13:10:31.000Z",
+      "deletedAt": null,
+      "eventTypeId": 1,
+      "genderId": 2,
+      "stateId": 30,
+      "createdBy": 1186,
+      "state": {
+        "name": "Michigan",
+        "abbr": "MI"
+      },
+      "divisions": [
+        {
+          "id": 1262,
+          "name": "1",
+          "hosts": [
+            {
+              "id": 3592,
+              "name": "Regional 1-Holland West Ottawa"
+            },
+            {
+              "id": 3593,
+              "name": "Regional 2-Novi"
+            },
+            {
+              "id": 3594,
+              "name": "Regional 3-Ann Arbor Pioneer"
+            },
+            {
+              "id": 3595,
+              "name": "Regional 4-West Bloomfield"
+            },
+            {
+              "id": 3596,
+              "name": "Regional 5-Troy"
+            },
+            {
+              "id": 3597,
+              "name": "Regional 6-Utica Eisenhower"
+            },
+            {
+              "id": 3598,
+              "name": "Regional 7-Rochester Adams"
+            },
+            {
+              "id": 3599,
+              "name": "Regional 8-Holt"
+            }
+          ]
+        },
+        {
+          "id": 1263,
+          "name": "2",
+          "hosts": [
+            {
+              "id": 3600,
+              "name": "Regional 9-Portage Northern"
+            },
+            {
+              "id": 3601,
+              "name": "Regional 10-Southgate Anderson"
+            },
+            {
+              "id": 3602,
+              "name": "Regional 11-Dexter"
+            },
+            {
+              "id": 3603,
+              "name": "Regional 12-Birmingham Groves"
+            },
+            {
+              "id": 3604,
+              "name": "Regional 13-Grosse Pointe South"
+            },
+            {
+              "id": 3605,
+              "name": "Regional 14-Midland Dow"
+            },
+            {
+              "id": 3606,
+              "name": "Regional 15-Mason"
+            },
+            {
+              "id": 3607,
+              "name": "Regional 16-Forest Hills Northern"
+            }
+          ]
+        },
+        {
+          "id": 1264,
+          "name": "3",
+          "hosts": [
+            {
+              "id": 3608,
+              "name": "Regional 17-Paw Paw"
+            },
+            {
+              "id": 3609,
+              "name": "Regional 18-Sturgis"
+            },
+            {
+              "id": 3610,
+              "name": "Regional 19-Grosse Ile"
+            },
+            {
+              "id": 3611,
+              "name": "Regional 20-Detroit Country Day"
+            },
+            {
+              "id": 3612,
+              "name": "Regional 21-Ortonville Brandon"
+            },
+            {
+              "id": 3613,
+              "name": "Regional 22-Haslett"
+            },
+            {
+              "id": 3614,
+              "name": "Regional 23-Petoskey"
+            },
+            {
+              "id": 3615,
+              "name": "Regional 24-Holland Christian"
+            }
+          ]
+        },
+        {
+          "id": 1265,
+          "name": "4",
+          "hosts": [
+            {
+              "id": 3616,
+              "name": "Regional 25-Allegan"
+            },
+            {
+              "id": 3617,
+              "name": "Regional 26-Hillsdale"
+            },
+            {
+              "id": 3618,
+              "name": "Regional 27-Ann Arbor Greenhills"
+            },
+            {
+              "id": 3619,
+              "name": "Regional 28-Lansing Catholic"
+            },
+            {
+              "id": 3620,
+              "name": "Regional 29-Pontiac Notre Dame Prep"
+            },
+            {
+              "id": 3621,
+              "name": "Regional 30-Essexville Garber"
+            },
+            {
+              "id": 3622,
+              "name": "Regional 31-NorthPointe Christian"
+            },
+            {
+              "id": 3623,
+              "name": "Regional 32-Traverse St Francis"
+            }
+          ]
+        }
+      ]
+    },
+    "teamPoints": [
+      {
+        "key": "125726",
+        "points": 27,
+        "teamKey": "3887",
+        "teamName": "Portage Central",
+        "schools": [
+          {
+            "schoolId": 3887,
+            "schoolName": "Portage Central"
+          }
+        ]
+      },
+      {
+        "key": "127008",
+        "points": 23,
+        "teamKey": "4371",
+        "teamName": "Okemos",
+        "schools": [
+          {
+            "schoolId": 4371,
+            "schoolName": "Okemos"
+          }
+        ]
+      },
+      {
+        "key": "146446",
+        "points": 16,
+        "teamKey": "4527",
+        "teamName": "Holt",
+        "schools": [
+          {
+            "schoolId": 4527,
+            "schoolName": "Holt"
+          }
+        ]
+      },
+      {
+        "key": "144211",
+        "points": 11,
+        "teamKey": "3980",
+        "teamName": "Grand Blanc",
+        "schools": [
+          {
+            "schoolId": 3980,
+            "schoolName": "Grand Blanc"
+          }
+        ]
+      },
+      {
+        "key": "147209",
+        "points": 10,
+        "teamKey": "4165",
+        "teamName": "Kalamazoo Central",
+        "schools": [
+          {
+            "schoolId": 4165,
+            "schoolName": "Kalamazoo Central"
+          }
+        ]
+      },
+      {
+        "key": "125032",
+        "points": 5,
+        "teamKey": "4229",
+        "teamName": "Saginaw Heritage",
+        "schools": [
+          {
+            "schoolId": 4229,
+            "schoolName": "Saginaw Heritage"
+          }
+        ]
+      },
+      {
+        "key": "146898",
+        "points": 3,
+        "teamKey": "4424",
+        "teamName": "Kalamazoo Loy Norrix",
+        "schools": [
+          {
+            "schoolId": 4424,
+            "schoolName": "Kalamazoo Loy Norrix"
+          }
+        ]
+      },
+      {
+        "key": "126522",
+        "points": 0,
+        "teamKey": "4391",
+        "teamName": "Grand Ledge",
+        "schools": [
+          {
+            "schoolId": 4391,
+            "schoolName": "Grand Ledge"
+          }
+        ]
+      },
+      {
+        "key": "149435",
+        "points": 0,
+        "teamKey": "4546",
+        "teamName": "Lansing Sexton",
+        "schools": [
+          {
+            "schoolId": 4546,
+            "schoolName": "Lansing Sexton"
+          }
+        ]
+      }
+    ]
+  },
+  "seedList": [
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 1,
+      "note": "2026 Varsity Record: 12 - 1\nSingles TRPR: 13.7\nMHSAA State Finals 2024--round 3\nDid not play MHSAA 2025",
+      "createdAt": "2026-05-04T18:18:18.000Z",
+      "updatedAt": "2026-05-16T00:58:59.000Z",
+      "eventId": 786,
+      "eventCoachId": 37978,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 218390,
+          "playerId": 146970,
+          "position": null,
+          "isQualified": true,
+          "winnerReportPlacement": 1,
+          "player": {
+            "id": 146970,
+            "firstName": "Isabella",
+            "lastName": "Portnoy",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4371,
+              "name": "Okemos",
+              "logo": null,
+              "city": {
+                "id": 13504,
+                "name": "Okemos",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [
+              {
+                "eventId": 493,
+                "eventYear": "2024",
+                "eventName": "MHSAA Finals-2024"
+              }
+            ],
+            "elos": [
+              {
+                "elo": 1473.51,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 2,
+      "note": "",
+      "createdAt": "2026-05-03T14:23:26.000Z",
+      "updatedAt": "2026-05-16T00:59:00.000Z",
+      "eventId": 786,
+      "eventCoachId": 37979,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 216526,
+          "playerId": 161712,
+          "position": null,
+          "isQualified": true,
+          "winnerReportPlacement": 2,
+          "player": {
+            "id": 161712,
+            "firstName": "Margie",
+            "lastName": "Glynn",
+            "grade": "10",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 3887,
+              "name": "Portage Central",
+              "logo": null,
+              "city": {
+                "id": 14757,
+                "name": "Portage",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [
+              {
+                "eventId": 611,
+                "eventYear": "2025",
+                "eventName": "MHSAA Finals Tournament-2025"
+              }
+            ],
+            "elos": [
+              {
+                "elo": 1494.42,
+                "bonusPoints": 60,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 3,
+      "note": "",
+      "createdAt": "2026-05-08T11:31:15.000Z",
+      "updatedAt": "2026-05-13T17:06:50.000Z",
+      "eventId": 786,
+      "eventCoachId": 37972,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 222621,
+          "playerId": 144211,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 144211,
+            "firstName": "Carli",
+            "lastName": "Banaszak",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 3980,
+              "name": "Grand Blanc",
+              "logo": "school_3980.png",
+              "city": {
+                "id": 7202,
+                "name": "Grand blanc",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [
+              {
+                "eventId": 611,
+                "eventYear": "2025",
+                "eventName": "MHSAA Finals Tournament-2025"
+              }
+            ],
+            "elos": [
+              {
+                "elo": 1495.27,
+                "bonusPoints": 52,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 4,
+      "note": "",
+      "createdAt": "2026-05-13T16:59:25.000Z",
+      "updatedAt": "2026-05-13T17:06:50.000Z",
+      "eventId": 786,
+      "eventCoachId": 37976,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 226636,
+          "playerId": 163141,
+          "position": 1,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 163141,
+            "firstName": "Jenna",
+            "lastName": "Itawi",
+            "grade": "10",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4424,
+              "name": "Kalamazoo Loy Norrix",
+              "logo": null,
+              "city": {
+                "id": 9164,
+                "name": "Kalamazoo",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1278.28,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 5,
+      "note": "",
+      "createdAt": "2026-05-13T16:53:44.000Z",
+      "updatedAt": "2026-05-13T17:06:50.000Z",
+      "eventId": 786,
+      "eventCoachId": 37974,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 226628,
+          "playerId": 146446,
+          "position": 1,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 146446,
+            "firstName": "Jay",
+            "lastName": "Sandu",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4527,
+              "name": "Holt",
+              "logo": null,
+              "city": {
+                "id": 8377,
+                "name": "Holt",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1079.21,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 6,
+      "note": "",
+      "createdAt": "2026-05-03T17:30:27.000Z",
+      "updatedAt": "2026-05-13T17:06:50.000Z",
+      "eventId": 786,
+      "eventCoachId": 37975,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 216847,
+          "playerId": 147209,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 147209,
+            "firstName": "Elliana",
+            "lastName": "Oram",
+            "grade": "11",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4165,
+              "name": "Kalamazoo Central",
+              "logo": null,
+              "city": {
+                "id": 9164,
+                "name": "Kalamazoo",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1065.98,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 7,
+      "note": "",
+      "createdAt": "2026-05-04T21:26:58.000Z",
+      "updatedAt": "2026-05-13T17:06:50.000Z",
+      "eventId": 786,
+      "eventCoachId": 37980,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 218475,
+          "playerId": 125032,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 125032,
+            "firstName": "Lillyana",
+            "lastName": "Lawler",
+            "grade": "12",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4229,
+              "name": "Saginaw Heritage",
+              "logo": null,
+              "city": {
+                "id": 15944,
+                "name": "Saginaw",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1232.02,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 8,
+      "note": "",
+      "createdAt": "2026-05-09T18:10:53.000Z",
+      "updatedAt": "2026-05-13T17:06:50.000Z",
+      "eventId": 786,
+      "eventCoachId": 37973,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 223566,
+          "playerId": 126525,
+          "position": null,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 126525,
+            "firstName": "Taylor",
+            "lastName": "Pung",
+            "grade": "12",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4391,
+              "name": "Grand Ledge",
+              "logo": "school_4391.png",
+              "city": {
+                "id": 7218,
+                "name": "Grand ledge",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1086.26,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Singles",
+      "flight": 1,
+      "seed": 9,
+      "note": "",
+      "createdAt": "2026-05-13T16:58:59.000Z",
+      "updatedAt": "2026-05-13T17:06:50.000Z",
+      "eventId": 786,
+      "eventCoachId": 40527,
+      "existInBracketItem": true,
+      "players": [
+        {
+          "id": 226629,
+          "playerId": 149435,
+          "position": 1,
+          "isQualified": false,
+          "winnerReportPlacement": null,
+          "player": {
+            "id": 149435,
+            "firstName": "LoRenya",
+            "lastName": "Estrada-Robles",
+            "grade": "12",
+            "genderId": 2,
+            "playedOutsideCompetition": false,
+            "school": {
+              "id": 4546,
+              "name": "Lansing Sexton",
+              "logo": null,
+              "city": {
+                "id": 9887,
+                "name": "Lansing",
+                "stateId": 30
+              }
+            },
+            "playerInStateTournaments": [],
+            "elos": [
+              {
+                "elo": 1035.01,
+                "bonusPoints": 0,
+                "year": 2026
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

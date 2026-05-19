@@ -1,0 +1,200 @@
+{
+  "selects": [],
+  "inputs": [
+    {
+      "type": "text",
+      "name": "",
+      "id": "",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "password",
+      "name": "",
+      "id": "",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "react-select-2-input",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "react-select-3-input",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "react-select-4-input",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "password",
+      "name": "",
+      "id": "",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "",
+      "className": "",
+      "placeholder": "",
+      "value": ""
+    }
+  ],
+  "buttons": [],
+  "customDropdowns": [
+    {
+      "className": "MuiTypography-root MuiLink-root MuiLink-underlineHover dropdown-menu MuiTypography-colorPrimary",
+      "text": "Reports"
+    },
+    {
+      "className": "MuiTypography-root MuiLink-root MuiLink-underlineHover dropdown-menu MuiTypography-colorPrimary",
+      "text": "Ratings"
+    },
+    {
+      "className": "MuiTypography-root MuiLink-root MuiLink-underlineHover dropdown-menu MuiTypography-colorPrimary",
+      "text": "Log in"
+    },
+    {
+      "className": "form-select-container m-b css-2b097c-container",
+      "text": "2026"
+    },
+    {
+      "className": "form-select__control css-yk16xz-control",
+      "text": "2026"
+    },
+    {
+      "className": "form-select__value-container form-select__value-container--has-value css-1hwfws3",
+      "text": "2026"
+    },
+    {
+      "className": "form-select__single-value css-1uccc91-singleValue",
+      "text": "2026"
+    },
+    {
+      "className": "form-select-option",
+      "text": "2026"
+    },
+    {
+      "className": "form-select-option-label",
+      "text": "2026"
+    },
+    {
+      "className": "form-select__input",
+      "text": ""
+    },
+    {
+      "className": "form-select__indicators css-1wy0on6",
+      "text": ""
+    },
+    {
+      "className": "form-select__indicator-separator css-1okebmr-indicatorSeparator",
+      "text": ""
+    },
+    {
+      "className": "form-select__indicator form-select__dropdown-indicator css-tlfecz-indicatorContainer",
+      "text": ""
+    },
+    {
+      "className": "form-select-container m-b css-2b097c-container",
+      "text": "Male"
+    },
+    {
+      "className": "form-select__control css-yk16xz-control",
+      "text": "Male"
+    },
+    {
+      "className": "form-select__value-container form-select__value-container--has-value css-1hwfws3",
+      "text": "Male"
+    },
+    {
+      "className": "form-select__single-value css-1uccc91-singleValue",
+      "text": "Male"
+    },
+    {
+      "className": "form-select-option",
+      "text": "Male"
+    },
+    {
+      "className": "form-select-option-label",
+      "text": "Male"
+    },
+    {
+      "className": "form-select__input",
+      "text": ""
+    },
+    {
+      "className": "form-select__indicators css-1wy0on6",
+      "text": ""
+    },
+    {
+      "className": "form-select__indicator-separator css-1okebmr-indicatorSeparator",
+      "text": ""
+    },
+    {
+      "className": "form-select__indicator form-select__dropdown-indicator css-tlfecz-indicatorContainer",
+      "text": ""
+    },
+    {
+      "className": "form-select-container m-b css-2b097c-container",
+      "text": "None"
+    },
+    {
+      "className": "form-select__control css-yk16xz-control",
+      "text": "None"
+    },
+    {
+      "className": "form-select__value-container css-1hwfws3",
+      "text": "None"
+    },
+    {
+      "className": "form-select__placeholder css-1wa3eu0-placeholder",
+      "text": "None"
+    },
+    {
+      "className": "form-select__input",
+      "text": ""
+    },
+    {
+      "className": "form-select__indicators css-1wy0on6",
+      "text": ""
+    },
+    {
+      "className": "form-select__indicator-separator css-1okebmr-indicatorSeparator",
+      "text": ""
+    }
+  ]
+}
