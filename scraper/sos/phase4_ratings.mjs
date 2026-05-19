@@ -104,8 +104,22 @@ for (const dir of SCHOOL_DIRS) {
 const allMatches = [...seenMatches.values()]
 console.log(`Pooled unique flight-level matches: ${allMatches.length}`)
 
-// Group by flight.
+// Pool by discipline (singles vs doubles) instead of by reported flight number.
+// MHSAA D1 girls tennis rules: who played a flight at regionals plays the
+// same flight at state finals. But during the regular season, a player who
+// ends up as the team's 2S qualifier may have played 1S, 2S, or 3S in dual
+// meets depending on lineup. Pooling all singles into one Bradley-Terry
+// universe (and all doubles into another) means each player has ONE rating
+// derived from every match they played — Bradley-Terry handles cross-flight
+// strength implicitly via the opponent's own rating.
 const FLIGHTS = ['1S','2S','3S','4S','1D','2D','3D','4D']
+const POOLS = { S: [], D: [] }
+for (const m of allMatches) {
+  const disc = m.flightId.endsWith('D') ? 'D' : 'S'
+  POOLS[disc].push(m)
+}
+// Also keep a per-flight diagnostic split (for "season matches at this flight"
+// stats) but ratings come from the pool.
 const byFlight = Object.fromEntries(FLIGHTS.map(f => [f, []]))
 for (const m of allMatches) {
   if (byFlight[m.flightId]) byFlight[m.flightId].push(m)
@@ -235,29 +249,85 @@ function runFlight(matches) {
 const phase4 = {
   generatedAt: new Date().toISOString(),
   config: { HALF_LIFE_DAYS, PRIOR_WINS, PRIOR_LOSSES, ITER_MAX, ITER_EPSILON, REF_DATE: REF_DATE.toISOString() },
-  byFlight: {},
-  qualifiers: {},   // flightId -> [{key, name, school, rating, sos, ...}]
-  teamPower: {},    // schoolId -> { name, total, flightRatings:{1S:..., ...}, sosAvg }
+  byFlight: {},     // diagnostic: per-flight match counts
+  byPool: {},       // S and D pooled ratings (the real model output)
+  qualifiers: {},   // flightId -> [{key, name, school, rating, sos, ...}] sourced from the pool
+  teamPower: {},
 }
 
-for (const fid of FLIGHTS) {
-  const matches = byFlight[fid]
-  console.log(`\n[${fid}] ${matches.length} matches`)
-  const { ratings } = runFlight(matches)
-  phase4.byFlight[fid] = { matchCount: matches.length, totalPlayers: ratings.length, ratings }
+// Run BT once per discipline.
+const poolResults = {}
+for (const disc of ['S', 'D']) {
+  const matches = POOLS[disc]
+  console.log(`\n[Pool ${disc}] ${matches.length} matches`)
+  const result = runFlight(matches)
+  poolResults[disc] = result
+  const ratingByKey = new Map(result.ratings.map(r => [r.key, r]))
+  phase4.byPool[disc] = {
+    matchCount: matches.length,
+    totalPlayers: result.ratings.length,
+    ratings: result.ratings,
+  }
+  console.log(`  Top 5 ${disc} pool ratings:`)
+  for (const r of result.ratings.slice(0, 5)) {
+    console.log(`    ${r.rating.toFixed(0).padStart(4)}  SOS ${r.sosRating.toFixed(0).padStart(4)}  ${r.name.padEnd(35)} ${r.schoolName}`)
+  }
+}
 
-  // Filter to qualifiers for the headline-quality list.
+// Now per state-finals flight: list each qualifier with their pool rating.
+// Also record their season match count broken down (a) at this exact flight
+// and (b) at all flights in their discipline.
+for (const fid of FLIGHTS) {
+  const disc = fid.endsWith('D') ? 'D' : 'S'
+  const pool = poolResults[disc]
+  const ratingByKey = new Map(pool.ratings.map(r => [r.key, r]))
+  const flightMatches = byFlight[fid]
+  // Per-key, how many matches at this exact flight this season.
+  const sameFlightCount = new Map()
+  for (const m of flightMatches) {
+    sameFlightCount.set(m.winnerKey, (sameFlightCount.get(m.winnerKey) || 0) + 1)
+    sameFlightCount.set(m.loserKey, (sameFlightCount.get(m.loserKey) || 0) + 1)
+  }
+  phase4.byFlight[fid] = { matchCount: flightMatches.length, totalPlayers: 0 }
+
   const qkeys = qualifierKeysByFlight[fid] || new Set()
-  const qrows = ratings.filter(r => qkeys.has(r.key)).map(r => ({
-    ...r,
-    qualifier: qualifierEntryByFlightKey[`${fid}|${r.key}`] || null,
-  })).sort((a, b) => b.rating - a.rating)
+  const qrows = []
+  for (const key of qkeys) {
+    const poolRow = ratingByKey.get(key)
+    const qEntry = qualifierEntryByFlightKey[`${fid}|${key}`]
+    if (poolRow) {
+      qrows.push({
+        ...poolRow,
+        matchCountAtFlight: sameFlightCount.get(key) || 0,
+        qualifier: qEntry || null,
+      })
+    } else if (qEntry) {
+      // Player has zero matches in the pool — leave a stub for phase5 to
+      // backfill with TR's Elo or a baseline.
+      qrows.push({
+        key,
+        name: qEntry.name,
+        schoolId: qEntry.school?.id,
+        schoolName: qEntry.school?.name,
+        rating: null,
+        sosRating: null,
+        wWins: 0, wLosses: 0,
+        matchCount: 0,
+        matchCountAtFlight: 0,
+        ratingSource: 'no-data',
+        qualifier: qEntry,
+      })
+    }
+  }
+  qrows.sort((a, b) => (b.rating ?? -Infinity) - (a.rating ?? -Infinity))
   phase4.qualifiers[fid] = qrows
-  console.log(`  Top 5 qualifiers ${fid}:`)
+
+  console.log(`\n[${fid}] qualifiers (rated from ${disc} pool):`)
   for (const q of qrows.slice(0, 5)) {
-    const sched = q.sosRating.toFixed(0)
-    const elo = q.qualifier?.elo2026Avg ? q.qualifier.elo2026Avg.toFixed(0) : '—'
-    console.log(`    ${q.rating.toFixed(0).padStart(4)}  SOS ${sched.padStart(4)}  trEloAvg ${elo.toString().padStart(4)}  ${q.name.padEnd(35)} ${q.schoolName}`)
+    const r = q.rating != null ? q.rating.toFixed(0) : '   —'
+    const sos = q.sosRating != null ? q.sosRating.toFixed(0) : '  —'
+    const matches = `${q.matchCountAtFlight}/${q.matchCount || 0}`
+    console.log(`    ${r.padStart(4)}  SOS ${sos.padStart(4)}  matches(flt/total) ${matches.padStart(7)}  ${q.name.padEnd(35)} ${q.schoolName}`)
   }
 }
 
@@ -304,7 +374,11 @@ for (const fid of FLIGHTS) {
   if (!c) { console.log(`  ${fid}: no Clarkston qualifier`); continue }
   const rank = qrows.findIndex(q => q.schoolId === 4052) + 1
   const top = qrows[0]
+  if (c.rating == null || top?.rating == null) {
+    console.log(`  ${fid}  rank ${rank}/${qrows.length}  ${c.name} — no rated season matches (phase5 will fallback to TR Elo)`)
+    continue
+  }
   const winProb = 1 / (1 + Math.pow(10, (top.rating - c.rating) / 400))
   console.log(`  ${fid}  rank ${rank}/${qrows.length}  rating ${c.rating.toFixed(0)}  vs top ${top.name} (${top.rating.toFixed(0)}) → P(win)=${(winProb*100).toFixed(1)}%`)
-  console.log(`        ${c.name} — SOS ${c.sosRating.toFixed(0)}`)
+  console.log(`        ${c.name} — SOS ${c.sosRating.toFixed(0)}  · season matches at flight: ${c.matchCountAtFlight}/${c.matchCount}`)
 }

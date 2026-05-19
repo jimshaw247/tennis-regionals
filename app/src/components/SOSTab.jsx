@@ -26,8 +26,9 @@ export default function SOSTab() {
 
   return (
     <div className="space-y-3">
-      <div className="text-[10px] text-slate-400">
-        Bradley-Terry ratings per flight · 28-day half-life recency · MOV-weighted · generated {data.generatedAt?.slice(0,10)}
+      <div className="text-[10px] text-slate-400 leading-relaxed">
+        Bradley-Terry pooled rating (one universe for Singles, one for Doubles) · 28-day recency half-life · MOV-weighted · generated {data.generatedAt?.slice(0,10)}.{' '}
+        Pooling all 4 singles flights into one rating universe means a player who flexed between 1S/2S/3S during the season is rated from <i>all</i> her matches; MHSAA flight-stay rules anchor her to her regional flight at state finals.
       </div>
       <div className="flex flex-wrap gap-1">
         {[['teams','Team Power'],['flight','Flight Rankings'],['clarkston','Clarkston'],['upsets','Upset Watch']].map(([k, label]) => (
@@ -57,6 +58,16 @@ function SortHeader({ id, label, current, asc, setKey, setAsc }) {
   )
 }
 
+function RatingCell({ rating, source }) {
+  const flag = source && source !== 'season'
+  return (
+    <span className="font-mono">
+      {rating}
+      {flag && <span className="ml-0.5 text-amber-400 text-[9px]" title={`Rating source: ${source} (no/few season matches)`}>*</span>}
+    </span>
+  )
+}
+
 function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) {
   const rows = useMemo(() => {
     let arr = [...(data.teamRanking || [])]
@@ -82,6 +93,7 @@ function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) 
               <SortHeader id="rank" label="#" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
               <SortHeader id="schoolName" label="School" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
               <SortHeader id="qualifierCount" label="Flts" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
+              <SortHeader id="ratedFlights" label="Rated" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
               <SortHeader id="total" label="Total" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
               <SortHeader id="totalAvg" label="Avg" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
               <SortHeader id="sosAvg" label="SOS" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
@@ -93,6 +105,7 @@ function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) 
                 <td className="px-1.5 py-1.5">{t.rank}</td>
                 <td className="px-1.5 py-1.5 font-medium">{t.schoolName}</td>
                 <td className="px-1.5 py-1.5 text-slate-400">{t.qualifierCount}</td>
+                <td className="px-1.5 py-1.5 text-slate-400">{t.ratedFlights ?? '—'}{t.fallbackFlights ? <span className="text-amber-400" title={`${t.fallbackFlights} flight(s) using fallback rating (no season match data)`}> +{t.fallbackFlights}*</span> : null}</td>
                 <td className="px-1.5 py-1.5 font-mono">{t.total}</td>
                 <td className="px-1.5 py-1.5 font-mono">{t.totalAvg}</td>
                 <td className="px-1.5 py-1.5 font-mono text-slate-400">{t.sosAvg}</td>
@@ -102,7 +115,8 @@ function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) 
         </table>
       </div>
       <div className="text-[10px] text-slate-500">
-        Total = sum of qualifier ratings across all 8 flights (zeros for unqualified flights). Avg = average over qualifier count. SOS = average opponent rating across the season.
+        Total = sum of qualifier ratings across all 8 flights. Avg = average per qualifier. SOS = avg opponent rating, recency-weighted.
+        <span className="text-amber-400"> *</span> = fallback rating from TennisReporting's 2026 Elo (qualifier had ~0 ratable season matches at that flight — common for late-promoted JV/freshmen).
       </div>
     </div>
   )
@@ -136,6 +150,7 @@ function FlightView({ data, flight, setFlight, q, setQ }) {
               <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">School</th>
               <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Rating</th>
               <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">SOS</th>
+              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400" title="Matches played at this flight / total matches in singles or doubles">M@flt</th>
               <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Reg seed</th>
             </tr>
           </thead>
@@ -145,8 +160,9 @@ function FlightView({ data, flight, setFlight, q, setQ }) {
                 <td className="px-1.5 py-1.5">{r.rank}</td>
                 <td className="px-1.5 py-1.5">{r.name}</td>
                 <td className="px-1.5 py-1.5 text-slate-300">{r.schoolName}</td>
-                <td className="px-1.5 py-1.5 font-mono text-right">{r.rating}</td>
+                <td className="px-1.5 py-1.5 text-right"><RatingCell rating={r.rating} source={r.ratingSource} /></td>
                 <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.sosRating}</td>
+                <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.matchCountAtFlight ?? '—'}<span className="text-slate-600">/{r.matchCount ?? 0}</span></td>
                 <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.regionalSeed ?? '—'}</td>
               </tr>
             ))}
@@ -168,6 +184,12 @@ function ClarkstonView({ data }) {
           {c.seasonRecord.win}–{c.seasonRecord.loss}–{c.seasonRecord.tie}
         </div>
       )}
+      <div className="text-[10px] text-slate-500 leading-relaxed">
+        Ratings use every dual-meet + tournament match this season, weighted by recency
+        (28-day half-life: a match 4 weeks ago counts ~50%, 8 weeks ~25%) and by margin of victory
+        (game differential / 6, clamped). Late-season form moves a player more than early-season form.
+        <span className="text-amber-400"> *</span> after a rating means it's a fallback (no season matches at that flight — likely a late JV/freshman call-up).
+      </div>
       <div className="space-y-2">
         {c.flights.map(f => (
           <div key={f.flight} className="rounded-lg border border-slate-700 bg-slate-900/40 p-2">

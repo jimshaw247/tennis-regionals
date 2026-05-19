@@ -14,8 +14,38 @@ const FLIGHT_LABEL = { '1S':'#1 Singles','2S':'#2 Singles','3S':'#3 Singles','4S
                        '1D':'#1 Doubles','2D':'#2 Doubles','3D':'#3 Doubles','4D':'#4 Doubles' }
 const HIGHLIGHT_SCHOOL_ID = 4052  // Clarkston
 
-const teamOrder = Object.values(phase4.teamPower).sort((a,b) => b.totalAvg - a.totalAvg)
-const teamRankByAvg = new Map(teamOrder.map((t,i) => [t.schoolId, i+1]))
+// teamPower rebuild + teamOrder are populated AFTER ensureAllQualifiersRated()
+// runs further down, so every school's 8 flights are summed (with fallbacks).
+let teamPower, teamOrder, teamRankByAvg
+function buildTeamPower() {
+  teamPower = {}
+  for (const fid of FLIGHTS) {
+    for (const q of (phase4.qualifiers[fid] || [])) {
+      const sid = q.schoolId
+      if (!sid) continue
+      if (!teamPower[sid]) teamPower[sid] = {
+        schoolId: sid, schoolName: q.schoolName,
+        flightRatings: {}, flightSOS: {}, flightSource: {},
+        total: 0, sosSum: 0, sosCount: 0, ratedFlights: 0, fallbackFlights: 0,
+      }
+      teamPower[sid].flightRatings[fid] = q.rating
+      teamPower[sid].flightSOS[fid] = q.sosRating
+      teamPower[sid].flightSource[fid] = q.ratingSource || 'season'
+      teamPower[sid].total += q.rating
+      teamPower[sid].sosSum += q.sosRating
+      teamPower[sid].sosCount += 1
+      if (q.ratingSource) teamPower[sid].fallbackFlights += 1
+      else teamPower[sid].ratedFlights += 1
+    }
+  }
+  for (const t of Object.values(teamPower)) {
+    t.sosAvg = t.sosCount > 0 ? t.sosSum / t.sosCount : null
+    t.totalAvg = t.sosCount > 0 ? t.total / t.sosCount : null
+  }
+  phase4.teamPower = teamPower
+  teamOrder = Object.values(phase4.teamPower).sort((a,b) => b.totalAvg - a.totalAvg)
+  teamRankByAvg = new Map(teamOrder.map((t,i) => [t.schoolId, i+1]))
+}
 
 // Helper: get qualifier entry by flight+key
 function findQualifier(flight, key) {
@@ -44,6 +74,73 @@ for (const fid of FLIGHTS) {
     }
   })
 }
+
+// Ensure phase4.qualifiers[fid] contains every phase1 qualifier for that
+// flight. Some qualifiers never played a ratable match this season (JV
+// promotions, late-callups, flex players who only played at adjacent flights)
+// — they were dropped by the Bradley-Terry pool. Inject them with a fallback
+// rating sourced from tennisreporting.com's own 2026 Elo, or a 1500 baseline
+// when even that's missing. Marked so the UI can flag them.
+// Build qualifier-by-flight index straight from phase1.
+const qualifierEntryByFlightKey = {}
+for (const e of phase1.qualifierEntries) {
+  const key = e.players.map(p => p.playerId).sort().join('-')
+  const eloAvg = e.players.length
+    ? (e.players.map(p => p.elo2026).filter(x => typeof x === 'number').reduce((a,b)=>a+b,0) / Math.max(1, e.players.filter(p => typeof p.elo2026 === 'number').length))
+    : null
+  qualifierEntryByFlightKey[`${e.flight}|${key}`] = {
+    key, flight: e.flight,
+    name: e.players.map(p => p.name).join(' / '),
+    school: e.school,
+    seed: e.seed,
+    winnerReportPlacement: e.winnerReportPlacement,
+    elo2026Avg: Number.isFinite(eloAvg) ? eloAvg : null,
+    pastStateFinals: e.players.flatMap(p => p.pastStateFinals || []),
+    regionalName: e.regionalName,
+  }
+}
+
+function ensureAllQualifiersRated() {
+  for (const fid of FLIGHTS) {
+    const list = phase4.qualifiers[fid] || []
+    const haveKeys = new Set(list.map(q => q.key))
+    const allEntries = Object.entries(qualifierEntryByFlightKey)
+      .filter(([k]) => k.startsWith(`${fid}|`))
+      .map(([, v]) => v)
+    // 1. Fill in entries missing from the pool altogether
+    for (const q of allEntries) {
+      if (haveKeys.has(q.key)) continue
+      const trElo = q.elo2026Avg
+      const fallback = trElo != null ? trElo : 1500
+      list.push({
+        key: q.key,
+        name: q.name,
+        schoolId: q.school?.id,
+        schoolName: q.school?.name,
+        rating: fallback,
+        sosRating: 1500,
+        wWins: 0, wLosses: 0,
+        matchCount: 0,
+        matchCountAtFlight: 0,
+        ratingSource: trElo != null ? 'tr-elo' : 'baseline',
+        qualifier: q,
+      })
+    }
+    // 2. For entries that ARE in the pool but with null rating (no-data), backfill from TR Elo.
+    for (const row of list) {
+      if (row.rating != null) continue
+      const trElo = row.qualifier?.elo2026Avg
+      const fallback = trElo != null ? trElo : 1500
+      row.rating = fallback
+      row.sosRating = row.sosRating ?? 1500
+      row.ratingSource = trElo != null ? 'tr-elo' : 'baseline'
+    }
+    list.sort((a, b) => b.rating - a.rating)
+    phase4.qualifiers[fid] = list
+  }
+}
+ensureAllQualifiersRated()
+buildTeamPower() // populates teamPower / teamOrder / teamRankByAvg
 
 // === Clarkston deep dive ===
 function clarkstonAnalysis() {
@@ -192,6 +289,8 @@ slim.flights = Object.fromEntries(Object.entries(payload.flights).map(([fid, d])
     regionalPlacement: q.qualifier?.winnerReportPlacement,
     pastStateFinals: (q.qualifier?.pastStateFinals || []).length,
     matchCount: q.matchCount,
+    matchCountAtFlight: q.matchCountAtFlight ?? null,
+    ratingSource: q.ratingSource || 'season',
   })),
 }]))
 slim.teamRanking = payload.teamRanking.map(t => ({
@@ -202,7 +301,10 @@ slim.teamRanking = payload.teamRanking.map(t => ({
   totalAvg: Math.round(t.totalAvg),
   sosAvg: Math.round(t.sosAvg),
   qualifierCount: t.sosCount,
+  ratedFlights: t.ratedFlights,
+  fallbackFlights: t.fallbackFlights,
   flightRatings: Object.fromEntries(Object.entries(t.flightRatings).map(([k,v]) => [k, Math.round(v)])),
+  flightSource: t.flightSource,
 }))
 slim.clarkston = {
   seasonRecord: payload.clarkston.seasonRecord,
